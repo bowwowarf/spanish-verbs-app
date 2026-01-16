@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "infinitive": "ser",
+    "english": "to be (permanent)",
+    "conjugations": {
+      "presente_indicativo": ["soy", "eres", "es", "somos", "son"],
+      "futuro_simple": ["seré", "serás", "será", "seremos", "serán"],
+      "preterito_imperfecto": ["era", "eras", "era", "éramos", "eran"],
+      "preterito_perfecto_simple": ["fui", "fuiste", "fue", "fuimos", "fueron"],
+      "condicional_simple": ["sería", "serías", "sería", "seríamos", "serían"],
+      "presente_subjuntivo": ["sea", "seas", "sea", "seamos", "sean"],
+      "imperfecto_subjuntivo": ["fuera", "fueras", "fuera", "fuéramos", "fueran"],
+      "imperativo": ["—", "sé", "sea", "seamos", "sean"],
+      "participio": "sido",
+      "preterito_perfecto_compuesto": ["he sido", "has sido", "ha sido", "hemos sido", "han sido"],
+      "preterito_pluscuamperfecto": ["había sido", "habías sido", "había sido", "habíamos sido", "habían sido"]
+    }
+  },
+  {
+    "id": 2,
+    "infinitive": "estar",
+    "english": "to be (temporary/location)",
+    "conjugations": {
+      "presente_indicativo": ["estoy", "estás", "está", "estamos", "están"],
+      "futuro_simple": ["estaré", "estarás", "estará", "estaremos", "estarán"],
+      "preterito_imperfecto": ["estaba", "estabas", "estaba", "estábamos", "estaban"],
+      "preterito_perfecto_simple": ["estuve", "estuviste", "estuvo", "estuvimos", "estuvieron"],
+      "condicional_simple": ["estaría", "estarías", "estaría", "estaríamos", "estarían"],
+      "presente_subjuntivo": ["esté", "estés", "esté", "estemos", "estén"],
+      "imperfecto_subjuntivo": ["estuviera", "estuvieras", "estuviera", "estuviéramos", "estuvieran"],
+      "imperativo": ["—", "está", "esté", "estemos", "estén"],
+      "participio": "estado",
+      "preterito_perfecto_compuesto": ["he estado", "has estado", "ha estado", "hemos estado", "han estado"],
+      "preterito_pluscuamperfecto": ["había estado", "habías estado", "había estado", "habíamos estado", "habían estado"]
+    }
+  },
+  {
+    "id": 3,
+    "infinitive": "tener",
+    "english": "to have",
+    "conjugations": {
+      "presente_indicativo": ["tengo", "tienes", "tiene", "tenemos", "tienen"],
+      "futuro_simple": ["tendré", "tendrás", "tendrá", "tendremos", "tendrán"],
+      "preterito_imperfecto": ["tenía", "tenías", "tenía", "teníamos", "tenían"],
+      "preterito_perfecto_simple": ["tuve", "tuviste", "tuvo", "tuvimos", "tuvieron"],
+      "condicional_simple": ["tendría", "tendrías", "tendría", "tendríamos", "tendrían"],
+      "presente_subjuntivo": ["tenga", "tengas", "tenga", "tengamos", "tengan"],
+      "imperfecto_subjuntivo": ["tuviera", "tuvieras", "tuviera", "tuviéramos", "tuvieran"],
+      "imperativo": ["—", "ten", "tenga", "tengamos", "tengan"],
+      "participio": "tenido",
+      "preterito_perfecto_compuesto": ["he tenido", "has tenido", "ha tenido", "hemos tenido", "han tenido"],
+      "preterito_pluscuamperfecto": ["había tenido", "habías tenido", "había tenido", "habíamos tenido", "habían tenido"]
+    }
+  },
+  {
+    "id": 4,
+    "infinitive": "hacer",
+    "english": "to do/make",
+    "conjugations": {
+      "presente_indicativo": ["hago", "haces", "hace", "hacemos", "hacen"],
+      "futuro_simple": ["haré", "harás", "hará", "haremos", "harán"],
+      "preterito_imperfecto": ["hacía", "hacías", "hacía", "hacíamos", "hacían"],
+      "preterito_perfecto_simple": ["hice", "hiciste", "hizo", "hicimos", "hicieron"],
+      "condicional_simple": ["haría", "harías", "haría", "haríamos", "harían"],
+      "presente_subjuntivo": ["haga", "hagas", "haga", "hagamos", "hagan"],
+      "imperfecto_subjuntivo": ["hiciera", "hicieras", "hiciera", "hiciéramos", "hicieran"],
+      "imperativo": ["—", "haz", "haga", "hagamos", "hagan"],
+      "participio": "hecho",
+      "preterito_perfecto_compuesto": ["he hecho", "has hecho", "ha hecho", "hemos hecho", "han hecho"],
+      "preterito_pluscuamperfecto": ["había hecho", "habías hecho", "había hecho", "habíamos hecho", "habían hecho"]
+    }
+  },
+  {
+    "id": 5,
+    "infinitive": "poder",
+    "english": "to be able to/can",
+    "conjugations": {
+      "presente_indicativo": ["puedo", "puedes", "puede", "podemos", "pueden"],
+      "futuro_simple": ["podré", "podrás", "podrá", "podremos", "podrán"],
+      "preterito_imperfecto": ["podía", "podías", "podía", "podíamos", "podían"],
+      "preterito_perfecto_simple": ["pude", "pudiste", "pudo", "pudimos", "pudieron"],
+      "condicional_simple": ["podría", "podrías", "podría", "podríamos", "podrían"],
+      "presente_subjuntivo": ["pueda", "puedas", "pueda", "podamos", "puedan"],
+      "imperfecto_subjuntivo": ["pudiera", "pudieras", "pudiera", "pudiéramos", "pudieran"],
+      "imperativo": ["—", "puede", "pueda", "podamos", "puedan"],
+      "participio": "podido",
+      "preterito_perfecto_compuesto": ["he podido", "has podido", "ha podido", "hemos podido", "han podido"],
+      "preterito_pluscuamperfecto": ["había podido", "habías podido", "había podido", "habíamos podido", "habían podido"]
+    }
+  },
+  {
+    "id": 6,
+    "infinitive": "decir",
+    "english": "to say/tell",
+    "conjugations": {
+      "presente_indicativo": ["digo", "dices", "dice", "decimos", "dicen"],
+      "futuro_simple": ["diré", "dirás", "dirá", "diremos", "dirán"],
+      "preterito_imperfecto": ["decía", "decías", "decía", "decíamos", "decían"],
+      "preterito_perfecto_simple": ["dije", "dijiste", "dijo", "dijimos", "dijeron"],
+      "condicional_simple": ["diría", "dirías", "diría", "diríamos", "dirían"],
+      "presente_subjuntivo": ["diga", "digas", "diga", "digamos", "digan"],
+      "imperfecto_subjuntivo": ["dijera", "dijeras", "dijera", "dijéramos", "dijeran"],
+      "imperativo": ["—", "di", "diga", "digamos", "digan"],
+      "participio": "dicho",
+      "preterito_perfecto_compuesto": ["he dicho", "has dicho", "ha dicho", "hemos dicho", "han dicho"],
+      "preterito_pluscuamperfecto": ["había dicho", "habías dicho", "había dicho", "habíamos dicho", "habían dicho"]
+    }
+  },
+  {
+    "id": 7,
+    "infinitive": "ir",
+    "english": "to go",
+    "conjugations": {
+      "presente_indicativo": ["voy", "vas", "va", "vamos", "van"],
+      "futuro_simple": ["iré", "irás", "irá", "iremos", "irán"],
+      "preterito_imperfecto": ["iba", "ibas", "iba", "íbamos", "iban"],
+      "preterito_perfecto_simple": ["fui", "fuiste", "fue", "fuimos", "fueron"],
+      "condicional_simple": ["iría", "irías", "iría", "iríamos", "irían"],
+      "presente_subjuntivo": ["vaya", "vayas", "vaya", "vayamos", "vayan"],
+      "imperfecto_subjuntivo": ["fuera", "fueras", "fuera", "fuéramos", "fueran"],
+      "imperativo": ["—", "ve", "vaya", "vayamos", "vayan"],
+      "participio": "ido",
+      "preterito_perfecto_compuesto": ["he ido", "has ido", "ha ido", "hemos ido", "han ido"],
+      "preterito_pluscuamperfecto": ["había ido", "habías ido", "había ido", "habíamos ido", "habían ido"]
+    }
+  },
+  {
+    "id": 8,
+    "infinitive": "ver",
+    "english": "to see",
+    "conjugations": {
+      "presente_indicativo": ["veo", "ves", "ve", "vemos", "ven"],
+      "futuro_simple": ["veré", "verás", "verá", "veremos", "verán"],
+      "preterito_imperfecto": ["veía", "veías", "veía", "veíamos", "veían"],
+      "preterito_perfecto_simple": ["vi", "viste", "vio", "vimos", "vieron"],
+      "condicional_simple": ["vería", "verías", "vería", "veríamos", "verían"],
+      "presente_subjuntivo": ["vea", "veas", "vea", "veamos", "vean"],
+      "imperfecto_subjuntivo": ["viera", "vieras", "viera", "viéramos", "vieran"],
+      "imperativo": ["—", "ve", "vea", "veamos", "vean"],
+      "participio": "visto",
+      "preterito_perfecto_compuesto": ["he visto", "has visto", "ha visto", "hemos visto", "han visto"],
+      "preterito_pluscuamperfecto": ["había visto", "habías visto", "había visto", "habíamos visto", "habían visto"]
+    }
+  },
+  {
+    "id": 9,
+    "infinitive": "dar",
+    "english": "to give",
+    "conjugations": {
+      "presente_indicativo": ["doy", "das", "da", "damos", "dan"],
+      "futuro_simple": ["daré", "darás", "dará", "daremos", "darán"],
+      "preterito_imperfecto": ["daba", "dabas", "daba", "dábamos", "daban"],
+      "preterito_perfecto_simple": ["di", "diste", "dio", "dimos", "dieron"],
+      "condicional_simple": ["daría", "darías", "daría", "daríamos", "darían"],
+      "presente_subjuntivo": ["dé", "des", "dé", "demos", "den"],
+      "imperfecto_subjuntivo": ["diera", "dieras", "diera", "diéramos", "dieran"],
+      "imperativo": ["—", "da", "dé", "demos", "den"],
+      "participio": "dado",
+      "preterito_perfecto_compuesto": ["he dado", "has dado", "ha dado", "hemos dado", "han dado"],
+      "preterito_pluscuamperfecto": ["había dado", "habías dado", "había dado", "habíamos dado", "habían dado"]
+    }
+  },
+  {
+    "id": 10,
+    "infinitive": "saber",
+    "english": "to know (facts)",
+    "conjugations": {
+      "presente_indicativo": ["sé", "sabes", "sabe", "sabemos", "saben"],
+      "futuro_simple": ["sabré", "sabrás", "sabrá", "sabremos", "sabrán"],
+      "preterito_imperfecto": ["sabía", "sabías", "sabía", "sabíamos", "sabían"],
+      "preterito_perfecto_simple": ["supe", "supiste", "supo", "supimos", "supieron"],
+      "condicional_simple": ["sabría", "sabrías", "sabría", "sabríamos", "sabrían"],
+      "presente_subjuntivo": ["sepa", "sepas", "sepa", "sepamos", "sepan"],
+      "imperfecto_subjuntivo": ["supiera", "supieras", "supiera", "supiéramos", "supieran"],
+      "imperativo": ["—", "sabe", "sepa", "sepamos", "sepan"],
+      "participio": "sabido",
+      "preterito_perfecto_compuesto": ["he sabido", "has sabido", "ha sabido", "hemos sabido", "han sabido"],
+      "preterito_pluscuamperfecto": ["había sabido", "habías sabido", "había sabido", "habíamos sabido", "habían sabido"]
+    }
+  },
+  {
+    "id": 11,
+    "infinitive": "querer",
+    "english": "to want/love",
+    "conjugations": {
+      "presente_indicativo": ["quiero", "quieres", "quiere", "queremos", "quieren"],
+      "futuro_simple": ["querré", "querrás", "querrá", "querremos", "querrán"],
+      "preterito_imperfecto": ["quería", "querías", "quería", "queríamos", "querían"],
+      "preterito_perfecto_simple": ["quise", "quisiste", "quiso", "quisimos", "quisieron"],
+      "condicional_simple": ["querría", "querrías", "querría", "querríamos", "querrían"],
+      "presente_subjuntivo": ["quiera", "quieras", "quiera", "queramos", "quieran"],
+      "imperfecto_subjuntivo": ["quisiera", "quisieras", "quisiera", "quisiéramos", "quisieran"],
+      "imperativo": ["—", "quiere", "quiera", "queramos", "quieran"],
+      "participio": "querido",
+      "preterito_perfecto_compuesto": ["he querido", "has querido", "ha querido", "hemos querido", "han querido"],
+      "preterito_pluscuamperfecto": ["había querido", "habías querido", "había querido", "habíamos querido", "habían querido"]
+    }
+  },
+  {
+    "id": 12,
+    "infinitive": "llegar",
+    "english": "to arrive",
+    "conjugations": {
+      "presente_indicativo": ["llego", "llegas", "llega", "llegamos", "llegan"],
+      "futuro_simple": ["llegaré", "llegarás", "llegará", "llegaremos", "llegarán"],
+      "preterito_imperfecto": ["llegaba", "llegabas", "llegaba", "llegábamos", "llegaban"],
+      "preterito_perfecto_simple": ["llegué", "llegaste", "llegó", "llegamos", "llegaron"],
+      "condicional_simple": ["llegaría", "llegarías", "llegaría", "llegaríamos", "llegarían"],
+      "presente_subjuntivo": ["llegue", "llegues", "llegue", "lleguemos", "lleguen"],
+      "imperfecto_subjuntivo": ["llegara", "llegaras", "llegara", "llegáramos", "llegaran"],
+      "imperativo": ["—", "llega", "llegue", "lleguemos", "lleguen"],
+      "participio": "llegado",
+      "preterito_perfecto_compuesto": ["he llegado", "has llegado", "ha llegado", "hemos llegado", "han llegado"],
+      "preterito_pluscuamperfecto": ["había llegado", "habías llegado", "había llegado", "habíamos llegado", "habían llegado"]
+    }
+  },
+  {
+    "id": 13,
+    "infinitive": "pasar",
+    "english": "to pass/happen",
+    "conjugations": {
+      "presente_indicativo": ["paso", "pasas", "pasa", "pasamos", "pasan"],
+      "futuro_simple": ["pasaré", "pasarás", "pasará", "pasaremos", "pasarán"],
+      "preterito_imperfecto": ["pasaba", "pasabas", "pasaba", "pasábamos", "pasaban"],
+      "preterito_perfecto_simple": ["pasé", "pasaste", "pasó", "pasamos", "pasaron"],
+      "condicional_simple": ["pasaría", "pasarías", "pasaría", "pasaríamos", "pasarían"],
+      "presente_subjuntivo": ["pase", "pases", "pase", "pasemos", "pasen"],
+      "imperfecto_subjuntivo": ["pasara", "pasaras", "pasara", "pasáramos", "pasaran"],
+      "imperativo": ["—", "pasa", "pase", "pasemos", "pasen"],
+      "participio": "pasado",
+      "preterito_perfecto_compuesto": ["he pasado", "has pasado", "ha pasado", "hemos pasado", "han pasado"],
+      "preterito_pluscuamperfecto": ["había pasado", "habías pasado", "había pasado", "habíamos pasado", "habían pasado"]
+    }
+  },
+  {
+    "id": 14,
+    "infinitive": "deber",
+    "english": "to owe/must",
+    "conjugations": {
+      "presente_indicativo": ["debo", "debes", "debe", "debemos", "deben"],
+      "futuro_simple": ["deberé", "deberás", "deberá", "deberemos", "deberán"],
+      "preterito_imperfecto": ["debía", "debías", "debía", "debíamos", "debían"],
+      "preterito_perfecto_simple": ["debí", "debiste", "debió", "debimos", "debieron"],
+      "condicional_simple": ["debería", "deberías", "debería", "deberíamos", "deberían"],
+      "presente_subjuntivo": ["deba", "debas", "deba", "debamos", "deban"],
+      "imperfecto_subjuntivo": ["debiera", "debieras", "debiera", "debiéramos", "debieran"],
+      "imperativo": ["—", "debe", "deba", "debamos", "deban"],
+      "participio": "debido",
+      "preterito_perfecto_compuesto": ["he debido", "has debido", "ha debido", "hemos debido", "han debido"],
+      "preterito_pluscuamperfecto": ["había debido", "habías debido", "había debido", "habíamos debido", "habían debido"]
+    }
+  },
+  {
+    "id": 15,
+    "infinitive": "poner",
+    "english": "to put/place",
+    "conjugations": {
+      "presente_indicativo": ["pongo", "pones", "pone", "ponemos", "ponen"],
+      "futuro_simple": ["pondré", "pondrás", "pondrá", "pondremos", "pondrán"],
+      "preterito_imperfecto": ["ponía", "ponías", "ponía", "poníamos", "ponían"],
+      "preterito_perfecto_simple": ["puse", "pusiste", "puso", "pusimos", "pusieron"],
+      "condicional_simple": ["pondría", "pondrías", "pondría", "pondríamos", "pondrían"],
+      "presente_subjuntivo": ["ponga", "pongas", "ponga", "pongamos", "pongan"],
+      "imperfecto_subjuntivo": ["pusiera", "pusieras", "pusiera", "pusiéramos", "pusieran"],
+      "imperativo": ["—", "pon", "ponga", "pongamos", "pongan"],
+      "participio": "puesto",
+      "preterito_perfecto_compuesto": ["he puesto", "has puesto", "ha puesto", "hemos puesto", "han puesto"],
+      "preterito_pluscuamperfecto": ["había puesto", "habías puesto", "había puesto", "habíamos puesto", "habían puesto"]
+    }
+  },
+  {
+    "id": 16,
+    "infinitive": "parecer",
+    "english": "to seem/appear",
+    "conjugations": {
+      "presente_indicativo": ["parezco", "pareces", "parece", "parecemos", "parecen"],
+      "futuro_simple": ["pareceré", "parecerás", "parecerá", "pareceremos", "parecerán"],
+      "preterito_imperfecto": ["parecía", "parecías", "parecía", "parecíamos", "parecían"],
+      "preterito_perfecto_simple": ["parecí", "pareciste", "pareció", "parecimos", "parecieron"],
+      "condicional_simple": ["parecería", "parecerías", "parecería", "pareceríamos", "parecerían"],
+      "presente_subjuntivo": ["parezca", "parezcas", "parezca", "parezcamos", "parezcan"],
+      "imperfecto_subjuntivo": ["pareciera", "parecieras", "pareciera", "pareciéramos", "parecieran"],
+      "imperativo": ["—", "parece", "parezca", "parezcamos", "parezcan"],
+      "participio": "parecido",
+      "preterito_perfecto_compuesto": ["he parecido", "has parecido", "ha parecido", "hemos parecido", "han parecido"],
+      "preterito_pluscuamperfecto": ["había parecido", "habías parecido", "había parecido", "habíamos parecido", "habían parecido"]
+    }
+  },
+  {
+    "id": 17,
+    "infinitive": "quedar",
+    "english": "to stay/remain",
+    "conjugations": {
+      "presente_indicativo": ["quedo", "quedas", "queda", "quedamos", "quedan"],
+      "futuro_simple": ["quedaré", "quedarás", "quedará", "quedaremos", "quedarán"],
+      "preterito_imperfecto": ["quedaba", "quedabas", "quedaba", "quedábamos", "quedaban"],
+      "preterito_perfecto_simple": ["quedé", "quedaste", "quedó", "quedamos", "quedaron"],
+      "condicional_simple": ["quedaría", "quedarías", "quedaría", "quedaríamos", "quedarían"],
+      "presente_subjuntivo": ["quede", "quedes", "quede", "quedemos", "queden"],
+      "imperfecto_subjuntivo": ["quedara", "quedaras", "quedara", "quedáramos", "quedaran"],
+      "imperativo": ["—", "queda", "quede", "quedemos", "queden"],
+      "participio": "quedado",
+      "preterito_perfecto_compuesto": ["he quedado", "has quedado", "ha quedado", "hemos quedado", "han quedado"],
+      "preterito_pluscuamperfecto": ["había quedado", "habías quedado", "había quedado", "habíamos quedado", "habían quedado"]
+    }
+  },
+  {
+    "id": 18,
+    "infinitive": "creer",
+    "english": "to believe",
+    "conjugations": {
+      "presente_indicativo": ["creo", "crees", "cree", "creemos", "creen"],
+      "futuro_simple": ["creeré", "creerás", "creerá", "creeremos", "creerán"],
+      "preterito_imperfecto": ["creía", "creías", "creía", "creíamos", "creían"],
+      "preterito_perfecto_simple": ["creí", "creíste", "creyó", "creímos", "creyeron"],
+      "condicional_simple": ["creería", "creerías", "creería", "creeríamos", "creerían"],
+      "presente_subjuntivo": ["crea", "creas", "crea", "creamos", "crean"],
+      "imperfecto_subjuntivo": ["creyera", "creyeras", "creyera", "creyéramos", "creyeran"],
+      "imperativo": ["—", "cree", "crea", "creamos", "crean"],
+      "participio": "creído",
+      "preterito_perfecto_compuesto": ["he creído", "has creído", "ha creído", "hemos creído", "han creído"],
+      "preterito_pluscuamperfecto": ["había creído", "habías creído", "había creído", "habíamos creído", "habían creído"]
+    }
+  },
+  {
+    "id": 19,
+    "infinitive": "hablar",
+    "english": "to speak/talk",
+    "conjugations": {
+      "presente_indicativo": ["hablo", "hablas", "habla", "hablamos", "hablan"],
+      "futuro_simple": ["hablaré", "hablarás", "hablará", "hablaremos", "hablarán"],
+      "preterito_imperfecto": ["hablaba", "hablabas", "hablaba", "hablábamos", "hablaban"],
+      "preterito_perfecto_simple": ["hablé", "hablaste", "habló", "hablamos", "hablaron"],
+      "condicional_simple": ["hablaría", "hablarías", "hablaría", "hablaríamos", "hablarían"],
+      "presente_subjuntivo": ["hable", "hables", "hable", "hablemos", "hablen"],
+      "imperfecto_subjuntivo": ["hablara", "hablaras", "hablara", "habláramos", "hablaran"],
+      "imperativo": ["—", "habla", "hable", "hablemos", "hablen"],
+      "participio": "hablado",
+      "preterito_perfecto_compuesto": ["he hablado", "has hablado", "ha hablado", "hemos hablado", "han hablado"],
+      "preterito_pluscuamperfecto": ["había hablado", "habías hablado", "había hablado", "habíamos hablado", "habían hablado"]
+    }
+  },
+  {
+    "id": 20,
+    "infinitive": "llevar",
+    "english": "to carry/wear",
+    "conjugations": {
+      "presente_indicativo": ["llevo", "llevas", "lleva", "llevamos", "llevan"],
+      "futuro_simple": ["llevaré", "llevarás", "llevará", "llevaremos", "llevarán"],
+      "preterito_imperfecto": ["llevaba", "llevabas", "llevaba", "llevábamos", "llevaban"],
+      "preterito_perfecto_simple": ["llevé", "llevaste", "llevó", "llevamos", "llevaron"],
+      "condicional_simple": ["llevaría", "llevarías", "llevaría", "llevaríamos", "llevarían"],
+      "presente_subjuntivo": ["lleve", "lleves", "lleve", "llevemos", "lleven"],
+      "imperfecto_subjuntivo": ["llevara", "llevaras", "llevara", "lleváramos", "llevaran"],
+      "imperativo": ["—", "lleva", "lleve", "llevemos", "lleven"],
+      "participio": "llevado",
+      "preterito_perfecto_compuesto": ["he llevado", "has llevado", "ha llevado", "hemos llevado", "han llevado"],
+      "preterito_pluscuamperfecto": ["había llevado", "habías llevado", "había llevado", "habíamos llevado", "habían llevado"]
+    }
+  },
+  {
+    "id": 21,
+    "infinitive": "dejar",
+    "english": "to leave/let",
+    "conjugations": {
+      "presente_indicativo": ["dejo", "dejas", "deja", "dejamos", "dejan"],
+      "futuro_simple": ["dejaré", "dejarás", "dejará", "dejaremos", "dejarán"],
+      "preterito_imperfecto": ["dejaba", "dejabas", "dejaba", "dejábamos", "dejaban"],
+      "preterito_perfecto_simple": ["dejé", "dejaste", "dejó", "dejamos", "dejaron"],
+      "condicional_simple": ["dejaría", "dejarías", "dejaría", "dejaríamos", "dejarían"],
+      "presente_subjuntivo": ["deje", "dejes", "deje", "dejemos", "dejen"],
+      "imperfecto_subjuntivo": ["dejara", "dejaras", "dejara", "dejáramos", "dejaran"],
+      "imperativo": ["—", "deja", "deje", "dejemos", "dejen"],
+      "participio": "dejado",
+      "preterito_perfecto_compuesto": ["he dejado", "has dejado", "ha dejado", "hemos dejado", "han dejado"],
+      "preterito_pluscuamperfecto": ["había dejado", "habías dejado", "había dejado", "habíamos dejado", "habían dejado"]
+    }
+  },
+  {
+    "id": 22,
+    "infinitive": "seguir",
+    "english": "to follow/continue",
+    "conjugations": {
+      "presente_indicativo": ["sigo", "sigues", "sigue", "seguimos", "siguen"],
+      "futuro_simple": ["seguiré", "seguirás", "seguirá", "seguiremos", "seguirán"],
+      "preterito_imperfecto": ["seguía", "seguías", "seguía", "seguíamos", "seguían"],
+      "preterito_perfecto_simple": ["seguí", "seguiste", "siguió", "seguimos", "siguieron"],
+      "condicional_simple": ["seguiría", "seguirías", "seguiría", "seguiríamos", "seguirían"],
+      "presente_subjuntivo": ["siga", "sigas", "siga", "sigamos", "sigan"],
+      "imperfecto_subjuntivo": ["siguiera", "siguieras", "siguiera", "siguiéramos", "siguieran"],
+      "imperativo": ["—", "sigue", "siga", "sigamos", "sigan"],
+      "participio": "seguido",
+      "preterito_perfecto_compuesto": ["he seguido", "has seguido", "ha seguido", "hemos seguido", "han seguido"],
+      "preterito_pluscuamperfecto": ["había seguido", "habías seguido", "había seguido", "habíamos seguido", "habían seguido"]
+    }
+  },
+  {
+    "id": 23,
+    "infinitive": "encontrar",
+    "english": "to find",
+    "conjugations": {
+      "presente_indicativo": ["encuentro", "encuentras", "encuentra", "encontramos", "encuentran"],
+      "futuro_simple": ["encontraré", "encontrarás", "encontrará", "encontraremos", "encontrarán"],
+      "preterito_imperfecto": ["encontraba", "encontrabas", "encontraba", "encontrábamos", "encontraban"],
+      "preterito_perfecto_simple": ["encontré", "encontraste", "encontró", "encontramos", "encontraron"],
+      "condicional_simple": ["encontraría", "encontrarías", "encontraría", "encontraríamos", "encontrarían"],
+      "presente_subjuntivo": ["encuentre", "encuentres", "encuentre", "encontremos", "encuentren"],
+      "imperfecto_subjuntivo": ["encontrara", "encontraras", "encontrara", "encontráramos", "encontraran"],
+      "imperativo": ["—", "encuentra", "encuentre", "encontremos", "encuentren"],
+      "participio": "encontrado",
+      "preterito_perfecto_compuesto": ["he encontrado", "has encontrado", "ha encontrado", "hemos encontrado", "han encontrado"],
+      "preterito_pluscuamperfecto": ["había encontrado", "habías encontrado", "había encontrado", "habíamos encontrado", "habían encontrado"]
+    }
+  },
+  {
+    "id": 24,
+    "infinitive": "llamar",
+    "english": "to call",
+    "conjugations": {
+      "presente_indicativo": ["llamo", "llamas", "llama", "llamamos", "llaman"],
+      "futuro_simple": ["llamaré", "llamarás", "llamará", "llamaremos", "llamarán"],
+      "preterito_imperfecto": ["llamaba", "llamabas", "llamaba", "llamábamos", "llamaban"],
+      "preterito_perfecto_simple": ["llamé", "llamaste", "llamó", "llamamos", "llamaron"],
+      "condicional_simple": ["llamaría", "llamarías", "llamaría", "llamaríamos", "llamarían"],
+      "presente_subjuntivo": ["llame", "llames", "llame", "llamemos", "llamen"],
+      "imperfecto_subjuntivo": ["llamara", "llamaras", "llamara", "llamáramos", "llamaran"],
+      "imperativo": ["—", "llama", "llame", "llamemos", "llamen"],
+      "participio": "llamado",
+      "preterito_perfecto_compuesto": ["he llamado", "has llamado", "ha llamado", "hemos llamado", "han llamado"],
+      "preterito_pluscuamperfecto": ["había llamado", "habías llamado", "había llamado", "habíamos llamado", "habían llamado"]
+    }
+  },
+  {
+    "id": 25,
+    "infinitive": "venir",
+    "english": "to come",
+    "conjugations": {
+      "presente_indicativo": ["vengo", "vienes", "viene", "venimos", "vienen"],
+      "futuro_simple": ["vendré", "vendrás", "vendrá", "vendremos", "vendrán"],
+      "preterito_imperfecto": ["venía", "venías", "venía", "veníamos", "venían"],
+      "preterito_perfecto_simple": ["vine", "viniste", "vino", "vinimos", "vinieron"],
+      "condicional_simple": ["vendría", "vendrías", "vendría", "vendríamos", "vendrían"],
+      "presente_subjuntivo": ["venga", "vengas", "venga", "vengamos", "vengan"],
+      "imperfecto_subjuntivo": ["viniera", "vinieras", "viniera", "viniéramos", "vinieran"],
+      "imperativo": ["—", "ven", "venga", "vengamos", "vengan"],
+      "participio": "venido",
+      "preterito_perfecto_compuesto": ["he venido", "has venido", "ha venido", "hemos venido", "han venido"],
+      "preterito_pluscuamperfecto": ["había venido", "habías venido", "había venido", "habíamos venido", "habían venido"]
+    }
+  },
+  {
+    "id": 26,
+    "infinitive": "pensar",
+    "english": "to think",
+    "conjugations": {
+      "presente_indicativo": ["pienso", "piensas", "piensa", "pensamos", "piensan"],
+      "futuro_simple": ["pensaré", "pensarás", "pensará", "pensaremos", "pensarán"],
+      "preterito_imperfecto": ["pensaba", "pensabas", "pensaba", "pensábamos", "pensaban"],
+      "preterito_perfecto_simple": ["pensé", "pensaste", "pensó", "pensamos", "pensaron"],
+      "condicional_simple": ["pensaría", "pensarías", "pensaría", "pensaríamos", "pensarían"],
+      "presente_subjuntivo": ["piense", "pienses", "piense", "pensemos", "piensen"],
+      "imperfecto_subjuntivo": ["pensara", "pensaras", "pensara", "pensáramos", "pensaran"],
+      "imperativo": ["—", "piensa", "piense", "pensemos", "piensen"],
+      "participio": "pensado",
+      "preterito_perfecto_compuesto": ["he pensado", "has pensado", "ha pensado", "hemos pensado", "han pensado"],
+      "preterito_pluscuamperfecto": ["había pensado", "habías pensado", "había pensado", "habíamos pensado", "habían pensado"]
+    }
+  },
+  {
+    "id": 27,
+    "infinitive": "salir",
+    "english": "to leave/go out",
+    "conjugations": {
+      "presente_indicativo": ["salgo", "sales", "sale", "salimos", "salen"],
+      "futuro_simple": ["saldré", "saldrás", "saldrá", "saldremos", "saldrán"],
+      "preterito_imperfecto": ["salía", "salías", "salía", "salíamos", "salían"],
+      "preterito_perfecto_simple": ["salí", "saliste", "salió", "salimos", "salieron"],
+      "condicional_simple": ["saldría", "saldrías", "saldría", "saldríamos", "saldrían"],
+      "presente_subjuntivo": ["salga", "salgas", "salga", "salgamos", "salgan"],
+      "imperfecto_subjuntivo": ["saliera", "salieras", "saliera", "saliéramos", "salieran"],
+      "imperativo": ["—", "sal", "salga", "salgamos", "salgan"],
+      "participio": "salido",
+      "preterito_perfecto_compuesto": ["he salido", "has salido", "ha salido", "hemos salido", "han salido"],
+      "preterito_pluscuamperfecto": ["había salido", "habías salido", "había salido", "habíamos salido", "habían salido"]
+    }
+  },
+  {
+    "id": 28,
+    "infinitive": "volver",
+    "english": "to return",
+    "conjugations": {
+      "presente_indicativo": ["vuelvo", "vuelves", "vuelve", "volvemos", "vuelven"],
+      "futuro_simple": ["volveré", "volverás", "volverá", "volveremos", "volverán"],
+      "preterito_imperfecto": ["volvía", "volvías", "volvía", "volvíamos", "volvían"],
+      "preterito_perfecto_simple": ["volví", "volviste", "volvió", "volvimos", "volvieron"],
+      "condicional_simple": ["volvería", "volverías", "volvería", "volveríamos", "volverían"],
+      "presente_subjuntivo": ["vuelva", "vuelvas", "vuelva", "volvamos", "vuelvan"],
+      "imperfecto_subjuntivo": ["volviera", "volvieras", "volviera", "volviéramos", "volvieran"],
+      "imperativo": ["—", "vuelve", "vuelva", "volvamos", "vuelvan"],
+      "participio": "vuelto",
+      "preterito_perfecto_compuesto": ["he vuelto", "has vuelto", "ha vuelto", "hemos vuelto", "han vuelto"],
+      "preterito_pluscuamperfecto": ["había vuelto", "habías vuelto", "había vuelto", "habíamos vuelto", "habían vuelto"]
+    }
+  },
+  {
+    "id": 29,
+    "infinitive": "tomar",
+    "english": "to take/drink",
+    "conjugations": {
+      "presente_indicativo": ["tomo", "tomas", "toma", "tomamos", "toman"],
+      "futuro_simple": ["tomaré", "tomarás", "tomará", "tomaremos", "tomarán"],
+      "preterito_imperfecto": ["tomaba", "tomabas", "tomaba", "tomábamos", "tomaban"],
+      "preterito_perfecto_simple": ["tomé", "tomaste", "tomó", "tomamos", "tomaron"],
+      "condicional_simple": ["tomaría", "tomarías", "tomaría", "tomaríamos", "tomarían"],
+      "presente_subjuntivo": ["tome", "tomes", "tome", "tomemos", "tomen"],
+      "imperfecto_subjuntivo": ["tomara", "tomaras", "tomara", "tomáramos", "tomaran"],
+      "imperativo": ["—", "toma", "tome", "tomemos", "tomen"],
+      "participio": "tomado",
+      "preterito_perfecto_compuesto": ["he tomado", "has tomado", "ha tomado", "hemos tomado", "han tomado"],
+      "preterito_pluscuamperfecto": ["había tomado", "habías tomado", "había tomado", "habíamos tomado", "habían tomado"]
+    }
+  },
+  {
+    "id": 30,
+    "infinitive": "conocer",
+    "english": "to know (people/places)",
+    "conjugations": {
+      "presente_indicativo": ["conozco", "conoces", "conoce", "conocemos", "conocen"],
+      "futuro_simple": ["conoceré", "conocerás", "conocerá", "conoceremos", "conocerán"],
+      "preterito_imperfecto": ["conocía", "conocías", "conocía", "conocíamos", "conocían"],
+      "preterito_perfecto_simple": ["conocí", "conociste", "conoció", "conocimos", "conocieron"],
+      "condicional_simple": ["conocería", "conocerías", "conocería", "conoceríamos", "conocerían"],
+      "presente_subjuntivo": ["conozca", "conozcas", "conozca", "conozcamos", "conozcan"],
+      "imperfecto_subjuntivo": ["conociera", "conocieras", "conociera", "conociéramos", "conocieran"],
+      "imperativo": ["—", "conoce", "conozca", "conozcamos", "conozcan"],
+      "participio": "conocido",
+      "preterito_perfecto_compuesto": ["he conocido", "has conocido", "ha conocido", "hemos conocido", "han conocido"],
+      "preterito_pluscuamperfecto": ["había conocido", "habías conocido", "había conocido", "habíamos conocido", "habían conocido"]
+    }
+  },
+  {
+    "id": 31,
+    "infinitive": "vivir",
+    "english": "to live",
+    "conjugations": {
+      "presente_indicativo": ["vivo", "vives", "vive", "vivimos", "viven"],
+      "futuro_simple": ["viviré", "vivirás", "vivirá", "viviremos", "vivirán"],
+      "preterito_imperfecto": ["vivía", "vivías", "vivía", "vivíamos", "vivían"],
+      "preterito_perfecto_simple": ["viví", "viviste", "vivió", "vivimos", "vivieron"],
+      "condicional_simple": ["viviría", "vivirías", "viviría", "viviríamos", "vivirían"],
+      "presente_subjuntivo": ["viva", "vivas", "viva", "vivamos", "vivan"],
+      "imperfecto_subjuntivo": ["viviera", "vivieras", "viviera", "viviéramos", "vivieran"],
+      "imperativo": ["—", "vive", "viva", "vivamos", "vivan"],
+      "participio": "vivido",
+      "preterito_perfecto_compuesto": ["he vivido", "has vivido", "ha vivido", "hemos vivido", "han vivido"],
+      "preterito_pluscuamperfecto": ["había vivido", "habías vivido", "había vivido", "habíamos vivido", "habían vivido"]
+    }
+  },
+  {
+    "id": 32,
+    "infinitive": "sentir",
+    "english": "to feel",
+    "conjugations": {
+      "presente_indicativo": ["siento", "sientes", "siente", "sentimos", "sienten"],
+      "futuro_simple": ["sentiré", "sentirás", "sentirá", "sentiremos", "sentirán"],
+      "preterito_imperfecto": ["sentía", "sentías", "sentía", "sentíamos", "sentían"],
+      "preterito_perfecto_simple": ["sentí", "sentiste", "sintió", "sentimos", "sintieron"],
+      "condicional_simple": ["sentiría", "sentirías", "sentiría", "sentiríamos", "sentirían"],
+      "presente_subjuntivo": ["sienta", "sientas", "sienta", "sintamos", "sientan"],
+      "imperfecto_subjuntivo": ["sintiera", "sintieras", "sintiera", "sintiéramos", "sintieran"],
+      "imperativo": ["—", "siente", "sienta", "sintamos", "sientan"],
+      "participio": "sentido",
+      "preterito_perfecto_compuesto": ["he sentido", "has sentido", "ha sentido", "hemos sentido", "han sentido"],
+      "preterito_pluscuamperfecto": ["había sentido", "habías sentido", "había sentido", "habíamos sentido", "habían sentido"]
+    }
+  },
+  {
+    "id": 33,
+    "infinitive": "tratar",
+    "english": "to try/treat",
+    "conjugations": {
+      "presente_indicativo": ["trato", "tratas", "trata", "tratamos", "tratan"],
+      "futuro_simple": ["trataré", "tratarás", "tratará", "trataremos", "tratarán"],
+      "preterito_imperfecto": ["trataba", "tratabas", "trataba", "tratábamos", "trataban"],
+      "preterito_perfecto_simple": ["traté", "trataste", "trató", "tratamos", "trataron"],
+      "condicional_simple": ["trataría", "tratarías", "trataría", "trataríamos", "tratarían"],
+      "presente_subjuntivo": ["trate", "trates", "trate", "tratemos", "traten"],
+      "imperfecto_subjuntivo": ["tratara", "trataras", "tratara", "tratáramos", "trataran"],
+      "imperativo": ["—", "trata", "trate", "tratemos", "traten"],
+      "participio": "tratado",
+      "preterito_perfecto_compuesto": ["he tratado", "has tratado", "ha tratado", "hemos tratado", "han tratado"],
+      "preterito_pluscuamperfecto": ["había tratado", "habías tratado", "había tratado", "habíamos tratado", "habían tratado"]
+    }
+  },
+  {
+    "id": 34,
+    "infinitive": "mirar",
+    "english": "to look/watch",
+    "conjugations": {
+      "presente_indicativo": ["miro", "miras", "mira", "miramos", "miran"],
+      "futuro_simple": ["miraré", "mirarás", "mirará", "miraremos", "mirarán"],
+      "preterito_imperfecto": ["miraba", "mirabas", "miraba", "mirábamos", "miraban"],
+      "preterito_perfecto_simple": ["miré", "miraste", "miró", "miramos", "miraron"],
+      "condicional_simple": ["miraría", "mirarías", "miraría", "miraríamos", "mirarían"],
+      "presente_subjuntivo": ["mire", "mires", "mire", "miremos", "miren"],
+      "imperfecto_subjuntivo": ["mirara", "miraras", "mirara", "miráramos", "miraran"],
+      "imperativo": ["—", "mira", "mire", "miremos", "miren"],
+      "participio": "mirado",
+      "preterito_perfecto_compuesto": ["he mirado", "has mirado", "ha mirado", "hemos mirado", "han mirado"],
+      "preterito_pluscuamperfecto": ["había mirado", "habías mirado", "había mirado", "habíamos mirado", "habían mirado"]
+    }
+  },
+  {
+    "id": 35,
+    "infinitive": "contar",
+    "english": "to count/tell",
+    "conjugations": {
+      "presente_indicativo": ["cuento", "cuentas", "cuenta", "contamos", "cuentan"],
+      "futuro_simple": ["contaré", "contarás", "contará", "contaremos", "contarán"],
+      "preterito_imperfecto": ["contaba", "contabas", "contaba", "contábamos", "contaban"],
+      "preterito_perfecto_simple": ["conté", "contaste", "contó", "contamos", "contaron"],
+      "condicional_simple": ["contaría", "contarías", "contaría", "contaríamos", "contarían"],
+      "presente_subjuntivo": ["cuente", "cuentes", "cuente", "contemos", "cuenten"],
+      "imperfecto_subjuntivo": ["contara", "contaras", "contara", "contáramos", "contaran"],
+      "imperativo": ["—", "cuenta", "cuente", "contemos", "cuenten"],
+      "participio": "contado",
+      "preterito_perfecto_compuesto": ["he contado", "has contado", "ha contado", "hemos contado", "han contado"],
+      "preterito_pluscuamperfecto": ["había contado", "habías contado", "había contado", "habíamos contado", "habían contado"]
+    }
+  },
+  {
+    "id": 36,
+    "infinitive": "empezar",
+    "english": "to begin/start",
+    "conjugations": {
+      "presente_indicativo": ["empiezo", "empiezas", "empieza", "empezamos", "empiezan"],
+      "futuro_simple": ["empezaré", "empezarás", "empezará", "empezaremos", "empezarán"],
+      "preterito_imperfecto": ["empezaba", "empezabas", "empezaba", "empezábamos", "empezaban"],
+      "preterito_perfecto_simple": ["empecé", "empezaste", "empezó", "empezamos", "empezaron"],
+      "condicional_simple": ["empezaría", "empezarías", "empezaría", "empezaríamos", "empezarían"],
+      "presente_subjuntivo": ["empiece", "empieces", "empiece", "empecemos", "empiecen"],
+      "imperfecto_subjuntivo": ["empezara", "empezaras", "empezara", "empezáramos", "empezaran"],
+      "imperativo": ["—", "empieza", "empiece", "empecemos", "empiecen"],
+      "participio": "empezado",
+      "preterito_perfecto_compuesto": ["he empezado", "has empezado", "ha empezado", "hemos empezado", "han empezado"],
+      "preterito_pluscuamperfecto": ["había empezado", "habías empezado", "había empezado", "habíamos empezado", "habían empezado"]
+    }
+  },
+  {
+    "id": 37,
+    "infinitive": "esperar",
+    "english": "to wait/hope",
+    "conjugations": {
+      "presente_indicativo": ["espero", "esperas", "espera", "esperamos", "esperan"],
+      "futuro_simple": ["esperaré", "esperarás", "esperará", "esperaremos", "esperarán"],
+      "preterito_imperfecto": ["esperaba", "esperabas", "esperaba", "esperábamos", "esperaban"],
+      "preterito_perfecto_simple": ["esperé", "esperaste", "esperó", "esperamos", "esperaron"],
+      "condicional_simple": ["esperaría", "esperarías", "esperaría", "esperaríamos", "esperarían"],
+      "presente_subjuntivo": ["espere", "esperes", "espere", "esperemos", "esperen"],
+      "imperfecto_subjuntivo": ["esperara", "esperaras", "esperara", "esperáramos", "esperaran"],
+      "imperativo": ["—", "espera", "espere", "esperemos", "esperen"],
+      "participio": "esperado",
+      "preterito_perfecto_compuesto": ["he esperado", "has esperado", "ha esperado", "hemos esperado", "han esperado"],
+      "preterito_pluscuamperfecto": ["había esperado", "habías esperado", "había esperado", "habíamos esperado", "habían esperado"]
+    }
+  },
+  {
+    "id": 38,
+    "infinitive": "buscar",
+    "english": "to look for/search",
+    "conjugations": {
+      "presente_indicativo": ["busco", "buscas", "busca", "buscamos", "buscan"],
+      "futuro_simple": ["buscaré", "buscarás", "buscará", "buscaremos", "buscarán"],
+      "preterito_imperfecto": ["buscaba", "buscabas", "buscaba", "buscábamos", "buscaban"],
+      "preterito_perfecto_simple": ["busqué", "buscaste", "buscó", "buscamos", "buscaron"],
+      "condicional_simple": ["buscaría", "buscarías", "buscaría", "buscaríamos", "buscarían"],
+      "presente_subjuntivo": ["busque", "busques", "busque", "busquemos", "busquen"],
+      "imperfecto_subjuntivo": ["buscara", "buscaras", "buscara", "buscáramos", "buscaran"],
+      "imperativo": ["—", "busca", "busque", "busquemos", "busquen"],
+      "participio": "buscado",
+      "preterito_perfecto_compuesto": ["he buscado", "has buscado", "ha buscado", "hemos buscado", "han buscado"],
+      "preterito_pluscuamperfecto": ["había buscado", "habías buscado", "había buscado", "habíamos buscado", "habían buscado"]
+    }
+  },
+  {
+    "id": 39,
+    "infinitive": "existir",
+    "english": "to exist",
+    "conjugations": {
+      "presente_indicativo": ["existo", "existes", "existe", "existimos", "existen"],
+      "futuro_simple": ["existiré", "existirás", "existirá", "existiremos", "existirán"],
+      "preterito_imperfecto": ["existía", "existías", "existía", "existíamos", "existían"],
+      "preterito_perfecto_simple": ["existí", "exististe", "existió", "existimos", "existieron"],
+      "condicional_simple": ["existiría", "existirías", "existiría", "existiríamos", "existirían"],
+      "presente_subjuntivo": ["exista", "existas", "exista", "existamos", "existan"],
+      "imperfecto_subjuntivo": ["existiera", "existieras", "existiera", "existiéramos", "existieran"],
+      "imperativo": ["—", "existe", "exista", "existamos", "existan"],
+      "participio": "existido",
+      "preterito_perfecto_compuesto": ["he existido", "has existido", "ha existido", "hemos existido", "han existido"],
+      "preterito_pluscuamperfecto": ["había existido", "habías existido", "había existido", "habíamos existido", "habían existido"]
+    }
+  },
+  {
+    "id": 40,
+    "infinitive": "entrar",
+    "english": "to enter",
+    "conjugations": {
+      "presente_indicativo": ["entro", "entras", "entra", "entramos", "entran"],
+      "futuro_simple": ["entraré", "entrarás", "entrará", "entraremos", "entrarán"],
+      "preterito_imperfecto": ["entraba", "entrabas", "entraba", "entrábamos", "entraban"],
+      "preterito_perfecto_simple": ["entré", "entraste", "entró", "entramos", "entraron"],
+      "condicional_simple": ["entraría", "entrarías", "entraría", "entraríamos", "entrarían"],
+      "presente_subjuntivo": ["entre", "entres", "entre", "entremos", "entren"],
+      "imperfecto_subjuntivo": ["entrara", "entraras", "entrara", "entráramos", "entraran"],
+      "imperativo": ["—", "entra", "entre", "entremos", "entren"],
+      "participio": "entrado",
+      "preterito_perfecto_compuesto": ["he entrado", "has entrado", "ha entrado", "hemos entrado", "han entrado"],
+      "preterito_pluscuamperfecto": ["había entrado", "habías entrado", "había entrado", "habíamos entrado", "habían entrado"]
+    }
+  },
+  {
+    "id": 41,
+    "infinitive": "trabajar",
+    "english": "to work",
+    "conjugations": {
+      "presente_indicativo": ["trabajo", "trabajas", "trabaja", "trabajamos", "trabajan"],
+      "futuro_simple": ["trabajaré", "trabajarás", "trabajará", "trabajaremos", "trabajarán"],
+      "preterito_imperfecto": ["trabajaba", "trabajabas", "trabajaba", "trabajábamos", "trabajaban"],
+      "preterito_perfecto_simple": ["trabajé", "trabajaste", "trabajó", "trabajamos", "trabajaron"],
+      "condicional_simple": ["trabajaría", "trabajarías", "trabajaría", "trabajaríamos", "trabajarían"],
+      "presente_subjuntivo": ["trabaje", "trabajes", "trabaje", "trabajemos", "trabajen"],
+      "imperfecto_subjuntivo": ["trabajara", "trabajaras", "trabajara", "trabajáramos", "trabajaran"],
+      "imperativo": ["—", "trabaja", "trabaje", "trabajemos", "trabajen"],
+      "participio": "trabajado",
+      "preterito_perfecto_compuesto": ["he trabajado", "has trabajado", "ha trabajado", "hemos trabajado", "han trabajado"],
+      "preterito_pluscuamperfecto": ["había trabajado", "habías trabajado", "había trabajado", "habíamos trabajado", "habían trabajado"]
+    }
+  },
+  {
+    "id": 42,
+    "infinitive": "escribir",
+    "english": "to write",
+    "conjugations": {
+      "presente_indicativo": ["escribo", "escribes", "escribe", "escribimos", "escriben"],
+      "futuro_simple": ["escribiré", "escribirás", "escribirá", "escribiremos", "escribirán"],
+      "preterito_imperfecto": ["escribía", "escribías", "escribía", "escribíamos", "escribían"],
+      "preterito_perfecto_simple": ["escribí", "escribiste", "escribió", "escribimos", "escribieron"],
+      "condicional_simple": ["escribiría", "escribirías", "escribiría", "escribiríamos", "escribirían"],
+      "presente_subjuntivo": ["escriba", "escribas", "escriba", "escribamos", "escriban"],
+      "imperfecto_subjuntivo": ["escribiera", "escribieras", "escribiera", "escribiéramos", "escribieran"],
+      "imperativo": ["—", "escribe", "escriba", "escribamos", "escriban"],
+      "participio": "escrito",
+      "preterito_perfecto_compuesto": ["he escrito", "has escrito", "ha escrito", "hemos escrito", "han escrito"],
+      "preterito_pluscuamperfecto": ["había escrito", "habías escrito", "había escrito", "habíamos escrito", "habían escrito"]
+    }
+  },
+  {
+    "id": 43,
+    "infinitive": "perder",
+    "english": "to lose",
+    "conjugations": {
+      "presente_indicativo": ["pierdo", "pierdes", "pierde", "perdemos", "pierden"],
+      "futuro_simple": ["perderé", "perderás", "perderá", "perderemos", "perderán"],
+      "preterito_imperfecto": ["perdía", "perdías", "perdía", "perdíamos", "perdían"],
+      "preterito_perfecto_simple": ["perdí", "perdiste", "perdió", "perdimos", "perdieron"],
+      "condicional_simple": ["perdería", "perderías", "perdería", "perderíamos", "perderían"],
+      "presente_subjuntivo": ["pierda", "pierdas", "pierda", "perdamos", "pierdan"],
+      "imperfecto_subjuntivo": ["perdiera", "perdieras", "perdiera", "perdiéramos", "perdieran"],
+      "imperativo": ["—", "pierde", "pierda", "perdamos", "pierdan"],
+      "participio": "perdido",
+      "preterito_perfecto_compuesto": ["he perdido", "has perdido", "ha perdido", "hemos perdido", "han perdido"],
+      "preterito_pluscuamperfecto": ["había perdido", "habías perdido", "había perdido", "habíamos perdido", "habían perdido"]
+    }
+  },
+  {
+    "id": 44,
+    "infinitive": "producir",
+    "english": "to produce",
+    "conjugations": {
+      "presente_indicativo": ["produzco", "produces", "produce", "producimos", "producen"],
+      "futuro_simple": ["produciré", "producirás", "producirá", "produciremos", "producirán"],
+      "preterito_imperfecto": ["producía", "producías", "producía", "producíamos", "producían"],
+      "preterito_perfecto_simple": ["produje", "produjiste", "produjo", "produjimos", "produjeron"],
+      "condicional_simple": ["produciría", "producirías", "produciría", "produciríamos", "producirían"],
+      "presente_subjuntivo": ["produzca", "produzcas", "produzca", "produzcamos", "produzcan"],
+      "imperfecto_subjuntivo": ["produjera", "produjeras", "produjera", "produjéramos", "produjeran"],
+      "imperativo": ["—", "produce", "produzca", "produzcamos", "produzcan"],
+      "participio": "producido",
+      "preterito_perfecto_compuesto": ["he producido", "has producido", "ha producido", "hemos producido", "han producido"],
+      "preterito_pluscuamperfecto": ["había producido", "habías producido", "había producido", "habíamos producido", "habían producido"]
+    }
+  },
+  {
+    "id": 45,
+    "infinitive": "ocurrir",
+    "english": "to occur/happen",
+    "conjugations": {
+      "presente_indicativo": ["ocurro", "ocurres", "ocurre", "ocurrimos", "ocurren"],
+      "futuro_simple": ["ocurriré", "ocurrirás", "ocurrirá", "ocurriremos", "ocurrirán"],
+      "preterito_imperfecto": ["ocurría", "ocurrías", "ocurría", "ocurríamos", "ocurrían"],
+      "preterito_perfecto_simple": ["ocurrí", "ocurriste", "ocurrió", "ocurrimos", "ocurrieron"],
+      "condicional_simple": ["ocurriría", "ocurrirías", "ocurriría", "ocurriríamos", "ocurrirían"],
+      "presente_subjuntivo": ["ocurra", "ocurras", "ocurra", "ocurramos", "ocurran"],
+      "imperfecto_subjuntivo": ["ocurriera", "ocurrieras", "ocurriera", "ocurriéramos", "ocurrieran"],
+      "imperativo": ["—", "ocurre", "ocurra", "ocurramos", "ocurran"],
+      "participio": "ocurrido",
+      "preterito_perfecto_compuesto": ["he ocurrido", "has ocurrido", "ha ocurrido", "hemos ocurrido", "han ocurrido"],
+      "preterito_pluscuamperfecto": ["había ocurrido", "habías ocurrido", "había ocurrido", "habíamos ocurrido", "habían ocurrido"]
+    }
+  },
+  {
+    "id": 46,
+    "infinitive": "entender",
+    "english": "to understand",
+    "conjugations": {
+      "presente_indicativo": ["entiendo", "entiendes", "entiende", "entendemos", "entienden"],
+      "futuro_simple": ["entenderé", "entenderás", "entenderá", "entenderemos", "entenderán"],
+      "preterito_imperfecto": ["entendía", "entendías", "entendía", "entendíamos", "entendían"],
+      "preterito_perfecto_simple": ["entendí", "entendiste", "entendió", "entendimos", "entendieron"],
+      "condicional_simple": ["entendería", "entenderías", "entendería", "entenderíamos", "entenderían"],
+      "presente_subjuntivo": ["entienda", "entiendas", "entienda", "entendamos", "entiendan"],
+      "imperfecto_subjuntivo": ["entendiera", "entendieras", "entendiera", "entendiéramos", "entendieran"],
+      "imperativo": ["—", "entiende", "entienda", "entendamos", "entiendan"],
+      "participio": "entendido",
+      "preterito_perfecto_compuesto": ["he entendido", "has entendido", "ha entendido", "hemos entendido", "han entendido"],
+      "preterito_pluscuamperfecto": ["había entendido", "habías entendido", "había entendido", "habíamos entendido", "habían entendido"]
+    }
+  },
+  {
+    "id": 47,
+    "infinitive": "pedir",
+    "english": "to ask for/request",
+    "conjugations": {
+      "presente_indicativo": ["pido", "pides", "pide", "pedimos", "piden"],
+      "futuro_simple": ["pediré", "pedirás", "pedirá", "pediremos", "pedirán"],
+      "preterito_imperfecto": ["pedía", "pedías", "pedía", "pedíamos", "pedían"],
+      "preterito_perfecto_simple": ["pedí", "pediste", "pidió", "pedimos", "pidieron"],
+      "condicional_simple": ["pediría", "pedirías", "pediría", "pediríamos", "pedirían"],
+      "presente_subjuntivo": ["pida", "pidas", "pida", "pidamos", "pidan"],
+      "imperfecto_subjuntivo": ["pidiera", "pidieras", "pidiera", "pidiéramos", "pidieran"],
+      "imperativo": ["—", "pide", "pida", "pidamos", "pidan"],
+      "participio": "pedido",
+      "preterito_perfecto_compuesto": ["he pedido", "has pedido", "ha pedido", "hemos pedido", "han pedido"],
+      "preterito_pluscuamperfecto": ["había pedido", "habías pedido", "había pedido", "habíamos pedido", "habían pedido"]
+    }
+  },
+  {
+    "id": 48,
+    "infinitive": "recibir",
+    "english": "to receive",
+    "conjugations": {
+      "presente_indicativo": ["recibo", "recibes", "recibe", "recibimos", "reciben"],
+      "futuro_simple": ["recibiré", "recibirás", "recibirá", "recibiremos", "recibirán"],
+      "preterito_imperfecto": ["recibía", "recibías", "recibía", "recibíamos", "recibían"],
+      "preterito_perfecto_simple": ["recibí", "recibiste", "recibió", "recibimos", "recibieron"],
+      "condicional_simple": ["recibiría", "recibirías", "recibiría", "recibiríamos", "recibirían"],
+      "presente_subjuntivo": ["reciba", "recibas", "reciba", "recibamos", "reciban"],
+      "imperfecto_subjuntivo": ["recibiera", "recibieras", "recibiera", "recibiéramos", "recibieran"],
+      "imperativo": ["—", "recibe", "reciba", "recibamos", "reciban"],
+      "participio": "recibido",
+      "preterito_perfecto_compuesto": ["he recibido", "has recibido", "ha recibido", "hemos recibido", "han recibido"],
+      "preterito_pluscuamperfecto": ["había recibido", "habías recibido", "había recibido", "habíamos recibido", "habían recibido"]
+    }
+  },
+  {
+    "id": 49,
+    "infinitive": "recordar",
+    "english": "to remember",
+    "conjugations": {
+      "presente_indicativo": ["recuerdo", "recuerdas", "recuerda", "recordamos", "recuerdan"],
+      "futuro_simple": ["recordaré", "recordarás", "recordará", "recordaremos", "recordarán"],
+      "preterito_imperfecto": ["recordaba", "recordabas", "recordaba", "recordábamos", "recordaban"],
+      "preterito_perfecto_simple": ["recordé", "recordaste", "recordó", "recordamos", "recordaron"],
+      "condicional_simple": ["recordaría", "recordarías", "recordaría", "recordaríamos", "recordarían"],
+      "presente_subjuntivo": ["recuerde", "recuerdes", "recuerde", "recordemos", "recuerden"],
+      "imperfecto_subjuntivo": ["recordara", "recordaras", "recordara", "recordáramos", "recordaran"],
+      "imperativo": ["—", "recuerda", "recuerde", "recordemos", "recuerden"],
+      "participio": "recordado",
+      "preterito_perfecto_compuesto": ["he recordado", "has recordado", "ha recordado", "hemos recordado", "han recordado"],
+      "preterito_pluscuamperfecto": ["había recordado", "habías recordado", "había recordado", "habíamos recordado", "habían recordado"]
+    }
+  },
+  {
+    "id": 50,
+    "infinitive": "terminar",
+    "english": "to finish/end",
+    "conjugations": {
+      "presente_indicativo": ["termino", "terminas", "termina", "terminamos", "terminan"],
+      "futuro_simple": ["terminaré", "terminarás", "terminará", "terminaremos", "terminarán"],
+      "preterito_imperfecto": ["terminaba", "terminabas", "terminaba", "terminábamos", "terminaban"],
+      "preterito_perfecto_simple": ["terminé", "terminaste", "terminó", "terminamos", "terminaron"],
+      "condicional_simple": ["terminaría", "terminarías", "terminaría", "terminaríamos", "terminarían"],
+      "presente_subjuntivo": ["termine", "termines", "termine", "terminemos", "terminen"],
+      "imperfecto_subjuntivo": ["terminara", "terminaras", "terminara", "termináramos", "terminaran"],
+      "imperativo": ["—", "termina", "termine", "terminemos", "terminen"],
+      "participio": "terminado",
+      "preterito_perfecto_compuesto": ["he terminado", "has terminado", "ha terminado", "hemos terminado", "han terminado"],
+      "preterito_pluscuamperfecto": ["había terminado", "habías terminado", "había terminado", "habíamos terminado", "habían terminado"]
+    }
+  },
+  {
+    "id": 51,
+    "infinitive": "morir",
+    "english": "to die",
+    "conjugations": {
+      "presente_indicativo": ["muero", "mueres", "muere", "morimos", "mueren"],
+      "futuro_simple": ["moriré", "morirás", "morirá", "moriremos", "morirán"],
+      "preterito_imperfecto": ["moría", "morías", "moría", "moríamos", "morían"],
+      "preterito_perfecto_simple": ["morí", "moriste", "murió", "morimos", "murieron"],
+      "condicional_simple": ["moriría", "morirías", "moriría", "moriríamos", "morirían"],
+      "presente_subjuntivo": ["muera", "mueras", "muera", "muramos", "mueran"],
+      "imperfecto_subjuntivo": ["muriera", "murieras", "muriera", "muriéramos", "murieran"],
+      "imperativo": ["—", "muere", "muera", "muramos", "mueran"],
+      "participio": "muerto",
+      "preterito_perfecto_compuesto": ["he muerto", "has muerto", "ha muerto", "hemos muerto", "han muerto"],
+      "preterito_pluscuamperfecto": ["había muerto", "habías muerto", "había muerto", "habíamos muerto", "habían muerto"]
+    }
+  },
+  {
+    "id": 52,
+    "infinitive": "dormir",
+    "english": "to sleep",
+    "conjugations": {
+      "presente_indicativo": ["duermo", "duermes", "duerme", "dormimos", "duermen"],
+      "futuro_simple": ["dormiré", "dormirás", "dormirá", "dormiremos", "dormirán"],
+      "preterito_imperfecto": ["dormía", "dormías", "dormía", "dormíamos", "dormían"],
+      "preterito_perfecto_simple": ["dormí", "dormiste", "durmió", "dormimos", "durmieron"],
+      "condicional_simple": ["dormiría", "dormirías", "dormiría", "dormiríamos", "dormirían"],
+      "presente_subjuntivo": ["duerma", "duermas", "duerma", "durmamos", "duerman"],
+      "imperfecto_subjuntivo": ["durmiera", "durmieras", "durmiera", "durmiéramos", "durmieran"],
+      "imperativo": ["—", "duerme", "duerma", "durmamos", "duerman"],
+      "participio": "dormido",
+      "preterito_perfecto_compuesto": ["he dormido", "has dormido", "ha dormido", "hemos dormido", "han dormido"],
+      "preterito_pluscuamperfecto": ["había dormido", "habías dormido", "había dormido", "habíamos dormido", "habían dormido"]
+    }
+  },
+  {
+    "id": 53,
+    "infinitive": "correr",
+    "english": "to run",
+    "conjugations": {
+      "presente_indicativo": ["corro", "corres", "corre", "corremos", "corren"],
+      "futuro_simple": ["correré", "correrás", "correrá", "correremos", "correrán"],
+      "preterito_imperfecto": ["corría", "corrías", "corría", "corríamos", "corrían"],
+      "preterito_perfecto_simple": ["corrí", "corriste", "corrió", "corrimos", "corrieron"],
+      "condicional_simple": ["correría", "correrías", "correría", "correríamos", "correrían"],
+      "presente_subjuntivo": ["corra", "corras", "corra", "corramos", "corran"],
+      "imperfecto_subjuntivo": ["corriera", "corrieras", "corriera", "corriéramos", "corrieran"],
+      "imperativo": ["—", "corre", "corra", "corramos", "corran"],
+      "participio": "corrido",
+      "preterito_perfecto_compuesto": ["he corrido", "has corrido", "ha corrido", "hemos corrido", "han corrido"],
+      "preterito_pluscuamperfecto": ["había corrido", "habías corrido", "había corrido", "habíamos corrido", "habían corrido"]
+    }
+  },
+  {
+    "id": 54,
+    "infinitive": "leer",
+    "english": "to read",
+    "conjugations": {
+      "presente_indicativo": ["leo", "lees", "lee", "leemos", "leen"],
+      "futuro_simple": ["leeré", "leerás", "leerá", "leeremos", "leerán"],
+      "preterito_imperfecto": ["leía", "leías", "leía", "leíamos", "leían"],
+      "preterito_perfecto_simple": ["leí", "leíste", "leyó", "leímos", "leyeron"],
+      "condicional_simple": ["leería", "leerías", "leería", "leeríamos", "leerían"],
+      "presente_subjuntivo": ["lea", "leas", "lea", "leamos", "lean"],
+      "imperfecto_subjuntivo": ["leyera", "leyeras", "leyera", "leyéramos", "leyeran"],
+      "imperativo": ["—", "lee", "lea", "leamos", "lean"],
+      "participio": "leído",
+      "preterito_perfecto_compuesto": ["he leído", "has leído", "ha leído", "hemos leído", "han leído"],
+      "preterito_pluscuamperfecto": ["había leído", "habías leído", "había leído", "habíamos leído", "habían leído"]
+    }
+  },
+  {
+    "id": 55,
+    "infinitive": "abrir",
+    "english": "to open",
+    "conjugations": {
+      "presente_indicativo": ["abro", "abres", "abre", "abrimos", "abren"],
+      "futuro_simple": ["abriré", "abrirás", "abrirá", "abriremos", "abrirán"],
+      "preterito_imperfecto": ["abría", "abrías", "abría", "abríamos", "abrían"],
+      "preterito_perfecto_simple": ["abrí", "abriste", "abrió", "abrimos", "abrieron"],
+      "condicional_simple": ["abriría", "abrirías", "abriría", "abriríamos", "abrirían"],
+      "presente_subjuntivo": ["abra", "abras", "abra", "abramos", "abran"],
+      "imperfecto_subjuntivo": ["abriera", "abrieras", "abriera", "abriéramos", "abrieran"],
+      "imperativo": ["—", "abre", "abra", "abramos", "abran"],
+      "participio": "abierto",
+      "preterito_perfecto_compuesto": ["he abierto", "has abierto", "ha abierto", "hemos abierto", "han abierto"],
+      "preterito_pluscuamperfecto": ["había abierto", "habías abierto", "había abierto", "habíamos abierto", "habían abierto"]
+    }
+  },
+  {
+    "id": 56,
+    "infinitive": "cerrar",
+    "english": "to close",
+    "conjugations": {
+      "presente_indicativo": ["cierro", "cierras", "cierra", "cerramos", "cierran"],
+      "futuro_simple": ["cerraré", "cerrarás", "cerrará", "cerraremos", "cerrarán"],
+      "preterito_imperfecto": ["cerraba", "cerrabas", "cerraba", "cerrábamos", "cerraban"],
+      "preterito_perfecto_simple": ["cerré", "cerraste", "cerró", "cerramos", "cerraron"],
+      "condicional_simple": ["cerraría", "cerrarías", "cerraría", "cerraríamos", "cerrarían"],
+      "presente_subjuntivo": ["cierre", "cierres", "cierre", "cerremos", "cierren"],
+      "imperfecto_subjuntivo": ["cerrara", "cerraras", "cerrara", "cerráramos", "cerraran"],
+      "imperativo": ["—", "cierra", "cierre", "cerremos", "cierren"],
+      "participio": "cerrado",
+      "preterito_perfecto_compuesto": ["he cerrado", "has cerrado", "ha cerrado", "hemos cerrado", "han cerrado"],
+      "preterito_pluscuamperfecto": ["había cerrado", "habías cerrado", "había cerrado", "habíamos cerrado", "habían cerrado"]
+    }
+  },
+  {
+    "id": 57,
+    "infinitive": "oír",
+    "english": "to hear",
+    "conjugations": {
+      "presente_indicativo": ["oigo", "oyes", "oye", "oímos", "oyen"],
+      "futuro_simple": ["oiré", "oirás", "oirá", "oiremos", "oirán"],
+      "preterito_imperfecto": ["oía", "oías", "oía", "oíamos", "oían"],
+      "preterito_perfecto_simple": ["oí", "oíste", "oyó", "oímos", "oyeron"],
+      "condicional_simple": ["oiría", "oirías", "oiría", "oiríamos", "oirían"],
+      "presente_subjuntivo": ["oiga", "oigas", "oiga", "oigamos", "oigan"],
+      "imperfecto_subjuntivo": ["oyera", "oyeras", "oyera", "oyéramos", "oyeran"],
+      "imperativo": ["—", "oye", "oiga", "oigamos", "oigan"],
+      "participio": "oído",
+      "preterito_perfecto_compuesto": ["he oído", "has oído", "ha oído", "hemos oído", "han oído"],
+      "preterito_pluscuamperfecto": ["había oído", "habías oído", "había oído", "habíamos oído", "habían oído"]
+    }
+  },
+  {
+    "id": 58,
+    "infinitive": "caer",
+    "english": "to fall",
+    "conjugations": {
+      "presente_indicativo": ["caigo", "caes", "cae", "caemos", "caen"],
+      "futuro_simple": ["caeré", "caerás", "caerá", "caeremos", "caerán"],
+      "preterito_imperfecto": ["caía", "caías", "caía", "caíamos", "caían"],
+      "preterito_perfecto_simple": ["caí", "caíste", "cayó", "caímos", "cayeron"],
+      "condicional_simple": ["caería", "caerías", "caería", "caeríamos", "caerían"],
+      "presente_subjuntivo": ["caiga", "caigas", "caiga", "caigamos", "caigan"],
+      "imperfecto_subjuntivo": ["cayera", "cayeras", "cayera", "cayéramos", "cayeran"],
+      "imperativo": ["—", "cae", "caiga", "caigamos", "caigan"],
+      "participio": "caído",
+      "preterito_perfecto_compuesto": ["he caído", "has caído", "ha caído", "hemos caído", "han caído"],
+      "preterito_pluscuamperfecto": ["había caído", "habías caído", "había caído", "habíamos caído", "habían caído"]
+    }
+  },
+  {
+    "id": 59,
+    "infinitive": "traer",
+    "english": "to bring",
+    "conjugations": {
+      "presente_indicativo": ["traigo", "traes", "trae", "traemos", "traen"],
+      "futuro_simple": ["traeré", "traerás", "traerá", "traeremos", "traerán"],
+      "preterito_imperfecto": ["traía", "traías", "traía", "traíamos", "traían"],
+      "preterito_perfecto_simple": ["traje", "trajiste", "trajo", "trajimos", "trajeron"],
+      "condicional_simple": ["traería", "traerías", "traería", "traeríamos", "traerían"],
+      "presente_subjuntivo": ["traiga", "traigas", "traiga", "traigamos", "traigan"],
+      "imperfecto_subjuntivo": ["trajera", "trajeras", "trajera", "trajéramos", "trajeran"],
+      "imperativo": ["—", "trae", "traiga", "traigamos", "traigan"],
+      "participio": "traído",
+      "preterito_perfecto_compuesto": ["he traído", "has traído", "ha traído", "hemos traído", "han traído"],
+      "preterito_pluscuamperfecto": ["había traído", "habías traído", "había traído", "habíamos traído", "habían traído"]
+    }
+  },
+  {
+    "id": 60,
+    "infinitive": "nacer",
+    "english": "to be born",
+    "conjugations": {
+      "presente_indicativo": ["nazco", "naces", "nace", "nacemos", "nacen"],
+      "futuro_simple": ["naceré", "nacerás", "nacerá", "naceremos", "nacerán"],
+      "preterito_imperfecto": ["nacía", "nacías", "nacía", "nacíamos", "nacían"],
+      "preterito_perfecto_simple": ["nací", "naciste", "nació", "nacimos", "nacieron"],
+      "condicional_simple": ["nacería", "nacerías", "nacería", "naceríamos", "nacerían"],
+      "presente_subjuntivo": ["nazca", "nazcas", "nazca", "nazcamos", "nazcan"],
+      "imperfecto_subjuntivo": ["naciera", "nacieras", "naciera", "naciéramos", "nacieran"],
+      "imperativo": ["—", "nace", "nazca", "nazcamos", "nazcan"],
+      "participio": "nacido",
+      "preterito_perfecto_compuesto": ["he nacido", "has nacido", "ha nacido", "hemos nacido", "han nacido"],
+      "preterito_pluscuamperfecto": ["había nacido", "habías nacido", "había nacido", "habíamos nacido", "habían nacido"]
+    }
+  },
+  {
+    "id": 61,
+    "infinitive": "subir",
+    "english": "to go up/climb",
+    "conjugations": {
+      "presente_indicativo": ["subo", "subes", "sube", "subimos", "suben"],
+      "futuro_simple": ["subiré", "subirás", "subirá", "subiremos", "subirán"],
+      "preterito_imperfecto": ["subía", "subías", "subía", "subíamos", "subían"],
+      "preterito_perfecto_simple": ["subí", "subiste", "subió", "subimos", "subieron"],
+      "condicional_simple": ["subiría", "subirías", "subiría", "subiríamos", "subirían"],
+      "presente_subjuntivo": ["suba", "subas", "suba", "subamos", "suban"],
+      "imperfecto_subjuntivo": ["subiera", "subieras", "subiera", "subiéramos", "subieran"],
+      "imperativo": ["—", "sube", "suba", "subamos", "suban"],
+      "participio": "subido",
+      "preterito_perfecto_compuesto": ["he subido", "has subido", "ha subido", "hemos subido", "han subido"],
+      "preterito_pluscuamperfecto": ["había subido", "habías subido", "había subido", "habíamos subido", "habían subido"]
+    }
+  },
+  {
+    "id": 62,
+    "infinitive": "bajar",
+    "english": "to go down/lower",
+    "conjugations": {
+      "presente_indicativo": ["bajo", "bajas", "baja", "bajamos", "bajan"],
+      "futuro_simple": ["bajaré", "bajarás", "bajará", "bajaremos", "bajarán"],
+      "preterito_imperfecto": ["bajaba", "bajabas", "bajaba", "bajábamos", "bajaban"],
+      "preterito_perfecto_simple": ["bajé", "bajaste", "bajó", "bajamos", "bajaron"],
+      "condicional_simple": ["bajaría", "bajarías", "bajaría", "bajaríamos", "bajarían"],
+      "presente_subjuntivo": ["baje", "bajes", "baje", "bajemos", "bajen"],
+      "imperfecto_subjuntivo": ["bajara", "bajaras", "bajara", "bajáramos", "bajaran"],
+      "imperativo": ["—", "baja", "baje", "bajemos", "bajen"],
+      "participio": "bajado",
+      "preterito_perfecto_compuesto": ["he bajado", "has bajado", "ha bajado", "hemos bajado", "han bajado"],
+      "preterito_pluscuamperfecto": ["había bajado", "habías bajado", "había bajado", "habíamos bajado", "habían bajado"]
+    }
+  },
+  {
+    "id": 63,
+    "infinitive": "cambiar",
+    "english": "to change",
+    "conjugations": {
+      "presente_indicativo": ["cambio", "cambias", "cambia", "cambiamos", "cambian"],
+      "futuro_simple": ["cambiaré", "cambiarás", "cambiará", "cambiaremos", "cambiarán"],
+      "preterito_imperfecto": ["cambiaba", "cambiabas", "cambiaba", "cambiábamos", "cambiaban"],
+      "preterito_perfecto_simple": ["cambié", "cambiaste", "cambió", "cambiamos", "cambiaron"],
+      "condicional_simple": ["cambiaría", "cambiarías", "cambiaría", "cambiaríamos", "cambiarían"],
+      "presente_subjuntivo": ["cambie", "cambies", "cambie", "cambiemos", "cambien"],
+      "imperfecto_subjuntivo": ["cambiara", "cambiaras", "cambiara", "cambiáramos", "cambiaran"],
+      "imperativo": ["—", "cambia", "cambie", "cambiemos", "cambien"],
+      "participio": "cambiado",
+      "preterito_perfecto_compuesto": ["he cambiado", "has cambiado", "ha cambiado", "hemos cambiado", "han cambiado"],
+      "preterito_pluscuamperfecto": ["había cambiado", "habías cambiado", "había cambiado", "habíamos cambiado", "habían cambiado"]
+    }
+  },
+  {
+    "id": 64,
+    "infinitive": "cumplir",
+    "english": "to fulfill/turn (age)",
+    "conjugations": {
+      "presente_indicativo": ["cumplo", "cumples", "cumple", "cumplimos", "cumplen"],
+      "futuro_simple": ["cumpliré", "cumplirás", "cumplirá", "cumpliremos", "cumplirán"],
+      "preterito_imperfecto": ["cumplía", "cumplías", "cumplía", "cumplíamos", "cumplían"],
+      "preterito_perfecto_simple": ["cumplí", "cumpliste", "cumplió", "cumplimos", "cumplieron"],
+      "condicional_simple": ["cumpliría", "cumplirías", "cumpliría", "cumpliríamos", "cumplirían"],
+      "presente_subjuntivo": ["cumpla", "cumplas", "cumpla", "cumplamos", "cumplan"],
+      "imperfecto_subjuntivo": ["cumpliera", "cumplieras", "cumpliera", "cumpliéramos", "cumplieran"],
+      "imperativo": ["—", "cumple", "cumpla", "cumplamos", "cumplan"],
+      "participio": "cumplido",
+      "preterito_perfecto_compuesto": ["he cumplido", "has cumplido", "ha cumplido", "hemos cumplido", "han cumplido"],
+      "preterito_pluscuamperfecto": ["había cumplido", "habías cumplido", "había cumplido", "habíamos cumplido", "habían cumplido"]
+    }
+  },
+  {
+    "id": 65,
+    "infinitive": "servir",
+    "english": "to serve",
+    "conjugations": {
+      "presente_indicativo": ["sirvo", "sirves", "sirve", "servimos", "sirven"],
+      "futuro_simple": ["serviré", "servirás", "servirá", "serviremos", "servirán"],
+      "preterito_imperfecto": ["servía", "servías", "servía", "servíamos", "servían"],
+      "preterito_perfecto_simple": ["serví", "serviste", "sirvió", "servimos", "sirvieron"],
+      "condicional_simple": ["serviría", "servirías", "serviría", "serviríamos", "servirían"],
+      "presente_subjuntivo": ["sirva", "sirvas", "sirva", "sirvamos", "sirvan"],
+      "imperfecto_subjuntivo": ["sirviera", "sirvieras", "sirviera", "sirviéramos", "sirvieran"],
+      "imperativo": ["—", "sirve", "sirva", "sirvamos", "sirvan"],
+      "participio": "servido",
+      "preterito_perfecto_compuesto": ["he servido", "has servido", "ha servido", "hemos servido", "han servido"],
+      "preterito_pluscuamperfecto": ["había servido", "habías servido", "había servido", "habíamos servido", "habían servido"]
+    }
+  },
+  {
+    "id": 66,
+    "infinitive": "conseguir",
+    "english": "to get/achieve",
+    "conjugations": {
+      "presente_indicativo": ["consigo", "consigues", "consigue", "conseguimos", "consiguen"],
+      "futuro_simple": ["conseguiré", "conseguirás", "conseguirá", "conseguiremos", "conseguirán"],
+      "preterito_imperfecto": ["conseguía", "conseguías", "conseguía", "conseguíamos", "conseguían"],
+      "preterito_perfecto_simple": ["conseguí", "conseguiste", "consiguió", "conseguimos", "consiguieron"],
+      "condicional_simple": ["conseguiría", "conseguirías", "conseguiría", "conseguiríamos", "conseguirían"],
+      "presente_subjuntivo": ["consiga", "consigas", "consiga", "consigamos", "consigan"],
+      "imperfecto_subjuntivo": ["consiguiera", "consiguieras", "consiguiera", "consiguiéramos", "consiguieran"],
+      "imperativo": ["—", "consigue", "consiga", "consigamos", "consigan"],
+      "participio": "conseguido",
+      "preterito_perfecto_compuesto": ["he conseguido", "has conseguido", "ha conseguido", "hemos conseguido", "han conseguido"],
+      "preterito_pluscuamperfecto": ["había conseguido", "habías conseguido", "había conseguido", "habíamos conseguido", "habían conseguido"]
+    }
+  },
+  {
+    "id": 67,
+    "infinitive": "mantener",
+    "english": "to maintain/keep",
+    "conjugations": {
+      "presente_indicativo": ["mantengo", "mantienes", "mantiene", "mantenemos", "mantienen"],
+      "futuro_simple": ["mantendré", "mantendrás", "mantendrá", "mantendremos", "mantendrán"],
+      "preterito_imperfecto": ["mantenía", "mantenías", "mantenía", "manteníamos", "mantenían"],
+      "preterito_perfecto_simple": ["mantuve", "mantuviste", "mantuvo", "mantuvimos", "mantuvieron"],
+      "condicional_simple": ["mantendría", "mantendrías", "mantendría", "mantendríamos", "mantendrían"],
+      "presente_subjuntivo": ["mantenga", "mantengas", "mantenga", "mantengamos", "mantengan"],
+      "imperfecto_subjuntivo": ["mantuviera", "mantuvieras", "mantuviera", "mantuviéramos", "mantuvieran"],
+      "imperativo": ["—", "mantén", "mantenga", "mantengamos", "mantengan"],
+      "participio": "mantenido",
+      "preterito_perfecto_compuesto": ["he mantenido", "has mantenido", "ha mantenido", "hemos mantenido", "han mantenido"],
+      "preterito_pluscuamperfecto": ["había mantenido", "habías mantenido", "había mantenido", "habíamos mantenido", "habían mantenido"]
+    }
+  },
+  {
+    "id": 68,
+    "infinitive": "permitir",
+    "english": "to permit/allow",
+    "conjugations": {
+      "presente_indicativo": ["permito", "permites", "permite", "permitimos", "permiten"],
+      "futuro_simple": ["permitiré", "permitirás", "permitirá", "permitiremos", "permitirán"],
+      "preterito_imperfecto": ["permitía", "permitías", "permitía", "permitíamos", "permitían"],
+      "preterito_perfecto_simple": ["permití", "permitiste", "permitió", "permitimos", "permitieron"],
+      "condicional_simple": ["permitiría", "permitirías", "permitiría", "permitiríamos", "permitirían"],
+      "presente_subjuntivo": ["permita", "permitas", "permita", "permitamos", "permitan"],
+      "imperfecto_subjuntivo": ["permitiera", "permitieras", "permitiera", "permitiéramos", "permitieran"],
+      "imperativo": ["—", "permite", "permita", "permitamos", "permitan"],
+      "participio": "permitido",
+      "preterito_perfecto_compuesto": ["he permitido", "has permitido", "ha permitido", "hemos permitido", "han permitido"],
+      "preterito_pluscuamperfecto": ["había permitido", "habías permitido", "había permitido", "habíamos permitido", "habían permitido"]
+    }
+  },
+  {
+    "id": 69,
+    "infinitive": "aparecer",
+    "english": "to appear",
+    "conjugations": {
+      "presente_indicativo": ["aparezco", "apareces", "aparece", "aparecemos", "aparecen"],
+      "futuro_simple": ["apareceré", "aparecerás", "aparecerá", "apareceremos", "aparecerán"],
+      "preterito_imperfecto": ["aparecía", "aparecías", "aparecía", "aparecíamos", "aparecían"],
+      "preterito_perfecto_simple": ["aparecí", "apareciste", "apareció", "aparecimos", "aparecieron"],
+      "condicional_simple": ["aparecería", "aparecerías", "aparecería", "apareceríamos", "aparecerían"],
+      "presente_subjuntivo": ["aparezca", "aparezcas", "aparezca", "aparezcamos", "aparezcan"],
+      "imperfecto_subjuntivo": ["apareciera", "aparecieras", "apareciera", "apareciéramos", "aparecieran"],
+      "imperativo": ["—", "aparece", "aparezca", "aparezcamos", "aparezcan"],
+      "participio": "aparecido",
+      "preterito_perfecto_compuesto": ["he aparecido", "has aparecido", "ha aparecido", "hemos aparecido", "han aparecido"],
+      "preterito_pluscuamperfecto": ["había aparecido", "habías aparecido", "había aparecido", "habíamos aparecido", "habían aparecido"]
+    }
+  },
+  {
+    "id": 70,
+    "infinitive": "lograr",
+    "english": "to achieve/manage to",
+    "conjugations": {
+      "presente_indicativo": ["logro", "logras", "logra", "logramos", "logran"],
+      "futuro_simple": ["lograré", "lograrás", "logrará", "lograremos", "lograrán"],
+      "preterito_imperfecto": ["lograba", "lograbas", "lograba", "lográbamos", "lograban"],
+      "preterito_perfecto_simple": ["logré", "lograste", "logró", "logramos", "lograron"],
+      "condicional_simple": ["lograría", "lograrías", "lograría", "lograríamos", "lograrían"],
+      "presente_subjuntivo": ["logre", "logres", "logre", "logremos", "logren"],
+      "imperfecto_subjuntivo": ["lograra", "lograras", "lograra", "lográramos", "lograran"],
+      "imperativo": ["—", "logra", "logre", "logremos", "logren"],
+      "participio": "logrado",
+      "preterito_perfecto_compuesto": ["he logrado", "has logrado", "ha logrado", "hemos logrado", "han logrado"],
+      "preterito_pluscuamperfecto": ["había logrado", "habías logrado", "había logrado", "habíamos logrado", "habían logrado"]
+    }
+  },
+  {
+    "id": 71,
+    "infinitive": "crear",
+    "english": "to create",
+    "conjugations": {
+      "presente_indicativo": ["creo", "creas", "crea", "creamos", "crean"],
+      "futuro_simple": ["crearé", "crearás", "creará", "crearemos", "crearán"],
+      "preterito_imperfecto": ["creaba", "creabas", "creaba", "creábamos", "creaban"],
+      "preterito_perfecto_simple": ["creé", "creaste", "creó", "creamos", "crearon"],
+      "condicional_simple": ["crearía", "crearías", "crearía", "crearíamos", "crearían"],
+      "presente_subjuntivo": ["cree", "crees", "cree", "creemos", "creen"],
+      "imperfecto_subjuntivo": ["creara", "crearas", "creara", "creáramos", "crearan"],
+      "imperativo": ["—", "crea", "cree", "creemos", "creen"],
+      "participio": "creado",
+      "preterito_perfecto_compuesto": ["he creado", "has creado", "ha creado", "hemos creado", "han creado"],
+      "preterito_pluscuamperfecto": ["había creado", "habías creado", "había creado", "habíamos creado", "habían creado"]
+    }
+  },
+  {
+    "id": 72,
+    "infinitive": "suponer",
+    "english": "to suppose/assume",
+    "conjugations": {
+      "presente_indicativo": ["supongo", "supones", "supone", "suponemos", "suponen"],
+      "futuro_simple": ["supondré", "supondrás", "supondrá", "supondremos", "supondrán"],
+      "preterito_imperfecto": ["suponía", "suponías", "suponía", "suponíamos", "suponían"],
+      "preterito_perfecto_simple": ["supuse", "supusiste", "supuso", "supusimos", "supusieron"],
+      "condicional_simple": ["supondría", "supondrías", "supondría", "supondríamos", "supondrían"],
+      "presente_subjuntivo": ["suponga", "supongas", "suponga", "supongamos", "supongan"],
+      "imperfecto_subjuntivo": ["supusiera", "supusieras", "supusiera", "supusiéramos", "supusieran"],
+      "imperativo": ["—", "supón", "suponga", "supongamos", "supongan"],
+      "participio": "supuesto",
+      "preterito_perfecto_compuesto": ["he supuesto", "has supuesto", "ha supuesto", "hemos supuesto", "han supuesto"],
+      "preterito_pluscuamperfecto": ["había supuesto", "habías supuesto", "había supuesto", "habíamos supuesto", "habían supuesto"]
+    }
+  },
+  {
+    "id": 73,
+    "infinitive": "explicar",
+    "english": "to explain",
+    "conjugations": {
+      "presente_indicativo": ["explico", "explicas", "explica", "explicamos", "explican"],
+      "futuro_simple": ["explicaré", "explicarás", "explicará", "explicaremos", "explicarán"],
+      "preterito_imperfecto": ["explicaba", "explicabas", "explicaba", "explicábamos", "explicaban"],
+      "preterito_perfecto_simple": ["expliqué", "explicaste", "explicó", "explicamos", "explicaron"],
+      "condicional_simple": ["explicaría", "explicarías", "explicaría", "explicaríamos", "explicarían"],
+      "presente_subjuntivo": ["explique", "expliques", "explique", "expliquemos", "expliquen"],
+      "imperfecto_subjuntivo": ["explicara", "explicaras", "explicara", "explicáramos", "explicaran"],
+      "imperativo": ["—", "explica", "explique", "expliquemos", "expliquen"],
+      "participio": "explicado",
+      "preterito_perfecto_compuesto": ["he explicado", "has explicado", "ha explicado", "hemos explicado", "han explicado"],
+      "preterito_pluscuamperfecto": ["había explicado", "habías explicado", "había explicado", "habíamos explicado", "habían explicado"]
+    }
+  },
+  {
+    "id": 74,
+    "infinitive": "alcanzar",
+    "english": "to reach/achieve",
+    "conjugations": {
+      "presente_indicativo": ["alcanzo", "alcanzas", "alcanza", "alcanzamos", "alcanzan"],
+      "futuro_simple": ["alcanzaré", "alcanzarás", "alcanzará", "alcanzaremos", "alcanzarán"],
+      "preterito_imperfecto": ["alcanzaba", "alcanzabas", "alcanzaba", "alcanzábamos", "alcanzaban"],
+      "preterito_perfecto_simple": ["alcancé", "alcanzaste", "alcanzó", "alcanzamos", "alcanzaron"],
+      "condicional_simple": ["alcanzaría", "alcanzarías", "alcanzaría", "alcanzaríamos", "alcanzarían"],
+      "presente_subjuntivo": ["alcance", "alcances", "alcance", "alcancemos", "alcancen"],
+      "imperfecto_subjuntivo": ["alcanzara", "alcanzaras", "alcanzara", "alcanzáramos", "alcanzaran"],
+      "imperativo": ["—", "alcanza", "alcance", "alcancemos", "alcancen"],
+      "participio": "alcanzado",
+      "preterito_perfecto_compuesto": ["he alcanzado", "has alcanzado", "ha alcanzado", "hemos alcanzado", "han alcanzado"],
+      "preterito_pluscuamperfecto": ["había alcanzado", "habías alcanzado", "había alcanzado", "habíamos alcanzado", "habían alcanzado"]
+    }
+  },
+  {
+    "id": 75,
+    "infinitive": "reconocer",
+    "english": "to recognize",
+    "conjugations": {
+      "presente_indicativo": ["reconozco", "reconoces", "reconoce", "reconocemos", "reconocen"],
+      "futuro_simple": ["reconoceré", "reconocerás", "reconocerá", "reconoceremos", "reconocerán"],
+      "preterito_imperfecto": ["reconocía", "reconocías", "reconocía", "reconocíamos", "reconocían"],
+      "preterito_perfecto_simple": ["reconocí", "reconociste", "reconoció", "reconocimos", "reconocieron"],
+      "condicional_simple": ["reconocería", "reconocerías", "reconocería", "reconoceríamos", "reconocerían"],
+      "presente_subjuntivo": ["reconozca", "reconozcas", "reconozca", "reconozcamos", "reconozcan"],
+      "imperfecto_subjuntivo": ["reconociera", "reconocieras", "reconociera", "reconociéramos", "reconocieran"],
+      "imperativo": ["—", "reconoce", "reconozca", "reconozcamos", "reconozcan"],
+      "participio": "reconocido",
+      "preterito_perfecto_compuesto": ["he reconocido", "has reconocido", "ha reconocido", "hemos reconocido", "han reconocido"],
+      "preterito_pluscuamperfecto": ["había reconocido", "habías reconocido", "había reconocido", "habíamos reconocido", "habían reconocido"]
+    }
+  },
+  {
+    "id": 76,
+    "infinitive": "considerar",
+    "english": "to consider",
+    "conjugations": {
+      "presente_indicativo": ["considero", "consideras", "considera", "consideramos", "consideran"],
+      "futuro_simple": ["consideraré", "considerarás", "considerará", "consideraremos", "considerarán"],
+      "preterito_imperfecto": ["consideraba", "considerabas", "consideraba", "considerábamos", "consideraban"],
+      "preterito_perfecto_simple": ["consideré", "consideraste", "consideró", "consideramos", "consideraron"],
+      "condicional_simple": ["consideraría", "considerarías", "consideraría", "consideraríamos", "considerarían"],
+      "presente_subjuntivo": ["considere", "consideres", "considere", "consideremos", "consideren"],
+      "imperfecto_subjuntivo": ["considerara", "consideraras", "considerara", "consideráramos", "consideraran"],
+      "imperativo": ["—", "considera", "considere", "consideremos", "consideren"],
+      "participio": "considerado",
+      "preterito_perfecto_compuesto": ["he considerado", "has considerado", "ha considerado", "hemos considerado", "han considerado"],
+      "preterito_pluscuamperfecto": ["había considerado", "habías considerado", "había considerado", "habíamos considerado", "habían considerado"]
+    }
+  },
+  {
+    "id": 77,
+    "infinitive": "ofrecer",
+    "english": "to offer",
+    "conjugations": {
+      "presente_indicativo": ["ofrezco", "ofreces", "ofrece", "ofrecemos", "ofrecen"],
+      "futuro_simple": ["ofreceré", "ofrecerás", "ofrecerá", "ofreceremos", "ofrecerán"],
+      "preterito_imperfecto": ["ofrecía", "ofrecías", "ofrecía", "ofrecíamos", "ofrecían"],
+      "preterito_perfecto_simple": ["ofrecí", "ofreciste", "ofreció", "ofrecimos", "ofrecieron"],
+      "condicional_simple": ["ofrecería", "ofrecerías", "ofrecería", "ofreceríamos", "ofrecerían"],
+      "presente_subjuntivo": ["ofrezca", "ofrezcas", "ofrezca", "ofrezcamos", "ofrezcan"],
+      "imperfecto_subjuntivo": ["ofreciera", "ofrecieras", "ofreciera", "ofreciéramos", "ofrecieran"],
+      "imperativo": ["—", "ofrece", "ofrezca", "ofrezcamos", "ofrezcan"],
+      "participio": "ofrecido",
+      "preterito_perfecto_compuesto": ["he ofrecido", "has ofrecido", "ha ofrecido", "hemos ofrecido", "han ofrecido"],
+      "preterito_pluscuamperfecto": ["había ofrecido", "habías ofrecido", "había ofrecido", "habíamos ofrecido", "habían ofrecido"]
+    }
+  },
+  {
+    "id": 78,
+    "infinitive": "descubrir",
+    "english": "to discover",
+    "conjugations": {
+      "presente_indicativo": ["descubro", "descubres", "descubre", "descubrimos", "descubren"],
+      "futuro_simple": ["descubriré", "descubrirás", "descubrirá", "descubriremos", "descubrirán"],
+      "preterito_imperfecto": ["descubría", "descubrías", "descubría", "descubríamos", "descubrían"],
+      "preterito_perfecto_simple": ["descubrí", "descubriste", "descubrió", "descubrimos", "descubrieron"],
+      "condicional_simple": ["descubriría", "descubrirías", "descubriría", "descubriríamos", "descubrirían"],
+      "presente_subjuntivo": ["descubra", "descubras", "descubra", "descubramos", "descubran"],
+      "imperfecto_subjuntivo": ["descubriera", "descubrieras", "descubriera", "descubriéramos", "descubrieran"],
+      "imperativo": ["—", "descubre", "descubra", "descubramos", "descubran"],
+      "participio": "descubierto",
+      "preterito_perfecto_compuesto": ["he descubierto", "has descubierto", "ha descubierto", "hemos descubierto", "han descubierto"],
+      "preterito_pluscuamperfecto": ["había descubierto", "habías descubierto", "había descubierto", "habíamos descubierto", "habían descubierto"]
+    }
+  },
+  {
+    "id": 79,
+    "infinitive": "presentar",
+    "english": "to present/introduce",
+    "conjugations": {
+      "presente_indicativo": ["presento", "presentas", "presenta", "presentamos", "presentan"],
+      "futuro_simple": ["presentaré", "presentarás", "presentará", "presentaremos", "presentarán"],
+      "preterito_imperfecto": ["presentaba", "presentabas", "presentaba", "presentábamos", "presentaban"],
+      "preterito_perfecto_simple": ["presenté", "presentaste", "presentó", "presentamos", "presentaron"],
+      "condicional_simple": ["presentaría", "presentarías", "presentaría", "presentaríamos", "presentarían"],
+      "presente_subjuntivo": ["presente", "presentes", "presente", "presentemos", "presenten"],
+      "imperfecto_subjuntivo": ["presentara", "presentaras", "presentara", "presentáramos", "presentaran"],
+      "imperativo": ["—", "presenta", "presente", "presentemos", "presenten"],
+      "participio": "presentado",
+      "preterito_perfecto_compuesto": ["he presentado", "has presentado", "ha presentado", "hemos presentado", "han presentado"],
+      "preterito_pluscuamperfecto": ["había presentado", "habías presentado", "había presentado", "habíamos presentado", "habían presentado"]
+    }
+  },
+  {
+    "id": 80,
+    "infinitive": "decidir",
+    "english": "to decide",
+    "conjugations": {
+      "presente_indicativo": ["decido", "decides", "decide", "decidimos", "deciden"],
+      "futuro_simple": ["decidiré", "decidirás", "decidirá", "decidiremos", "decidirán"],
+      "preterito_imperfecto": ["decidía", "decidías", "decidía", "decidíamos", "decidían"],
+      "preterito_perfecto_simple": ["decidí", "decidiste", "decidió", "decidimos", "decidieron"],
+      "condicional_simple": ["decidiría", "decidirías", "decidiría", "decidiríamos", "decidirían"],
+      "presente_subjuntivo": ["decida", "decidas", "decida", "decidamos", "decidan"],
+      "imperfecto_subjuntivo": ["decidiera", "decidieras", "decidiera", "decidiéramos", "decidieran"],
+      "imperativo": ["—", "decide", "decida", "decidamos", "decidan"],
+      "participio": "decidido",
+      "preterito_perfecto_compuesto": ["he decidido", "has decidido", "ha decidido", "hemos decidido", "han decidido"],
+      "preterito_pluscuamperfecto": ["había decidido", "habías decidido", "había decidido", "habíamos decidido", "habían decidido"]
+    }
+  },
+  {
+    "id": 81,
+    "infinitive": "establecer",
+    "english": "to establish",
+    "conjugations": {
+      "presente_indicativo": ["establezco", "estableces", "establece", "establecemos", "establecen"],
+      "futuro_simple": ["estableceré", "establecerás", "establecerá", "estableceremos", "establecerán"],
+      "preterito_imperfecto": ["establecía", "establecías", "establecía", "establecíamos", "establecían"],
+      "preterito_perfecto_simple": ["establecí", "estableciste", "estableció", "establecimos", "establecieron"],
+      "condicional_simple": ["establecería", "establecerías", "establecería", "estableceríamos", "establecerían"],
+      "presente_subjuntivo": ["establezca", "establezcas", "establezca", "establezcamos", "establezcan"],
+      "imperfecto_subjuntivo": ["estableciera", "establecieras", "estableciera", "estableciéramos", "establecieran"],
+      "imperativo": ["—", "establece", "establezca", "establezcamos", "establezcan"],
+      "participio": "establecido",
+      "preterito_perfecto_compuesto": ["he establecido", "has establecido", "ha establecido", "hemos establecido", "han establecido"],
+      "preterito_pluscuamperfecto": ["había establecido", "habías establecido", "había establecido", "habíamos establecido", "habían establecido"]
+    }
+  },
+  {
+    "id": 82,
+    "infinitive": "realizar",
+    "english": "to carry out/accomplish",
+    "conjugations": {
+      "presente_indicativo": ["realizo", "realizas", "realiza", "realizamos", "realizan"],
+      "futuro_simple": ["realizaré", "realizarás", "realizará", "realizaremos", "realizarán"],
+      "preterito_imperfecto": ["realizaba", "realizabas", "realizaba", "realizábamos", "realizaban"],
+      "preterito_perfecto_simple": ["realicé", "realizaste", "realizó", "realizamos", "realizaron"],
+      "condicional_simple": ["realizaría", "realizarías", "realizaría", "realizaríamos", "realizarían"],
+      "presente_subjuntivo": ["realice", "realices", "realice", "realicemos", "realicen"],
+      "imperfecto_subjuntivo": ["realizara", "realizaras", "realizara", "realizáramos", "realizaran"],
+      "imperativo": ["—", "realiza", "realice", "realicemos", "realicen"],
+      "participio": "realizado",
+      "preterito_perfecto_compuesto": ["he realizado", "has realizado", "ha realizado", "hemos realizado", "han realizado"],
+      "preterito_pluscuamperfecto": ["había realizado", "habías realizado", "había realizado", "habíamos realizado", "habían realizado"]
+    }
+  },
+  {
+    "id": 83,
+    "infinitive": "continuar",
+    "english": "to continue",
+    "conjugations": {
+      "presente_indicativo": ["continúo", "continúas", "continúa", "continuamos", "continúan"],
+      "futuro_simple": ["continuaré", "continuarás", "continuará", "continuaremos", "continuarán"],
+      "preterito_imperfecto": ["continuaba", "continuabas", "continuaba", "continuábamos", "continuaban"],
+      "preterito_perfecto_simple": ["continué", "continuaste", "continuó", "continuamos", "continuaron"],
+      "condicional_simple": ["continuaría", "continuarías", "continuaría", "continuaríamos", "continuarían"],
+      "presente_subjuntivo": ["continúe", "continúes", "continúe", "continuemos", "continúen"],
+      "imperfecto_subjuntivo": ["continuara", "continuaras", "continuara", "continuáramos", "continuaran"],
+      "imperativo": ["—", "continúa", "continúe", "continuemos", "continúen"],
+      "participio": "continuado",
+      "preterito_perfecto_compuesto": ["he continuado", "has continuado", "ha continuado", "hemos continuado", "han continuado"],
+      "preterito_pluscuamperfecto": ["había continuado", "habías continuado", "había continuado", "habíamos continuado", "habían continuado"]
+    }
+  },
+  {
+    "id": 84,
+    "infinitive": "resultar",
+    "english": "to result/turn out",
+    "conjugations": {
+      "presente_indicativo": ["resulto", "resultas", "resulta", "resultamos", "resultan"],
+      "futuro_simple": ["resultaré", "resultarás", "resultará", "resultaremos", "resultarán"],
+      "preterito_imperfecto": ["resultaba", "resultabas", "resultaba", "resultábamos", "resultaban"],
+      "preterito_perfecto_simple": ["resulté", "resultaste", "resultó", "resultamos", "resultaron"],
+      "condicional_simple": ["resultaría", "resultarías", "resultaría", "resultaríamos", "resultarían"],
+      "presente_subjuntivo": ["resulte", "resultes", "resulte", "resultemos", "resulten"],
+      "imperfecto_subjuntivo": ["resultara", "resultaras", "resultara", "resultáramos", "resultaran"],
+      "imperativo": ["—", "resulta", "resulte", "resultemos", "resulten"],
+      "participio": "resultado",
+      "preterito_perfecto_compuesto": ["he resultado", "has resultado", "ha resultado", "hemos resultado", "han resultado"],
+      "preterito_pluscuamperfecto": ["había resultado", "habías resultado", "había resultado", "habíamos resultado", "habían resultado"]
+    }
+  },
+  {
+    "id": 85,
+    "infinitive": "responder",
+    "english": "to respond/answer",
+    "conjugations": {
+      "presente_indicativo": ["respondo", "respondes", "responde", "respondemos", "responden"],
+      "futuro_simple": ["responderé", "responderás", "responderá", "responderemos", "responderán"],
+      "preterito_imperfecto": ["respondía", "respondías", "respondía", "respondíamos", "respondían"],
+      "preterito_perfecto_simple": ["respondí", "respondiste", "respondió", "respondimos", "respondieron"],
+      "condicional_simple": ["respondería", "responderías", "respondería", "responderíamos", "responderían"],
+      "presente_subjuntivo": ["responda", "respondas", "responda", "respondamos", "respondan"],
+      "imperfecto_subjuntivo": ["respondiera", "respondieras", "respondiera", "respondiéramos", "respondieran"],
+      "imperativo": ["—", "responde", "responda", "respondamos", "respondan"],
+      "participio": "respondido",
+      "preterito_perfecto_compuesto": ["he respondido", "has respondido", "ha respondido", "hemos respondido", "han respondido"],
+      "preterito_pluscuamperfecto": ["había respondido", "habías respondido", "había respondido", "habíamos respondido", "habían respondido"]
+    }
+  },
+  {
+    "id": 86,
+    "infinitive": "necesitar",
+    "english": "to need",
+    "conjugations": {
+      "presente_indicativo": ["necesito", "necesitas", "necesita", "necesitamos", "necesitan"],
+      "futuro_simple": ["necesitaré", "necesitarás", "necesitará", "necesitaremos", "necesitarán"],
+      "preterito_imperfecto": ["necesitaba", "necesitabas", "necesitaba", "necesitábamos", "necesitaban"],
+      "preterito_perfecto_simple": ["necesité", "necesitaste", "necesitó", "necesitamos", "necesitaron"],
+      "condicional_simple": ["necesitaría", "necesitarías", "necesitaría", "necesitaríamos", "necesitarían"],
+      "presente_subjuntivo": ["necesite", "necesites", "necesite", "necesitemos", "necesiten"],
+      "imperfecto_subjuntivo": ["necesitara", "necesitaras", "necesitara", "necesitáramos", "necesitaran"],
+      "imperativo": ["—", "necesita", "necesite", "necesitemos", "necesiten"],
+      "participio": "necesitado",
+      "preterito_perfecto_compuesto": ["he necesitado", "has necesitado", "ha necesitado", "hemos necesitado", "han necesitado"],
+      "preterito_pluscuamperfecto": ["había necesitado", "habías necesitado", "había necesitado", "habíamos necesitado", "habían necesitado"]
+    }
+  },
+  {
+    "id": 87,
+    "infinitive": "intentar",
+    "english": "to try/attempt",
+    "conjugations": {
+      "presente_indicativo": ["intento", "intentas", "intenta", "intentamos", "intentan"],
+      "futuro_simple": ["intentaré", "intentarás", "intentará", "intentaremos", "intentarán"],
+      "preterito_imperfecto": ["intentaba", "intentabas", "intentaba", "intentábamos", "intentaban"],
+      "preterito_perfecto_simple": ["intenté", "intentaste", "intentó", "intentamos", "intentaron"],
+      "condicional_simple": ["intentaría", "intentarías", "intentaría", "intentaríamos", "intentarían"],
+      "presente_subjuntivo": ["intente", "intentes", "intente", "intentemos", "intenten"],
+      "imperfecto_subjuntivo": ["intentara", "intentaras", "intentara", "intentáramos", "intentaran"],
+      "imperativo": ["—", "intenta", "intente", "intentemos", "intenten"],
+      "participio": "intentado",
+      "preterito_perfecto_compuesto": ["he intentado", "has intentado", "ha intentado", "hemos intentado", "han intentado"],
+      "preterito_pluscuamperfecto": ["había intentado", "habías intentado", "había intentado", "habíamos intentado", "habían intentado"]
+    }
+  },
+  {
+    "id": 88,
+    "infinitive": "mostrar",
+    "english": "to show",
+    "conjugations": {
+      "presente_indicativo": ["muestro", "muestras", "muestra", "mostramos", "muestran"],
+      "futuro_simple": ["mostraré", "mostrarás", "mostrará", "mostraremos", "mostrarán"],
+      "preterito_imperfecto": ["mostraba", "mostrabas", "mostraba", "mostrábamos", "mostraban"],
+      "preterito_perfecto_simple": ["mostré", "mostraste", "mostró", "mostramos", "mostraron"],
+      "condicional_simple": ["mostraría", "mostrarías", "mostraría", "mostraríamos", "mostrarían"],
+      "presente_subjuntivo": ["muestre", "muestres", "muestre", "mostremos", "muestren"],
+      "imperfecto_subjuntivo": ["mostrara", "mostraras", "mostrara", "mostráramos", "mostraran"],
+      "imperativo": ["—", "muestra", "muestre", "mostremos", "muestren"],
+      "participio": "mostrado",
+      "preterito_perfecto_compuesto": ["he mostrado", "has mostrado", "ha mostrado", "hemos mostrado", "han mostrado"],
+      "preterito_pluscuamperfecto": ["había mostrado", "habías mostrado", "había mostrado", "habíamos mostrado", "habían mostrado"]
+    }
+  },
+  {
+    "id": 89,
+    "infinitive": "formar",
+    "english": "to form/shape",
+    "conjugations": {
+      "presente_indicativo": ["formo", "formas", "forma", "formamos", "forman"],
+      "futuro_simple": ["formaré", "formarás", "formará", "formaremos", "formarán"],
+      "preterito_imperfecto": ["formaba", "formabas", "formaba", "formábamos", "formaban"],
+      "preterito_perfecto_simple": ["formé", "formaste", "formó", "formamos", "formaron"],
+      "condicional_simple": ["formaría", "formarías", "formaría", "formaríamos", "formarían"],
+      "presente_subjuntivo": ["forme", "formes", "forme", "formemos", "formen"],
+      "imperfecto_subjuntivo": ["formara", "formaras", "formara", "formáramos", "formaran"],
+      "imperativo": ["—", "forma", "forme", "formemos", "formen"],
+      "participio": "formado",
+      "preterito_perfecto_compuesto": ["he formado", "has formado", "ha formado", "hemos formado", "han formado"],
+      "preterito_pluscuamperfecto": ["había formado", "habías formado", "había formado", "habíamos formado", "habían formado"]
+    }
+  },
+  {
+    "id": 90,
+    "infinitive": "aprender",
+    "english": "to learn",
+    "conjugations": {
+      "presente_indicativo": ["aprendo", "aprendes", "aprende", "aprendemos", "aprenden"],
+      "futuro_simple": ["aprenderé", "aprenderás", "aprenderá", "aprenderemos", "aprenderán"],
+      "preterito_imperfecto": ["aprendía", "aprendías", "aprendía", "aprendíamos", "aprendían"],
+      "preterito_perfecto_simple": ["aprendí", "aprendiste", "aprendió", "aprendimos", "aprendieron"],
+      "condicional_simple": ["aprendería", "aprenderías", "aprendería", "aprenderíamos", "aprenderían"],
+      "presente_subjuntivo": ["aprenda", "aprendas", "aprenda", "aprendamos", "aprendan"],
+      "imperfecto_subjuntivo": ["aprendiera", "aprendieras", "aprendiera", "aprendiéramos", "aprendieran"],
+      "imperativo": ["—", "aprende", "aprenda", "aprendamos", "aprendan"],
+      "participio": "aprendido",
+      "preterito_perfecto_compuesto": ["he aprendido", "has aprendido", "ha aprendido", "hemos aprendido", "han aprendido"],
+      "preterito_pluscuamperfecto": ["había aprendido", "habías aprendido", "había aprendido", "habíamos aprendido", "habían aprendido"]
+    }
+  },
+  {
+    "id": 91,
+    "infinitive": "comprar",
+    "english": "to buy",
+    "conjugations": {
+      "presente_indicativo": ["compro", "compras", "compra", "compramos", "compran"],
+      "futuro_simple": ["compraré", "comprarás", "comprará", "compraremos", "comprarán"],
+      "preterito_imperfecto": ["compraba", "comprabas", "compraba", "comprábamos", "compraban"],
+      "preterito_perfecto_simple": ["compré", "compraste", "compró", "compramos", "compraron"],
+      "condicional_simple": ["compraría", "comprarías", "compraría", "compraríamos", "comprarían"],
+      "presente_subjuntivo": ["compre", "compres", "compre", "compremos", "compren"],
+      "imperfecto_subjuntivo": ["comprara", "compraras", "comprara", "compráramos", "compraran"],
+      "imperativo": ["—", "compra", "compre", "compremos", "compren"],
+      "participio": "comprado",
+      "preterito_perfecto_compuesto": ["he comprado", "has comprado", "ha comprado", "hemos comprado", "han comprado"],
+      "preterito_pluscuamperfecto": ["había comprado", "habías comprado", "había comprado", "habíamos comprado", "habían comprado"]
+    }
+  },
+  {
+    "id": 92,
+    "infinitive": "vender",
+    "english": "to sell",
+    "conjugations": {
+      "presente_indicativo": ["vendo", "vendes", "vende", "vendemos", "venden"],
+      "futuro_simple": ["venderé", "venderás", "venderá", "venderemos", "venderán"],
+      "preterito_imperfecto": ["vendía", "vendías", "vendía", "vendíamos", "vendían"],
+      "preterito_perfecto_simple": ["vendí", "vendiste", "vendió", "vendimos", "vendieron"],
+      "condicional_simple": ["vendería", "venderías", "vendería", "venderíamos", "venderían"],
+      "presente_subjuntivo": ["venda", "vendas", "venda", "vendamos", "vendan"],
+      "imperfecto_subjuntivo": ["vendiera", "vendieras", "vendiera", "vendiéramos", "vendieran"],
+      "imperativo": ["—", "vende", "venda", "vendamos", "vendan"],
+      "participio": "vendido",
+      "preterito_perfecto_compuesto": ["he vendido", "has vendido", "ha vendido", "hemos vendido", "han vendido"],
+      "preterito_pluscuamperfecto": ["había vendido", "habías vendido", "había vendido", "habíamos vendido", "habían vendido"]
+    }
+  },
+  {
+    "id": 93,
+    "infinitive": "preparar",
+    "english": "to prepare",
+    "conjugations": {
+      "presente_indicativo": ["preparo", "preparas", "prepara", "preparamos", "preparan"],
+      "futuro_simple": ["prepararé", "prepararás", "preparará", "prepararemos", "prepararán"],
+      "preterito_imperfecto": ["preparaba", "preparabas", "preparaba", "preparábamos", "preparaban"],
+      "preterito_perfecto_simple": ["preparé", "preparaste", "preparó", "preparamos", "prepararon"],
+      "condicional_simple": ["prepararía", "prepararías", "prepararía", "prepararíamos", "prepararían"],
+      "presente_subjuntivo": ["prepare", "prepares", "prepare", "preparemos", "preparen"],
+      "imperfecto_subjuntivo": ["preparara", "prepararas", "preparara", "preparáramos", "prepararan"],
+      "imperativo": ["—", "prepara", "prepare", "preparemos", "preparen"],
+      "participio": "preparado",
+      "preterito_perfecto_compuesto": ["he preparado", "has preparado", "ha preparado", "hemos preparado", "han preparado"],
+      "preterito_pluscuamperfecto": ["había preparado", "habías preparado", "había preparado", "habíamos preparado", "habían preparado"]
+    }
+  },
+  {
+    "id": 94,
+    "infinitive": "ganar",
+    "english": "to win/earn",
+    "conjugations": {
+      "presente_indicativo": ["gano", "ganas", "gana", "ganamos", "ganan"],
+      "futuro_simple": ["ganaré", "ganarás", "ganará", "ganaremos", "ganarán"],
+      "preterito_imperfecto": ["ganaba", "ganabas", "ganaba", "ganábamos", "ganaban"],
+      "preterito_perfecto_simple": ["gané", "ganaste", "ganó", "ganamos", "ganaron"],
+      "condicional_simple": ["ganaría", "ganarías", "ganaría", "ganaríamos", "ganarían"],
+      "presente_subjuntivo": ["gane", "ganes", "gane", "ganemos", "ganen"],
+      "imperfecto_subjuntivo": ["ganara", "ganaras", "ganara", "ganáramos", "ganaran"],
+      "imperativo": ["—", "gana", "gane", "ganemos", "ganen"],
+      "participio": "ganado",
+      "preterito_perfecto_compuesto": ["he ganado", "has ganado", "ha ganado", "hemos ganado", "han ganado"],
+      "preterito_pluscuamperfecto": ["había ganado", "habías ganado", "había ganado", "habíamos ganado", "habían ganado"]
+    }
+  },
+  {
+    "id": 95,
+    "infinitive": "jugar",
+    "english": "to play",
+    "conjugations": {
+      "presente_indicativo": ["juego", "juegas", "juega", "jugamos", "juegan"],
+      "futuro_simple": ["jugaré", "jugarás", "jugará", "jugaremos", "jugarán"],
+      "preterito_imperfecto": ["jugaba", "jugabas", "jugaba", "jugábamos", "jugaban"],
+      "preterito_perfecto_simple": ["jugué", "jugaste", "jugó", "jugamos", "jugaron"],
+      "condicional_simple": ["jugaría", "jugarías", "jugaría", "jugaríamos", "jugarían"],
+      "presente_subjuntivo": ["juegue", "juegues", "juegue", "juguemos", "jueguen"],
+      "imperfecto_subjuntivo": ["jugara", "jugaras", "jugara", "jugáramos", "jugaran"],
+      "imperativo": ["—", "juega", "juegue", "juguemos", "jueguen"],
+      "participio": "jugado",
+      "preterito_perfecto_compuesto": ["he jugado", "has jugado", "ha jugado", "hemos jugado", "han jugado"],
+      "preterito_pluscuamperfecto": ["había jugado", "habías jugado", "había jugado", "habíamos jugado", "habían jugado"]
+    }
+  },
+  {
+    "id": 96,
+    "infinitive": "caminar",
+    "english": "to walk",
+    "conjugations": {
+      "presente_indicativo": ["camino", "caminas", "camina", "caminamos", "caminan"],
+      "futuro_simple": ["caminaré", "caminarás", "caminará", "caminaremos", "caminarán"],
+      "preterito_imperfecto": ["caminaba", "caminabas", "caminaba", "caminábamos", "caminaban"],
+      "preterito_perfecto_simple": ["caminé", "caminaste", "caminó", "caminamos", "caminaron"],
+      "condicional_simple": ["caminaría", "caminarías", "caminaría", "caminaríamos", "caminarían"],
+      "presente_subjuntivo": ["camine", "camines", "camine", "caminemos", "caminen"],
+      "imperfecto_subjuntivo": ["caminara", "caminaras", "caminara", "camináramos", "caminaran"],
+      "imperativo": ["—", "camina", "camine", "caminemos", "caminen"],
+      "participio": "caminado",
+      "preterito_perfecto_compuesto": ["he caminado", "has caminado", "ha caminado", "hemos caminado", "han caminado"],
+      "preterito_pluscuamperfecto": ["había caminado", "habías caminado", "había caminado", "habíamos caminado", "habían caminado"]
+    }
+  },
+  {
+    "id": 97,
+    "infinitive": "escuchar",
+    "english": "to listen",
+    "conjugations": {
+      "presente_indicativo": ["escucho", "escuchas", "escucha", "escuchamos", "escuchan"],
+      "futuro_simple": ["escucharé", "escucharás", "escuchará", "escucharemos", "escucharán"],
+      "preterito_imperfecto": ["escuchaba", "escuchabas", "escuchaba", "escuchábamos", "escuchaban"],
+      "preterito_perfecto_simple": ["escuché", "escuchaste", "escuchó", "escuchamos", "escucharon"],
+      "condicional_simple": ["escucharía", "escucharías", "escucharía", "escucharíamos", "escucharían"],
+      "presente_subjuntivo": ["escuche", "escuches", "escuche", "escuchemos", "escuchen"],
+      "imperfecto_subjuntivo": ["escuchara", "escucharas", "escuchara", "escucháramos", "escucharan"],
+      "imperativo": ["—", "escucha", "escuche", "escuchemos", "escuchen"],
+      "participio": "escuchado",
+      "preterito_perfecto_compuesto": ["he escuchado", "has escuchado", "ha escuchado", "hemos escuchado", "han escuchado"],
+      "preterito_pluscuamperfecto": ["había escuchado", "habías escuchado", "había escuchado", "habíamos escuchado", "habían escuchado"]
+    }
+  },
+  {
+    "id": 98,
+    "infinitive": "preguntar",
+    "english": "to ask (a question)",
+    "conjugations": {
+      "presente_indicativo": ["pregunto", "preguntas", "pregunta", "preguntamos", "preguntan"],
+      "futuro_simple": ["preguntaré", "preguntarás", "preguntará", "preguntaremos", "preguntarán"],
+      "preterito_imperfecto": ["preguntaba", "preguntabas", "preguntaba", "preguntábamos", "preguntaban"],
+      "preterito_perfecto_simple": ["pregunté", "preguntaste", "preguntó", "preguntamos", "preguntaron"],
+      "condicional_simple": ["preguntaría", "preguntarías", "preguntaría", "preguntaríamos", "preguntarían"],
+      "presente_subjuntivo": ["pregunte", "preguntes", "pregunte", "preguntemos", "pregunten"],
+      "imperfecto_subjuntivo": ["preguntara", "preguntaras", "preguntara", "preguntáramos", "preguntaran"],
+      "imperativo": ["—", "pregunta", "pregunte", "preguntemos", "pregunten"],
+      "participio": "preguntado",
+      "preterito_perfecto_compuesto": ["he preguntado", "has preguntado", "ha preguntado", "hemos preguntado", "han preguntado"],
+      "preterito_pluscuamperfecto": ["había preguntado", "habías preguntado", "había preguntado", "habíamos preguntado", "habían preguntado"]
+    }
+  },
+  {
+    "id": 99,
+    "infinitive": "ayudar",
+    "english": "to help",
+    "conjugations": {
+      "presente_indicativo": ["ayudo", "ayudas", "ayuda", "ayudamos", "ayudan"],
+      "futuro_simple": ["ayudaré", "ayudarás", "ayudará", "ayudaremos", "ayudarán"],
+      "preterito_imperfecto": ["ayudaba", "ayudabas", "ayudaba", "ayudábamos", "ayudaban"],
+      "preterito_perfecto_simple": ["ayudé", "ayudaste", "ayudó", "ayudamos", "ayudaron"],
+      "condicional_simple": ["ayudaría", "ayudarías", "ayudaría", "ayudaríamos", "ayudarían"],
+      "presente_subjuntivo": ["ayude", "ayudes", "ayude", "ayudemos", "ayuden"],
+      "imperfecto_subjuntivo": ["ayudara", "ayudaras", "ayudara", "ayudáramos", "ayudaran"],
+      "imperativo": ["—", "ayuda", "ayude", "ayudemos", "ayuden"],
+      "participio": "ayudado",
+      "preterito_perfecto_compuesto": ["he ayudado", "has ayudado", "ha ayudado", "hemos ayudado", "han ayudado"],
+      "preterito_pluscuamperfecto": ["había ayudado", "habías ayudado", "había ayudado", "habíamos ayudado", "habían ayudado"]
+    }
+  },
+  {
+    "id": 100,
+    "infinitive": "comer",
+    "english": "to eat",
+    "conjugations": {
+      "presente_indicativo": ["como", "comes", "come", "comemos", "comen"],
+      "futuro_simple": ["comeré", "comerás", "comerá", "comeremos", "comerán"],
+      "preterito_imperfecto": ["comía", "comías", "comía", "comíamos", "comían"],
+      "preterito_perfecto_simple": ["comí", "comiste", "comió", "comimos", "comieron"],
+      "condicional_simple": ["comería", "comerías", "comería", "comeríamos", "comerían"],
+      "presente_subjuntivo": ["coma", "comas", "coma", "comamos", "coman"],
+      "imperfecto_subjuntivo": ["comiera", "comieras", "comiera", "comiéramos", "comieran"],
+      "imperativo": ["—", "come", "coma", "comamos", "coman"],
+      "participio": "comido",
+      "preterito_perfecto_compuesto": ["he comido", "has comido", "ha comido", "hemos comido", "han comido"],
+      "preterito_pluscuamperfecto": ["había comido", "habías comido", "había comido", "habíamos comido", "habían comido"]
+    }
+  }
+]

@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "english": "I am a student.",
+    "spanish": "Yo soy estudiante.",
+    "verb_id": 1,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Yo _____ estudiante.",
+    "correct_answer": "soy",
+    "distractors": ["era", "seré", "fui"]
+  },
+  {
+    "id": 2,
+    "english": "She was very tired yesterday.",
+    "spanish": "Ella estaba muy cansada ayer.",
+    "verb_id": 2,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Ella _____ muy cansada ayer.",
+    "correct_answer": "estaba",
+    "distractors": ["está", "estuvo", "estará"]
+  },
+  {
+    "id": 3,
+    "english": "We will have a party next week.",
+    "spanish": "Nosotros tendremos una fiesta la próxima semana.",
+    "verb_id": 3,
+    "tense": "futuro_simple",
+    "blank_sentence": "Nosotros _____ una fiesta la próxima semana.",
+    "correct_answer": "tendremos",
+    "distractors": ["tenemos", "tuvimos", "teníamos"]
+  },
+  {
+    "id": 4,
+    "english": "What did you do last night?",
+    "spanish": "¿Qué hiciste anoche?",
+    "verb_id": 4,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "¿Qué _____ anoche?",
+    "correct_answer": "hiciste",
+    "distractors": ["haces", "harás", "hacías"]
+  },
+  {
+    "id": 5,
+    "english": "I could help you if I had time.",
+    "spanish": "Yo podría ayudarte si tuviera tiempo.",
+    "verb_id": 5,
+    "tense": "condicional_simple",
+    "blank_sentence": "Yo _____ ayudarte si tuviera tiempo.",
+    "correct_answer": "podría",
+    "distractors": ["puedo", "pude", "podía"]
+  },
+  {
+    "id": 6,
+    "english": "Tell me the truth.",
+    "spanish": "Dime la verdad.",
+    "verb_id": 6,
+    "tense": "imperativo",
+    "blank_sentence": "_____ la verdad.",
+    "correct_answer": "Dime",
+    "distractors": ["Decir", "Digo", "Dicho"]
+  },
+  {
+    "id": 7,
+    "english": "They went to the beach last summer.",
+    "spanish": "Ellos fueron a la playa el verano pasado.",
+    "verb_id": 7,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Ellos _____ a la playa el verano pasado.",
+    "correct_answer": "fueron",
+    "distractors": ["van", "iban", "irán"]
+  },
+  {
+    "id": 8,
+    "english": "I hope you see the movie.",
+    "spanish": "Espero que veas la película.",
+    "verb_id": 8,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Espero que _____ la película.",
+    "correct_answer": "veas",
+    "distractors": ["ves", "viste", "verás"]
+  },
+  {
+    "id": 9,
+    "english": "She gave me a gift.",
+    "spanish": "Ella me dio un regalo.",
+    "verb_id": 9,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Ella me _____ un regalo.",
+    "correct_answer": "dio",
+    "distractors": ["da", "daba", "dará"]
+  },
+  {
+    "id": 10,
+    "english": "Do you know where he lives?",
+    "spanish": "¿Sabes dónde vive él?",
+    "verb_id": 10,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿_____ dónde vive él?",
+    "correct_answer": "Sabes",
+    "distractors": ["Sabías", "Supiste", "Sabrás"]
+  },
+  {
+    "id": 11,
+    "english": "I want you to come to the party.",
+    "spanish": "Quiero que vengas a la fiesta.",
+    "verb_id": 11,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que vengas a la fiesta.",
+    "correct_answer": "Quiero",
+    "distractors": ["Quería", "Querré", "Quise"]
+  },
+  {
+    "id": 12,
+    "english": "We arrived late to the meeting.",
+    "spanish": "Llegamos tarde a la reunión.",
+    "verb_id": 12,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ tarde a la reunión.",
+    "correct_answer": "Llegamos",
+    "distractors": ["Llegábamos", "Llegaremos", "Llegamos"]
+  },
+  {
+    "id": 13,
+    "english": "What happened here?",
+    "spanish": "¿Qué pasó aquí?",
+    "verb_id": 13,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "¿Qué _____ aquí?",
+    "correct_answer": "pasó",
+    "distractors": ["pasa", "pasaba", "pasará"]
+  },
+  {
+    "id": 14,
+    "english": "You should study more.",
+    "spanish": "Deberías estudiar más.",
+    "verb_id": 14,
+    "tense": "condicional_simple",
+    "blank_sentence": "_____ estudiar más.",
+    "correct_answer": "Deberías",
+    "distractors": ["Debes", "Debías", "Debiste"]
+  },
+  {
+    "id": 15,
+    "english": "Put the book on the table.",
+    "spanish": "Pon el libro en la mesa.",
+    "verb_id": 15,
+    "tense": "imperativo",
+    "blank_sentence": "_____ el libro en la mesa.",
+    "correct_answer": "Pon",
+    "distractors": ["Pongo", "Puse", "Pondrás"]
+  },
+  {
+    "id": 16,
+    "english": "It seems like it will rain.",
+    "spanish": "Parece que va a llover.",
+    "verb_id": 16,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que va a llover.",
+    "correct_answer": "Parece",
+    "distractors": ["Parecía", "Parecerá", "Pareció"]
+  },
+  {
+    "id": 17,
+    "english": "We stayed at the hotel.",
+    "spanish": "Nos quedamos en el hotel.",
+    "verb_id": 17,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Nos _____ en el hotel.",
+    "correct_answer": "quedamos",
+    "distractors": ["quedábamos", "quedaremos", "quedamos"]
+  },
+  {
+    "id": 18,
+    "english": "I don't believe what he says.",
+    "spanish": "No creo lo que él dice.",
+    "verb_id": 18,
+    "tense": "presente_indicativo",
+    "blank_sentence": "No _____ lo que él dice.",
+    "correct_answer": "creo",
+    "distractors": ["creía", "creeré", "creí"]
+  },
+  {
+    "id": 19,
+    "english": "We were talking for hours.",
+    "spanish": "Estuvimos hablando por horas.",
+    "verb_id": 19,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Estuvimos _____ por horas.",
+    "correct_answer": "hablando",
+    "distractors": ["hablar", "hablado", "hable"]
+  },
+  {
+    "id": 20,
+    "english": "She always wears elegant clothes.",
+    "spanish": "Ella siempre lleva ropa elegante.",
+    "verb_id": 20,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Ella siempre _____ ropa elegante.",
+    "correct_answer": "lleva",
+    "distractors": ["llevaba", "llevó", "llevará"]
+  },
+  {
+    "id": 21,
+    "english": "Leave me alone, please.",
+    "spanish": "Déjame en paz, por favor.",
+    "verb_id": 21,
+    "tense": "imperativo",
+    "blank_sentence": "_____ en paz, por favor.",
+    "correct_answer": "Déjame",
+    "distractors": ["Dejar", "Dejo", "Dejé"]
+  },
+  {
+    "id": 22,
+    "english": "Continue reading the book.",
+    "spanish": "Sigue leyendo el libro.",
+    "verb_id": 22,
+    "tense": "imperativo",
+    "blank_sentence": "_____ leyendo el libro.",
+    "correct_answer": "Sigue",
+    "distractors": ["Seguir", "Sigo", "Seguí"]
+  },
+  {
+    "id": 23,
+    "english": "I found my lost keys.",
+    "spanish": "Encontré mis llaves perdidas.",
+    "verb_id": 23,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ mis llaves perdidas.",
+    "correct_answer": "Encontré",
+    "distractors": ["Encuentro", "Encontraba", "Encontraré"]
+  },
+  {
+    "id": 24,
+    "english": "Call me when you arrive.",
+    "spanish": "Llámame cuando llegues.",
+    "verb_id": 24,
+    "tense": "imperativo",
+    "blank_sentence": "_____ cuando llegues.",
+    "correct_answer": "Llámame",
+    "distractors": ["Llamar", "Llamo", "Llamé"]
+  },
+  {
+    "id": 25,
+    "english": "They will come to the party.",
+    "spanish": "Ellos vendrán a la fiesta.",
+    "verb_id": 25,
+    "tense": "futuro_simple",
+    "blank_sentence": "Ellos _____ a la fiesta.",
+    "correct_answer": "vendrán",
+    "distractors": ["vienen", "vinieron", "venían"]
+  },
+  {
+    "id": 26,
+    "english": "I think it's a good idea.",
+    "spanish": "Pienso que es una buena idea.",
+    "verb_id": 26,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que es una buena idea.",
+    "correct_answer": "Pienso",
+    "distractors": ["Pensaba", "Pensé", "Pensaré"]
+  },
+  {
+    "id": 27,
+    "english": "We left early in the morning.",
+    "spanish": "Salimos temprano por la mañana.",
+    "verb_id": 27,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ temprano por la mañana.",
+    "correct_answer": "Salimos",
+    "distractors": ["Salíamos", "Saldremos", "Salgamos"]
+  },
+  {
+    "id": 28,
+    "english": "I will return tomorrow.",
+    "spanish": "Volveré mañana.",
+    "verb_id": 28,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ mañana.",
+    "correct_answer": "Volveré",
+    "distractors": ["Vuelvo", "Volví", "Volvía"]
+  },
+  {
+    "id": 29,
+    "english": "Take the medicine twice a day.",
+    "spanish": "Toma la medicina dos veces al día.",
+    "verb_id": 29,
+    "tense": "imperativo",
+    "blank_sentence": "_____ la medicina dos veces al día.",
+    "correct_answer": "Toma",
+    "distractors": ["Tomar", "Tomo", "Tomé"]
+  },
+  {
+    "id": 30,
+    "english": "I met her at the university.",
+    "spanish": "La conocí en la universidad.",
+    "verb_id": 30,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "La _____ en la universidad.",
+    "correct_answer": "conocí",
+    "distractors": ["conozco", "conocía", "conoceré"]
+  },
+  {
+    "id": 31,
+    "english": "They live in Mexico City.",
+    "spanish": "Ellos viven en Ciudad de México.",
+    "verb_id": 31,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Ellos _____ en Ciudad de México.",
+    "correct_answer": "viven",
+    "distractors": ["vivían", "vivieron", "vivirán"]
+  },
+  {
+    "id": 32,
+    "english": "I feel better today.",
+    "spanish": "Me siento mejor hoy.",
+    "verb_id": 32,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Me _____ mejor hoy.",
+    "correct_answer": "siento",
+    "distractors": ["sentía", "sentí", "sentiré"]
+  },
+  {
+    "id": 33,
+    "english": "They tried to fix the problem.",
+    "spanish": "Trataron de arreglar el problema.",
+    "verb_id": 33,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ de arreglar el problema.",
+    "correct_answer": "Trataron",
+    "distractors": ["Tratan", "Trataban", "Tratarán"]
+  },
+  {
+    "id": 34,
+    "english": "Look at those mountains!",
+    "spanish": "¡Mira esas montañas!",
+    "verb_id": 34,
+    "tense": "imperativo",
+    "blank_sentence": "¡_____ esas montañas!",
+    "correct_answer": "Mira",
+    "distractors": ["Mirar", "Miro", "Miré"]
+  },
+  {
+    "id": 35,
+    "english": "Can you count to one hundred?",
+    "spanish": "¿Puedes contar hasta cien?",
+    "verb_id": 35,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿Puedes _____ hasta cien?",
+    "correct_answer": "contar",
+    "distractors": ["cuento", "contaba", "conté"]
+  },
+  {
+    "id": 36,
+    "english": "The movie starts at eight.",
+    "spanish": "La película empieza a las ocho.",
+    "verb_id": 36,
+    "tense": "presente_indicativo",
+    "blank_sentence": "La película _____ a las ocho.",
+    "correct_answer": "empieza",
+    "distractors": ["empezaba", "empezó", "empezará"]
+  },
+  {
+    "id": 37,
+    "english": "I hope everything goes well.",
+    "spanish": "Espero que todo salga bien.",
+    "verb_id": 37,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que todo salga bien.",
+    "correct_answer": "Espero",
+    "distractors": ["Esperaba", "Esperé", "Esperaré"]
+  },
+  {
+    "id": 38,
+    "english": "I'm looking for my glasses.",
+    "spanish": "Busco mis lentes.",
+    "verb_id": 38,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ mis lentes.",
+    "correct_answer": "Busco",
+    "distractors": ["Buscaba", "Busqué", "Buscaré"]
+  },
+  {
+    "id": 39,
+    "english": "This problem exists everywhere.",
+    "spanish": "Este problema existe en todas partes.",
+    "verb_id": 39,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Este problema _____ en todas partes.",
+    "correct_answer": "existe",
+    "distractors": ["existía", "existió", "existirá"]
+  },
+  {
+    "id": 40,
+    "english": "Please enter through the main door.",
+    "spanish": "Por favor entra por la puerta principal.",
+    "verb_id": 40,
+    "tense": "imperativo",
+    "blank_sentence": "Por favor _____ por la puerta principal.",
+    "correct_answer": "entra",
+    "distractors": ["entrar", "entro", "entré"]
+  },
+  {
+    "id": 41,
+    "english": "I work from home now.",
+    "spanish": "Ahora trabajo desde casa.",
+    "verb_id": 41,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Ahora _____ desde casa.",
+    "correct_answer": "trabajo",
+    "distractors": ["trabajaba", "trabajé", "trabajaré"]
+  },
+  {
+    "id": 42,
+    "english": "She wrote a beautiful poem.",
+    "spanish": "Ella escribió un hermoso poema.",
+    "verb_id": 42,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Ella _____ un hermoso poema.",
+    "correct_answer": "escribió",
+    "distractors": ["escribe", "escribía", "escribirá"]
+  },
+  {
+    "id": 43,
+    "english": "Don't lose hope.",
+    "spanish": "No pierdas la esperanza.",
+    "verb_id": 43,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "No _____ la esperanza.",
+    "correct_answer": "pierdas",
+    "distractors": ["pierdes", "perdiste", "perderás"]
+  },
+  {
+    "id": 44,
+    "english": "This factory produces cars.",
+    "spanish": "Esta fábrica produce carros.",
+    "verb_id": 44,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Esta fábrica _____ carros.",
+    "correct_answer": "produce",
+    "distractors": ["producía", "produjo", "producirá"]
+  },
+  {
+    "id": 45,
+    "english": "The accident occurred at night.",
+    "spanish": "El accidente ocurrió de noche.",
+    "verb_id": 45,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "El accidente _____ de noche.",
+    "correct_answer": "ocurrió",
+    "distractors": ["ocurre", "ocurría", "ocurrirá"]
+  },
+  {
+    "id": 46,
+    "english": "I don't understand this question.",
+    "spanish": "No entiendo esta pregunta.",
+    "verb_id": 46,
+    "tense": "presente_indicativo",
+    "blank_sentence": "No _____ esta pregunta.",
+    "correct_answer": "entiendo",
+    "distractors": ["entendía", "entendí", "entenderé"]
+  },
+  {
+    "id": 47,
+    "english": "Can I ask you a favor?",
+    "spanish": "¿Puedo pedirte un favor?",
+    "verb_id": 47,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿Puedo _____ un favor?",
+    "correct_answer": "pedirte",
+    "distractors": ["pido", "pedía", "pedí"]
+  },
+  {
+    "id": 48,
+    "english": "We received good news.",
+    "spanish": "Recibimos buenas noticias.",
+    "verb_id": 48,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ buenas noticias.",
+    "correct_answer": "Recibimos",
+    "distractors": ["Recibíamos", "Recibiremos", "Recibimos"]
+  },
+  {
+    "id": 49,
+    "english": "I remember that day perfectly.",
+    "spanish": "Recuerdo ese día perfectamente.",
+    "verb_id": 49,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ ese día perfectamente.",
+    "correct_answer": "Recuerdo",
+    "distractors": ["Recordaba", "Recordé", "Recordaré"]
+  },
+  {
+    "id": 50,
+    "english": "When does the class finish?",
+    "spanish": "¿Cuándo termina la clase?",
+    "verb_id": 50,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿Cuándo _____ la clase?",
+    "correct_answer": "termina",
+    "distractors": ["terminaba", "terminó", "terminará"]
+  },
+  {
+    "id": 51,
+    "english": "If I were rich, I would travel the world.",
+    "spanish": "Si fuera rico, viajaría por el mundo.",
+    "verb_id": 1,
+    "tense": "imperfecto_subjuntivo",
+    "blank_sentence": "Si _____ rico, viajaría por el mundo.",
+    "correct_answer": "fuera",
+    "distractors": ["soy", "era", "seré"]
+  },
+  {
+    "id": 52,
+    "english": "I have been here for two hours.",
+    "spanish": "He estado aquí por dos horas.",
+    "verb_id": 2,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "_____ aquí por dos horas.",
+    "correct_answer": "He estado",
+    "distractors": ["Estoy", "Estuve", "Estaba"]
+  },
+  {
+    "id": 53,
+    "english": "They had never had such luck.",
+    "spanish": "Nunca habían tenido tanta suerte.",
+    "verb_id": 3,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "Nunca _____ tanta suerte.",
+    "correct_answer": "habían tenido",
+    "distractors": ["tienen", "tuvieron", "tendrán"]
+  },
+  {
+    "id": 54,
+    "english": "Have you done your homework?",
+    "spanish": "¿Has hecho tu tarea?",
+    "verb_id": 4,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "¿_____ tu tarea?",
+    "correct_answer": "Has hecho",
+    "distractors": ["Haces", "Hiciste", "Harás"]
+  },
+  {
+    "id": 55,
+    "english": "I wish I could fly.",
+    "spanish": "Ojalá pudiera volar.",
+    "verb_id": 5,
+    "tense": "imperfecto_subjuntivo",
+    "blank_sentence": "Ojalá _____ volar.",
+    "correct_answer": "pudiera",
+    "distractors": ["puedo", "pude", "podré"]
+  },
+  {
+    "id": 56,
+    "english": "Whatever you say, I'll believe you.",
+    "spanish": "Digas lo que digas, te creeré.",
+    "verb_id": 6,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "_____ lo que digas, te creeré.",
+    "correct_answer": "Digas",
+    "distractors": ["Dices", "Dijiste", "Dirás"]
+  },
+  {
+    "id": 57,
+    "english": "I used to go to the park every day.",
+    "spanish": "Iba al parque todos los días.",
+    "verb_id": 7,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ al parque todos los días.",
+    "correct_answer": "Iba",
+    "distractors": ["Voy", "Fui", "Iré"]
+  },
+  {
+    "id": 58,
+    "english": "I have seen that movie three times.",
+    "spanish": "He visto esa película tres veces.",
+    "verb_id": 8,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "_____ esa película tres veces.",
+    "correct_answer": "He visto",
+    "distractors": ["Veo", "Vi", "Veré"]
+  },
+  {
+    "id": 59,
+    "english": "They had already given me the information.",
+    "spanish": "Ya me habían dado la información.",
+    "verb_id": 9,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "Ya me _____ la información.",
+    "correct_answer": "habían dado",
+    "distractors": ["dan", "dieron", "darán"]
+  },
+  {
+    "id": 60,
+    "english": "If I knew the answer, I would tell you.",
+    "spanish": "Si supiera la respuesta, te la diría.",
+    "verb_id": 10,
+    "tense": "imperfecto_subjuntivo",
+    "blank_sentence": "Si _____ la respuesta, te la diría.",
+    "correct_answer": "supiera",
+    "distractors": ["sé", "supe", "sabré"]
+  },
+  {
+    "id": 61,
+    "english": "I wanted you to come with me.",
+    "spanish": "Quería que vinieras conmigo.",
+    "verb_id": 11,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ que vinieras conmigo.",
+    "correct_answer": "Quería",
+    "distractors": ["Quiero", "Quise", "Querré"]
+  },
+  {
+    "id": 62,
+    "english": "By the time we arrived, they had already left.",
+    "spanish": "Cuando llegamos, ya se habían ido.",
+    "verb_id": 12,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Cuando _____, ya se habían ido.",
+    "correct_answer": "llegamos",
+    "distractors": ["llegábamos", "llegaremos", "lleguemos"]
+  },
+  {
+    "id": 63,
+    "english": "Strange things were happening in the house.",
+    "spanish": "Cosas extrañas pasaban en la casa.",
+    "verb_id": 13,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Cosas extrañas _____ en la casa.",
+    "correct_answer": "pasaban",
+    "distractors": ["pasan", "pasaron", "pasarán"]
+  },
+  {
+    "id": 64,
+    "english": "You should have told me earlier.",
+    "spanish": "Deberías habérmelo dicho antes.",
+    "verb_id": 14,
+    "tense": "condicional_simple",
+    "blank_sentence": "_____ habérmelo dicho antes.",
+    "correct_answer": "Deberías",
+    "distractors": ["Debes", "Debías", "Debiste"]
+  },
+  {
+    "id": 65,
+    "english": "I had put the keys on the table.",
+    "spanish": "Había puesto las llaves en la mesa.",
+    "verb_id": 15,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "_____ las llaves en la mesa.",
+    "correct_answer": "Había puesto",
+    "distractors": ["Pongo", "Puse", "Pondré"]
+  },
+  {
+    "id": 66,
+    "english": "It seemed like a good plan.",
+    "spanish": "Parecía un buen plan.",
+    "verb_id": 16,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ un buen plan.",
+    "correct_answer": "Parecía",
+    "distractors": ["Parece", "Pareció", "Parecerá"]
+  },
+  {
+    "id": 67,
+    "english": "We would stay longer if we could.",
+    "spanish": "Nos quedaríamos más tiempo si pudiéramos.",
+    "verb_id": 17,
+    "tense": "condicional_simple",
+    "blank_sentence": "Nos _____ más tiempo si pudiéramos.",
+    "correct_answer": "quedaríamos",
+    "distractors": ["quedamos", "quedábamos", "quedaremos"]
+  },
+  {
+    "id": 68,
+    "english": "I doubt he believes that story.",
+    "spanish": "Dudo que crea esa historia.",
+    "verb_id": 18,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Dudo que _____ esa historia.",
+    "correct_answer": "crea",
+    "distractors": ["cree", "creyó", "creerá"]
+  },
+  {
+    "id": 69,
+    "english": "We have talked about this many times.",
+    "spanish": "Hemos hablado de esto muchas veces.",
+    "verb_id": 19,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "_____ de esto muchas veces.",
+    "correct_answer": "Hemos hablado",
+    "distractors": ["Hablamos", "Hablábamos", "Hablaremos"]
+  },
+  {
+    "id": 70,
+    "english": "She was wearing a red dress.",
+    "spanish": "Ella llevaba un vestido rojo.",
+    "verb_id": 20,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Ella _____ un vestido rojo.",
+    "correct_answer": "llevaba",
+    "distractors": ["lleva", "llevó", "llevará"]
+  },
+  {
+    "id": 71,
+    "english": "They left without saying goodbye.",
+    "spanish": "Se fueron sin despedirse.",
+    "verb_id": 21,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Se fueron sin _____.",
+    "correct_answer": "despedirse",
+    "distractors": ["despedir", "despido", "despedí"]
+  },
+  {
+    "id": 72,
+    "english": "Keep following the instructions.",
+    "spanish": "Sigue siguiendo las instrucciones.",
+    "verb_id": 22,
+    "tense": "imperativo",
+    "blank_sentence": "_____ las instrucciones.",
+    "correct_answer": "Sigue",
+    "distractors": ["Seguir", "Sigo", "Seguí"]
+  },
+  {
+    "id": 73,
+    "english": "I hope you find what you're looking for.",
+    "spanish": "Espero que encuentres lo que buscas.",
+    "verb_id": 23,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Espero que _____ lo que buscas.",
+    "correct_answer": "encuentres",
+    "distractors": ["encuentras", "encontraste", "encontrarás"]
+  },
+  {
+    "id": 74,
+    "english": "My grandmother used to call me every Sunday.",
+    "spanish": "Mi abuela me llamaba todos los domingos.",
+    "verb_id": 24,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Mi abuela me _____ todos los domingos.",
+    "correct_answer": "llamaba",
+    "distractors": ["llama", "llamó", "llamará"]
+  },
+  {
+    "id": 75,
+    "english": "Let them come whenever they want.",
+    "spanish": "Que vengan cuando quieran.",
+    "verb_id": 25,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Que _____ cuando quieran.",
+    "correct_answer": "vengan",
+    "distractors": ["vienen", "vinieron", "vendrán"]
+  },
+  {
+    "id": 76,
+    "english": "What were you thinking about?",
+    "spanish": "¿En qué pensabas?",
+    "verb_id": 26,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "¿En qué _____?",
+    "correct_answer": "pensabas",
+    "distractors": ["piensas", "pensaste", "pensarás"]
+  },
+  {
+    "id": 77,
+    "english": "Don't leave yet!",
+    "spanish": "¡No salgas todavía!",
+    "verb_id": 27,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "¡No _____ todavía!",
+    "correct_answer": "salgas",
+    "distractors": ["sales", "saliste", "saldrás"]
+  },
+  {
+    "id": 78,
+    "english": "They would return if they could.",
+    "spanish": "Volverían si pudieran.",
+    "verb_id": 28,
+    "tense": "condicional_simple",
+    "blank_sentence": "_____ si pudieran.",
+    "correct_answer": "Volverían",
+    "distractors": ["Vuelven", "Volvieron", "Volvían"]
+  },
+  {
+    "id": 79,
+    "english": "We used to take coffee together.",
+    "spanish": "Tomábamos café juntos.",
+    "verb_id": 29,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ café juntos.",
+    "correct_answer": "Tomábamos",
+    "distractors": ["Tomamos", "Tomaremos", "Tomemos"]
+  },
+  {
+    "id": 80,
+    "english": "I hope you get to know my family.",
+    "spanish": "Espero que conozcas a mi familia.",
+    "verb_id": 30,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Espero que _____ a mi familia.",
+    "correct_answer": "conozcas",
+    "distractors": ["conoces", "conociste", "conocerás"]
+  },
+  {
+    "id": 81,
+    "english": "They lived in Argentina for five years.",
+    "spanish": "Vivieron en Argentina por cinco años.",
+    "verb_id": 31,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ en Argentina por cinco años.",
+    "correct_answer": "Vivieron",
+    "distractors": ["Viven", "Vivían", "Vivirán"]
+  },
+  {
+    "id": 82,
+    "english": "If you felt better, we could go out.",
+    "spanish": "Si te sintieras mejor, podríamos salir.",
+    "verb_id": 32,
+    "tense": "imperfecto_subjuntivo",
+    "blank_sentence": "Si te _____ mejor, podríamos salir.",
+    "correct_answer": "sintieras",
+    "distractors": ["sientes", "sentiste", "sentirás"]
+  },
+  {
+    "id": 83,
+    "english": "I was trying to help you.",
+    "spanish": "Estaba tratando de ayudarte.",
+    "verb_id": 33,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Estaba _____ de ayudarte.",
+    "correct_answer": "tratando",
+    "distractors": ["tratar", "tratado", "trate"]
+  },
+  {
+    "id": 84,
+    "english": "While I was watching TV, he arrived.",
+    "spanish": "Mientras miraba la televisión, él llegó.",
+    "verb_id": 34,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Mientras _____ la televisión, él llegó.",
+    "correct_answer": "miraba",
+    "distractors": ["miro", "miré", "miraré"]
+  },
+  {
+    "id": 85,
+    "english": "Let me tell you a story.",
+    "spanish": "Déjame contarte una historia.",
+    "verb_id": 35,
+    "tense": "imperativo",
+    "blank_sentence": "Déjame _____ una historia.",
+    "correct_answer": "contarte",
+    "distractors": ["contar", "cuento", "conté"]
+  },
+  {
+    "id": 86,
+    "english": "The party had already started when we arrived.",
+    "spanish": "La fiesta ya había empezado cuando llegamos.",
+    "verb_id": 36,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "La fiesta ya _____ cuando llegamos.",
+    "correct_answer": "había empezado",
+    "distractors": ["empieza", "empezó", "empezará"]
+  },
+  {
+    "id": 87,
+    "english": "I was hoping you would call me.",
+    "spanish": "Esperaba que me llamaras.",
+    "verb_id": 37,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ que me llamaras.",
+    "correct_answer": "Esperaba",
+    "distractors": ["Espero", "Esperé", "Esperaré"]
+  },
+  {
+    "id": 88,
+    "english": "Have you looked for your wallet?",
+    "spanish": "¿Has buscado tu cartera?",
+    "verb_id": 38,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "¿_____ tu cartera?",
+    "correct_answer": "Has buscado",
+    "distractors": ["Buscas", "Buscaste", "Buscarás"]
+  },
+  {
+    "id": 89,
+    "english": "If that problem existed, we would solve it.",
+    "spanish": "Si ese problema existiera, lo resolveríamos.",
+    "verb_id": 39,
+    "tense": "imperfecto_subjuntivo",
+    "blank_sentence": "Si ese problema _____, lo resolveríamos.",
+    "correct_answer": "existiera",
+    "distractors": ["existe", "existió", "existirá"]
+  },
+  {
+    "id": 90,
+    "english": "We had entered through the wrong door.",
+    "spanish": "Habíamos entrado por la puerta equivocada.",
+    "verb_id": 40,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "_____ por la puerta equivocada.",
+    "correct_answer": "Habíamos entrado",
+    "distractors": ["Entramos", "Entrábamos", "Entraremos"]
+  },
+  {
+    "id": 91,
+    "english": "I used to work in a bank.",
+    "spanish": "Trabajaba en un banco.",
+    "verb_id": 41,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ en un banco.",
+    "correct_answer": "Trabajaba",
+    "distractors": ["Trabajo", "Trabajé", "Trabajaré"]
+  },
+  {
+    "id": 92,
+    "english": "The letter has been written.",
+    "spanish": "La carta ha sido escrita.",
+    "verb_id": 42,
+    "tense": "participio",
+    "blank_sentence": "La carta ha sido _____.",
+    "correct_answer": "escrita",
+    "distractors": ["escribir", "escribiendo", "escribió"]
+  },
+  {
+    "id": 93,
+    "english": "We had lost our way in the city.",
+    "spanish": "Nos habíamos perdido en la ciudad.",
+    "verb_id": 43,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "Nos _____ en la ciudad.",
+    "correct_answer": "habíamos perdido",
+    "distractors": ["perdemos", "perdimos", "perderemos"]
+  },
+  {
+    "id": 94,
+    "english": "This land produces excellent wine.",
+    "spanish": "Esta tierra produce vino excelente.",
+    "verb_id": 44,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Esta tierra _____ vino excelente.",
+    "correct_answer": "produce",
+    "distractors": ["producía", "produjo", "producirá"]
+  },
+  {
+    "id": 95,
+    "english": "Nobody knew what had occurred.",
+    "spanish": "Nadie sabía qué había ocurrido.",
+    "verb_id": 45,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "Nadie sabía qué _____.",
+    "correct_answer": "había ocurrido",
+    "distractors": ["ocurre", "ocurrió", "ocurrirá"]
+  },
+  {
+    "id": 96,
+    "english": "I wish you would understand me better.",
+    "spanish": "Ojalá me entendieras mejor.",
+    "verb_id": 46,
+    "tense": "imperfecto_subjuntivo",
+    "blank_sentence": "Ojalá me _____ mejor.",
+    "correct_answer": "entendieras",
+    "distractors": ["entiendes", "entendiste", "entenderás"]
+  },
+  {
+    "id": 97,
+    "english": "I would ask for help if necessary.",
+    "spanish": "Pediría ayuda si fuera necesario.",
+    "verb_id": 47,
+    "tense": "condicional_simple",
+    "blank_sentence": "_____ ayuda si fuera necesario.",
+    "correct_answer": "Pediría",
+    "distractors": ["Pido", "Pedí", "Pediré"]
+  },
+  {
+    "id": 98,
+    "english": "They have received the invitation.",
+    "spanish": "Han recibido la invitación.",
+    "verb_id": 48,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "_____ la invitación.",
+    "correct_answer": "Han recibido",
+    "distractors": ["Reciben", "Recibieron", "Recibirán"]
+  },
+  {
+    "id": 99,
+    "english": "Do you remember our first meeting?",
+    "spanish": "¿Recuerdas nuestro primer encuentro?",
+    "verb_id": 49,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿_____ nuestro primer encuentro?",
+    "correct_answer": "Recuerdas",
+    "distractors": ["Recordabas", "Recordaste", "Recordarás"]
+  },
+  {
+    "id": 100,
+    "english": "I hope you finish on time.",
+    "spanish": "Espero que termines a tiempo.",
+    "verb_id": 50,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Espero que _____ a tiempo.",
+    "correct_answer": "termines",
+    "distractors": ["terminas", "terminaste", "terminarás"]
+  },
+  {
+    "id": 101,
+    "english": "My parents were very strict when I was young.",
+    "spanish": "Mis padres eran muy estrictos cuando era joven.",
+    "verb_id": 1,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Mis padres _____ muy estrictos cuando era joven.",
+    "correct_answer": "eran",
+    "distractors": ["son", "fueron", "serán"]
+  },
+  {
+    "id": 102,
+    "english": "I am very happy today.",
+    "spanish": "Estoy muy feliz hoy.",
+    "verb_id": 2,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ muy feliz hoy.",
+    "correct_answer": "Estoy",
+    "distractors": ["Estaba", "Estuve", "Estaré"]
+  },
+  {
+    "id": 103,
+    "english": "Do you have any questions?",
+    "spanish": "¿Tienes alguna pregunta?",
+    "verb_id": 3,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿_____ alguna pregunta?",
+    "correct_answer": "Tienes",
+    "distractors": ["Tenías", "Tuviste", "Tendrás"]
+  },
+  {
+    "id": 104,
+    "english": "We will do everything possible.",
+    "spanish": "Haremos todo lo posible.",
+    "verb_id": 4,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ todo lo posible.",
+    "correct_answer": "Haremos",
+    "distractors": ["Hacemos", "Hicimos", "Hacíamos"]
+  },
+  {
+    "id": 105,
+    "english": "Can you help me with this?",
+    "spanish": "¿Puedes ayudarme con esto?",
+    "verb_id": 5,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿_____ ayudarme con esto?",
+    "correct_answer": "Puedes",
+    "distractors": ["Podías", "Pudiste", "Podrás"]
+  },
+  {
+    "id": 106,
+    "english": "They say it will rain tomorrow.",
+    "spanish": "Dicen que lloverá mañana.",
+    "verb_id": 6,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que lloverá mañana.",
+    "correct_answer": "Dicen",
+    "distractors": ["Decían", "Dijeron", "Dirán"]
+  },
+  {
+    "id": 107,
+    "english": "Where are you going?",
+    "spanish": "¿A dónde vas?",
+    "verb_id": 7,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿A dónde _____?",
+    "correct_answer": "vas",
+    "distractors": ["ibas", "fuiste", "irás"]
+  },
+  {
+    "id": 108,
+    "english": "I see that you are tired.",
+    "spanish": "Veo que estás cansado.",
+    "verb_id": 8,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que estás cansado.",
+    "correct_answer": "Veo",
+    "distractors": ["Veía", "Vi", "Veré"]
+  },
+  {
+    "id": 109,
+    "english": "Give me your hand.",
+    "spanish": "Dame la mano.",
+    "verb_id": 9,
+    "tense": "imperativo",
+    "blank_sentence": "_____ la mano.",
+    "correct_answer": "Dame",
+    "distractors": ["Dar", "Doy", "Di"]
+  },
+  {
+    "id": 110,
+    "english": "I will know the results soon.",
+    "spanish": "Sabré los resultados pronto.",
+    "verb_id": 10,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ los resultados pronto.",
+    "correct_answer": "Sabré",
+    "distractors": ["Sé", "Supe", "Sabía"]
+  },
+  {
+    "id": 111,
+    "english": "He didn't want to eat anything.",
+    "spanish": "Él no quiso comer nada.",
+    "verb_id": 11,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Él no _____ comer nada.",
+    "correct_answer": "quiso",
+    "distractors": ["quiere", "quería", "querrá"]
+  },
+  {
+    "id": 112,
+    "english": "The train will arrive at ten.",
+    "spanish": "El tren llegará a las diez.",
+    "verb_id": 12,
+    "tense": "futuro_simple",
+    "blank_sentence": "El tren _____ a las diez.",
+    "correct_answer": "llegará",
+    "distractors": ["llega", "llegó", "llegaba"]
+  },
+  {
+    "id": 113,
+    "english": "Everything will pass eventually.",
+    "spanish": "Todo pasará eventualmente.",
+    "verb_id": 13,
+    "tense": "futuro_simple",
+    "blank_sentence": "Todo _____ eventualmente.",
+    "correct_answer": "pasará",
+    "distractors": ["pasa", "pasó", "pasaba"]
+  },
+  {
+    "id": 114,
+    "english": "You owe me an explanation.",
+    "spanish": "Me debes una explicación.",
+    "verb_id": 14,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Me _____ una explicación.",
+    "correct_answer": "debes",
+    "distractors": ["debías", "debiste", "deberás"]
+  },
+  {
+    "id": 115,
+    "english": "I will put everything in order.",
+    "spanish": "Pondré todo en orden.",
+    "verb_id": 15,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ todo en orden.",
+    "correct_answer": "Pondré",
+    "distractors": ["Pongo", "Puse", "Ponía"]
+  },
+  {
+    "id": 116,
+    "english": "You seem worried.",
+    "spanish": "Pareces preocupado.",
+    "verb_id": 16,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ preocupado.",
+    "correct_answer": "Pareces",
+    "distractors": ["Parecías", "Pareciste", "Parecerás"]
+  },
+  {
+    "id": 117,
+    "english": "Only two tickets remain.",
+    "spanish": "Solo quedan dos boletos.",
+    "verb_id": 17,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Solo _____ dos boletos.",
+    "correct_answer": "quedan",
+    "distractors": ["quedaban", "quedaron", "quedarán"]
+  },
+  {
+    "id": 118,
+    "english": "I believe we can do it.",
+    "spanish": "Creo que podemos hacerlo.",
+    "verb_id": 18,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que podemos hacerlo.",
+    "correct_answer": "Creo",
+    "distractors": ["Creía", "Creí", "Creeré"]
+  },
+  {
+    "id": 119,
+    "english": "Speak more slowly, please.",
+    "spanish": "Habla más despacio, por favor.",
+    "verb_id": 19,
+    "tense": "imperativo",
+    "blank_sentence": "_____ más despacio, por favor.",
+    "correct_answer": "Habla",
+    "distractors": ["Hablar", "Hablo", "Hablé"]
+  },
+  {
+    "id": 120,
+    "english": "I will take you to the airport.",
+    "spanish": "Te llevaré al aeropuerto.",
+    "verb_id": 20,
+    "tense": "futuro_simple",
+    "blank_sentence": "Te _____ al aeropuerto.",
+    "correct_answer": "llevaré",
+    "distractors": ["llevo", "llevé", "llevaba"]
+  },
+  {
+    "id": 121,
+    "english": "Don't leave the door open.",
+    "spanish": "No dejes la puerta abierta.",
+    "verb_id": 21,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "No _____ la puerta abierta.",
+    "correct_answer": "dejes",
+    "distractors": ["dejas", "dejaste", "dejarás"]
+  },
+  {
+    "id": 122,
+    "english": "They continue to fight for their rights.",
+    "spanish": "Siguen luchando por sus derechos.",
+    "verb_id": 22,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ luchando por sus derechos.",
+    "correct_answer": "Siguen",
+    "distractors": ["Seguían", "Siguieron", "Seguirán"]
+  },
+  {
+    "id": 123,
+    "english": "I found an interesting article.",
+    "spanish": "Encontré un artículo interesante.",
+    "verb_id": 23,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ un artículo interesante.",
+    "correct_answer": "Encontré",
+    "distractors": ["Encuentro", "Encontraba", "Encontraré"]
+  },
+  {
+    "id": 124,
+    "english": "What is your name?",
+    "spanish": "¿Cómo te llamas?",
+    "verb_id": 24,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿Cómo te _____?",
+    "correct_answer": "llamas",
+    "distractors": ["llamabas", "llamaste", "llamarás"]
+  },
+  {
+    "id": 125,
+    "english": "Come here immediately!",
+    "spanish": "¡Ven aquí inmediatamente!",
+    "verb_id": 25,
+    "tense": "imperativo",
+    "blank_sentence": "¡_____ aquí inmediatamente!",
+    "correct_answer": "Ven",
+    "distractors": ["Venir", "Vengo", "Vine"]
+  },
+  {
+    "id": 126,
+    "english": "What do you think about this?",
+    "spanish": "¿Qué piensas sobre esto?",
+    "verb_id": 26,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿Qué _____ sobre esto?",
+    "correct_answer": "piensas",
+    "distractors": ["pensabas", "pensaste", "pensarás"]
+  },
+  {
+    "id": 127,
+    "english": "The sun goes out at six.",
+    "spanish": "El sol sale a las seis.",
+    "verb_id": 27,
+    "tense": "presente_indicativo",
+    "blank_sentence": "El sol _____ a las seis.",
+    "correct_answer": "sale",
+    "distractors": ["salía", "salió", "saldrá"]
+  },
+  {
+    "id": 128,
+    "english": "Come back soon!",
+    "spanish": "¡Vuelve pronto!",
+    "verb_id": 28,
+    "tense": "imperativo",
+    "blank_sentence": "¡_____ pronto!",
+    "correct_answer": "Vuelve",
+    "distractors": ["Volver", "Vuelvo", "Volví"]
+  },
+  {
+    "id": 129,
+    "english": "Let's take a break.",
+    "spanish": "Tomemos un descanso.",
+    "verb_id": 29,
+    "tense": "imperativo",
+    "blank_sentence": "_____ un descanso.",
+    "correct_answer": "Tomemos",
+    "distractors": ["Tomar", "Tomamos", "Tomábamos"]
+  },
+  {
+    "id": 130,
+    "english": "Do you know this restaurant?",
+    "spanish": "¿Conoces este restaurante?",
+    "verb_id": 30,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿_____ este restaurante?",
+    "correct_answer": "Conoces",
+    "distractors": ["Conocías", "Conociste", "Conocerás"]
+  },
+  {
+    "id": 131,
+    "english": "I have lived here for ten years.",
+    "spanish": "He vivido aquí por diez años.",
+    "verb_id": 31,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "_____ aquí por diez años.",
+    "correct_answer": "He vivido",
+    "distractors": ["Vivo", "Viví", "Vivía"]
+  },
+  {
+    "id": 132,
+    "english": "I'm sorry for what happened.",
+    "spanish": "Siento lo que pasó.",
+    "verb_id": 32,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ lo que pasó.",
+    "correct_answer": "Siento",
+    "distractors": ["Sentía", "Sentí", "Sentiré"]
+  },
+  {
+    "id": 133,
+    "english": "We will try to arrive early.",
+    "spanish": "Trataremos de llegar temprano.",
+    "verb_id": 33,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ de llegar temprano.",
+    "correct_answer": "Trataremos",
+    "distractors": ["Tratamos", "Tratábamos", "Tratemos"]
+  },
+  {
+    "id": 134,
+    "english": "Look at me when I talk to you.",
+    "spanish": "Mírame cuando te hablo.",
+    "verb_id": 34,
+    "tense": "imperativo",
+    "blank_sentence": "_____ cuando te hablo.",
+    "correct_answer": "Mírame",
+    "distractors": ["Mirar", "Miro", "Miré"]
+  },
+  {
+    "id": 135,
+    "english": "He told me an incredible story.",
+    "spanish": "Me contó una historia increíble.",
+    "verb_id": 35,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Me _____ una historia increíble.",
+    "correct_answer": "contó",
+    "distractors": ["cuenta", "contaba", "contará"]
+  },
+  {
+    "id": 136,
+    "english": "Let's begin the meeting.",
+    "spanish": "Empecemos la reunión.",
+    "verb_id": 36,
+    "tense": "imperativo",
+    "blank_sentence": "_____ la reunión.",
+    "correct_answer": "Empecemos",
+    "distractors": ["Empezar", "Empezamos", "Empezábamos"]
+  },
+  {
+    "id": 137,
+    "english": "Wait for me at the corner.",
+    "spanish": "Espérame en la esquina.",
+    "verb_id": 37,
+    "tense": "imperativo",
+    "blank_sentence": "_____ en la esquina.",
+    "correct_answer": "Espérame",
+    "distractors": ["Esperar", "Espero", "Esperé"]
+  },
+  {
+    "id": 138,
+    "english": "I will look for a solution.",
+    "spanish": "Buscaré una solución.",
+    "verb_id": 38,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ una solución.",
+    "correct_answer": "Buscaré",
+    "distractors": ["Busco", "Busqué", "Buscaba"]
+  },
+  {
+    "id": 139,
+    "english": "Hope still exists.",
+    "spanish": "La esperanza todavía existe.",
+    "verb_id": 39,
+    "tense": "presente_indicativo",
+    "blank_sentence": "La esperanza todavía _____.",
+    "correct_answer": "existe",
+    "distractors": ["existía", "existió", "existirá"]
+  },
+  {
+    "id": 140,
+    "english": "Do not enter without permission.",
+    "spanish": "No entres sin permiso.",
+    "verb_id": 40,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "No _____ sin permiso.",
+    "correct_answer": "entres",
+    "distractors": ["entras", "entraste", "entrarás"]
+  },
+  {
+    "id": 141,
+    "english": "I will work hard to succeed.",
+    "spanish": "Trabajaré duro para tener éxito.",
+    "verb_id": 41,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ duro para tener éxito.",
+    "correct_answer": "Trabajaré",
+    "distractors": ["Trabajo", "Trabajé", "Trabajaba"]
+  },
+  {
+    "id": 142,
+    "english": "Write your name here.",
+    "spanish": "Escribe tu nombre aquí.",
+    "verb_id": 42,
+    "tense": "imperativo",
+    "blank_sentence": "_____ tu nombre aquí.",
+    "correct_answer": "Escribe",
+    "distractors": ["Escribir", "Escribo", "Escribí"]
+  },
+  {
+    "id": 143,
+    "english": "We lost the game yesterday.",
+    "spanish": "Perdimos el partido ayer.",
+    "verb_id": 43,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ el partido ayer.",
+    "correct_answer": "Perdimos",
+    "distractors": ["Perdemos", "Perdíamos", "Perderemos"]
+  },
+  {
+    "id": 144,
+    "english": "The company produced millions of units.",
+    "spanish": "La empresa produjo millones de unidades.",
+    "verb_id": 44,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "La empresa _____ millones de unidades.",
+    "correct_answer": "produjo",
+    "distractors": ["produce", "producía", "producirá"]
+  },
+  {
+    "id": 145,
+    "english": "Something strange is occurring here.",
+    "spanish": "Algo extraño está ocurriendo aquí.",
+    "verb_id": 45,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Algo extraño está _____ aquí.",
+    "correct_answer": "ocurriendo",
+    "distractors": ["ocurrir", "ocurrido", "ocurra"]
+  },
+  {
+    "id": 146,
+    "english": "Understand me, please.",
+    "spanish": "Entiéndeme, por favor.",
+    "verb_id": 46,
+    "tense": "imperativo",
+    "blank_sentence": "_____, por favor.",
+    "correct_answer": "Entiéndeme",
+    "distractors": ["Entender", "Entiendo", "Entendí"]
+  },
+  {
+    "id": 147,
+    "english": "They asked for more information.",
+    "spanish": "Pidieron más información.",
+    "verb_id": 47,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ más información.",
+    "correct_answer": "Pidieron",
+    "distractors": ["Piden", "Pedían", "Pedirán"]
+  },
+  {
+    "id": 148,
+    "english": "We will receive the package tomorrow.",
+    "spanish": "Recibiremos el paquete mañana.",
+    "verb_id": 48,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ el paquete mañana.",
+    "correct_answer": "Recibiremos",
+    "distractors": ["Recibimos", "Recibíamos", "Recibamos"]
+  },
+  {
+    "id": 149,
+    "english": "Remember to call your mother.",
+    "spanish": "Recuerda llamar a tu mamá.",
+    "verb_id": 49,
+    "tense": "imperativo",
+    "blank_sentence": "_____ llamar a tu mamá.",
+    "correct_answer": "Recuerda",
+    "distractors": ["Recordar", "Recuerdo", "Recordé"]
+  },
+  {
+    "id": 150,
+    "english": "The class finished early today.",
+    "spanish": "La clase terminó temprano hoy.",
+    "verb_id": 50,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "La clase _____ temprano hoy.",
+    "correct_answer": "terminó",
+    "distractors": ["termina", "terminaba", "terminará"]
+  },
+  {
+    "id": 151,
+    "english": "The plant died because of the cold.",
+    "spanish": "La planta murió por el frío.",
+    "verb_id": 51,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "La planta _____ por el frío.",
+    "correct_answer": "murió",
+    "distractors": ["muere", "moría", "morirá"]
+  },
+  {
+    "id": 152,
+    "english": "I hope nobody dies in the accident.",
+    "spanish": "Espero que nadie muera en el accidente.",
+    "verb_id": 51,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Espero que nadie _____ en el accidente.",
+    "correct_answer": "muera",
+    "distractors": ["muere", "murió", "morirá"]
+  },
+  {
+    "id": 153,
+    "english": "I sleep eight hours every night.",
+    "spanish": "Duermo ocho horas cada noche.",
+    "verb_id": 52,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ ocho horas cada noche.",
+    "correct_answer": "Duermo",
+    "distractors": ["Dormía", "Dormí", "Dormiré"]
+  },
+  {
+    "id": 154,
+    "english": "The baby was sleeping peacefully.",
+    "spanish": "El bebé dormía tranquilamente.",
+    "verb_id": 52,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "El bebé _____ tranquilamente.",
+    "correct_answer": "dormía",
+    "distractors": ["duerme", "durmió", "dormirá"]
+  },
+  {
+    "id": 155,
+    "english": "I run every morning in the park.",
+    "spanish": "Corro todas las mañanas en el parque.",
+    "verb_id": 53,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ todas las mañanas en el parque.",
+    "correct_answer": "Corro",
+    "distractors": ["Corría", "Corrí", "Correré"]
+  },
+  {
+    "id": 156,
+    "english": "We ran to catch the bus.",
+    "spanish": "Corrimos para alcanzar el autobús.",
+    "verb_id": 53,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ para alcanzar el autobús.",
+    "correct_answer": "Corrimos",
+    "distractors": ["Corremos", "Corríamos", "Correremos"]
+  },
+  {
+    "id": 157,
+    "english": "I read the newspaper every day.",
+    "spanish": "Leo el periódico todos los días.",
+    "verb_id": 54,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ el periódico todos los días.",
+    "correct_answer": "Leo",
+    "distractors": ["Leía", "Leí", "Leeré"]
+  },
+  {
+    "id": 158,
+    "english": "Have you read this book?",
+    "spanish": "¿Has leído este libro?",
+    "verb_id": 54,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "¿_____ este libro?",
+    "correct_answer": "Has leído",
+    "distractors": ["Lees", "Leíste", "Leerás"]
+  },
+  {
+    "id": 159,
+    "english": "Open the window, please.",
+    "spanish": "Abre la ventana, por favor.",
+    "verb_id": 55,
+    "tense": "imperativo",
+    "blank_sentence": "_____ la ventana, por favor.",
+    "correct_answer": "Abre",
+    "distractors": ["Abrir", "Abro", "Abrí"]
+  },
+  {
+    "id": 160,
+    "english": "The store will open at nine.",
+    "spanish": "La tienda abrirá a las nueve.",
+    "verb_id": 55,
+    "tense": "futuro_simple",
+    "blank_sentence": "La tienda _____ a las nueve.",
+    "correct_answer": "abrirá",
+    "distractors": ["abre", "abrió", "abría"]
+  },
+  {
+    "id": 161,
+    "english": "Close your eyes.",
+    "spanish": "Cierra los ojos.",
+    "verb_id": 56,
+    "tense": "imperativo",
+    "blank_sentence": "_____ los ojos.",
+    "correct_answer": "Cierra",
+    "distractors": ["Cerrar", "Cierro", "Cerré"]
+  },
+  {
+    "id": 162,
+    "english": "The door was closing slowly.",
+    "spanish": "La puerta se cerraba lentamente.",
+    "verb_id": 56,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "La puerta se _____ lentamente.",
+    "correct_answer": "cerraba",
+    "distractors": ["cierra", "cerró", "cerrará"]
+  },
+  {
+    "id": 163,
+    "english": "I hear music in the distance.",
+    "spanish": "Oigo música a lo lejos.",
+    "verb_id": 57,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ música a lo lejos.",
+    "correct_answer": "Oigo",
+    "distractors": ["Oía", "Oí", "Oiré"]
+  },
+  {
+    "id": 164,
+    "english": "Did you hear that noise?",
+    "spanish": "¿Oíste ese ruido?",
+    "verb_id": 57,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "¿_____ ese ruido?",
+    "correct_answer": "Oíste",
+    "distractors": ["Oyes", "Oías", "Oirás"]
+  },
+  {
+    "id": 165,
+    "english": "The glass fell on the floor.",
+    "spanish": "El vaso cayó al suelo.",
+    "verb_id": 58,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "El vaso _____ al suelo.",
+    "correct_answer": "cayó",
+    "distractors": ["cae", "caía", "caerá"]
+  },
+  {
+    "id": 166,
+    "english": "Be careful not to fall!",
+    "spanish": "¡Ten cuidado de no caer!",
+    "verb_id": 58,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¡Ten cuidado de no _____!",
+    "correct_answer": "caer",
+    "distractors": ["caigo", "caí", "caeré"]
+  },
+  {
+    "id": 167,
+    "english": "Bring me a glass of water, please.",
+    "spanish": "Tráeme un vaso de agua, por favor.",
+    "verb_id": 59,
+    "tense": "imperativo",
+    "blank_sentence": "_____ un vaso de agua, por favor.",
+    "correct_answer": "Tráeme",
+    "distractors": ["Traer", "Traigo", "Traje"]
+  },
+  {
+    "id": 168,
+    "english": "She brought flowers to the party.",
+    "spanish": "Ella trajo flores a la fiesta.",
+    "verb_id": 59,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Ella _____ flores a la fiesta.",
+    "correct_answer": "trajo",
+    "distractors": ["trae", "traía", "traerá"]
+  },
+  {
+    "id": 169,
+    "english": "My daughter was born in March.",
+    "spanish": "Mi hija nació en marzo.",
+    "verb_id": 60,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Mi hija _____ en marzo.",
+    "correct_answer": "nació",
+    "distractors": ["nace", "nacía", "nacerá"]
+  },
+  {
+    "id": 170,
+    "english": "A new star is born every day.",
+    "spanish": "Una nueva estrella nace cada día.",
+    "verb_id": 60,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Una nueva estrella _____ cada día.",
+    "correct_answer": "nace",
+    "distractors": ["nacía", "nació", "nacerá"]
+  },
+  {
+    "id": 171,
+    "english": "Go up the stairs slowly.",
+    "spanish": "Sube las escaleras despacio.",
+    "verb_id": 61,
+    "tense": "imperativo",
+    "blank_sentence": "_____ las escaleras despacio.",
+    "correct_answer": "Sube",
+    "distractors": ["Subir", "Subo", "Subí"]
+  },
+  {
+    "id": 172,
+    "english": "The prices have gone up a lot.",
+    "spanish": "Los precios han subido mucho.",
+    "verb_id": 61,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "Los precios _____ mucho.",
+    "correct_answer": "han subido",
+    "distractors": ["suben", "subieron", "subirán"]
+  },
+  {
+    "id": 173,
+    "english": "Go down carefully.",
+    "spanish": "Baja con cuidado.",
+    "verb_id": 62,
+    "tense": "imperativo",
+    "blank_sentence": "_____ con cuidado.",
+    "correct_answer": "Baja",
+    "distractors": ["Bajar", "Bajo", "Bajé"]
+  },
+  {
+    "id": 174,
+    "english": "The temperature dropped last night.",
+    "spanish": "La temperatura bajó anoche.",
+    "verb_id": 62,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "La temperatura _____ anoche.",
+    "correct_answer": "bajó",
+    "distractors": ["baja", "bajaba", "bajará"]
+  },
+  {
+    "id": 175,
+    "english": "Things will change soon.",
+    "spanish": "Las cosas cambiarán pronto.",
+    "verb_id": 63,
+    "tense": "futuro_simple",
+    "blank_sentence": "Las cosas _____ pronto.",
+    "correct_answer": "cambiarán",
+    "distractors": ["cambian", "cambiaron", "cambiaban"]
+  },
+  {
+    "id": 176,
+    "english": "I have changed my opinion.",
+    "spanish": "He cambiado de opinión.",
+    "verb_id": 63,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "_____ de opinión.",
+    "correct_answer": "He cambiado",
+    "distractors": ["Cambio", "Cambié", "Cambiaba"]
+  },
+  {
+    "id": 177,
+    "english": "I turn 30 years old tomorrow.",
+    "spanish": "Cumplo 30 años mañana.",
+    "verb_id": 64,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ 30 años mañana.",
+    "correct_answer": "Cumplo",
+    "distractors": ["Cumplía", "Cumplí", "Cumpliré"]
+  },
+  {
+    "id": 178,
+    "english": "She fulfilled her promise.",
+    "spanish": "Ella cumplió su promesa.",
+    "verb_id": 64,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Ella _____ su promesa.",
+    "correct_answer": "cumplió",
+    "distractors": ["cumple", "cumplía", "cumplirá"]
+  },
+  {
+    "id": 179,
+    "english": "This restaurant serves excellent food.",
+    "spanish": "Este restaurante sirve comida excelente.",
+    "verb_id": 65,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Este restaurante _____ comida excelente.",
+    "correct_answer": "sirve",
+    "distractors": ["servía", "sirvió", "servirá"]
+  },
+  {
+    "id": 180,
+    "english": "Can I serve you something to drink?",
+    "spanish": "¿Puedo servirte algo de tomar?",
+    "verb_id": 65,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿Puedo _____ algo de tomar?",
+    "correct_answer": "servirte",
+    "distractors": ["sirvo", "serví", "serviré"]
+  },
+  {
+    "id": 181,
+    "english": "I finally got a good job.",
+    "spanish": "Finalmente conseguí un buen trabajo.",
+    "verb_id": 66,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Finalmente _____ un buen trabajo.",
+    "correct_answer": "conseguí",
+    "distractors": ["consigo", "conseguía", "conseguiré"]
+  },
+  {
+    "id": 182,
+    "english": "I hope you get what you want.",
+    "spanish": "Espero que consigas lo que quieres.",
+    "verb_id": 66,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Espero que _____ lo que quieres.",
+    "correct_answer": "consigas",
+    "distractors": ["consigues", "conseguiste", "conseguirás"]
+  },
+  {
+    "id": 183,
+    "english": "They maintain a healthy lifestyle.",
+    "spanish": "Ellos mantienen un estilo de vida saludable.",
+    "verb_id": 67,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Ellos _____ un estilo de vida saludable.",
+    "correct_answer": "mantienen",
+    "distractors": ["mantenían", "mantuvieron", "mantendrán"]
+  },
+  {
+    "id": 184,
+    "english": "I would maintain my distance if I were you.",
+    "spanish": "Mantendría mi distancia si fuera tú.",
+    "verb_id": 67,
+    "tense": "condicional_simple",
+    "blank_sentence": "_____ mi distancia si fuera tú.",
+    "correct_answer": "Mantendría",
+    "distractors": ["Mantengo", "Mantuve", "Mantenía"]
+  },
+  {
+    "id": 185,
+    "english": "My parents don't allow me to go out at night.",
+    "spanish": "Mis padres no me permiten salir de noche.",
+    "verb_id": 68,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Mis padres no me _____ salir de noche.",
+    "correct_answer": "permiten",
+    "distractors": ["permitían", "permitieron", "permitirán"]
+  },
+  {
+    "id": 186,
+    "english": "Allow me to explain.",
+    "spanish": "Permítame explicar.",
+    "verb_id": 68,
+    "tense": "imperativo",
+    "blank_sentence": "_____ explicar.",
+    "correct_answer": "Permítame",
+    "distractors": ["Permitir", "Permito", "Permití"]
+  },
+  {
+    "id": 187,
+    "english": "A new opportunity appeared.",
+    "spanish": "Apareció una nueva oportunidad.",
+    "verb_id": 69,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ una nueva oportunidad.",
+    "correct_answer": "Apareció",
+    "distractors": ["Aparece", "Aparecía", "Aparecerá"]
+  },
+  {
+    "id": 188,
+    "english": "If he appeared, I would be happy.",
+    "spanish": "Si apareciera, estaría feliz.",
+    "verb_id": 69,
+    "tense": "imperfecto_subjuntivo",
+    "blank_sentence": "Si _____, estaría feliz.",
+    "correct_answer": "apareciera",
+    "distractors": ["aparece", "apareció", "aparecerá"]
+  },
+  {
+    "id": 189,
+    "english": "We achieved our goal.",
+    "spanish": "Logramos nuestra meta.",
+    "verb_id": 70,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ nuestra meta.",
+    "correct_answer": "Logramos",
+    "distractors": ["Logramos", "Lográbamos", "Lograremos"]
+  },
+  {
+    "id": 190,
+    "english": "I will achieve my dreams.",
+    "spanish": "Lograré mis sueños.",
+    "verb_id": 70,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ mis sueños.",
+    "correct_answer": "Lograré",
+    "distractors": ["Logro", "Logré", "Lograba"]
+  },
+  {
+    "id": 191,
+    "english": "He created a masterpiece.",
+    "spanish": "Él creó una obra maestra.",
+    "verb_id": 71,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Él _____ una obra maestra.",
+    "correct_answer": "creó",
+    "distractors": ["crea", "creaba", "creará"]
+  },
+  {
+    "id": 192,
+    "english": "Let's create something new.",
+    "spanish": "Creemos algo nuevo.",
+    "verb_id": 71,
+    "tense": "imperativo",
+    "blank_sentence": "_____ algo nuevo.",
+    "correct_answer": "Creemos",
+    "distractors": ["Crear", "Creamos", "Creábamos"]
+  },
+  {
+    "id": 193,
+    "english": "I suppose you're right.",
+    "spanish": "Supongo que tienes razón.",
+    "verb_id": 72,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que tienes razón.",
+    "correct_answer": "Supongo",
+    "distractors": ["Suponía", "Supuse", "Supondré"]
+  },
+  {
+    "id": 194,
+    "english": "They supposed it would be easy.",
+    "spanish": "Supusieron que sería fácil.",
+    "verb_id": 72,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ que sería fácil.",
+    "correct_answer": "Supusieron",
+    "distractors": ["Suponen", "Suponían", "Supondrán"]
+  },
+  {
+    "id": 195,
+    "english": "Can you explain this to me?",
+    "spanish": "¿Puedes explicarme esto?",
+    "verb_id": 73,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿Puedes _____ esto?",
+    "correct_answer": "explicarme",
+    "distractors": ["explico", "expliqué", "explicaré"]
+  },
+  {
+    "id": 196,
+    "english": "The teacher explained the lesson clearly.",
+    "spanish": "El profesor explicó la lección claramente.",
+    "verb_id": 73,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "El profesor _____ la lección claramente.",
+    "correct_answer": "explicó",
+    "distractors": ["explica", "explicaba", "explicará"]
+  },
+  {
+    "id": 197,
+    "english": "I can't reach the top shelf.",
+    "spanish": "No puedo alcanzar el estante de arriba.",
+    "verb_id": 74,
+    "tense": "presente_indicativo",
+    "blank_sentence": "No puedo _____ el estante de arriba.",
+    "correct_answer": "alcanzar",
+    "distractors": ["alcanzo", "alcancé", "alcanzaré"]
+  },
+  {
+    "id": 198,
+    "english": "We reached an agreement.",
+    "spanish": "Alcanzamos un acuerdo.",
+    "verb_id": 74,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ un acuerdo.",
+    "correct_answer": "Alcanzamos",
+    "distractors": ["Alcanzábamos", "Alcanzaremos", "Alcancemos"]
+  },
+  {
+    "id": 199,
+    "english": "I didn't recognize you with that haircut.",
+    "spanish": "No te reconocí con ese corte de pelo.",
+    "verb_id": 75,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "No te _____ con ese corte de pelo.",
+    "correct_answer": "reconocí",
+    "distractors": ["reconozco", "reconocía", "reconoceré"]
+  },
+  {
+    "id": 200,
+    "english": "Everyone recognizes his talent.",
+    "spanish": "Todos reconocen su talento.",
+    "verb_id": 75,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Todos _____ su talento.",
+    "correct_answer": "reconocen",
+    "distractors": ["reconocían", "reconocieron", "reconocerán"]
+  },
+  {
+    "id": 201,
+    "english": "I consider you my best friend.",
+    "spanish": "Te considero mi mejor amigo.",
+    "verb_id": 76,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Te _____ mi mejor amigo.",
+    "correct_answer": "considero",
+    "distractors": ["consideraba", "consideré", "consideraré"]
+  },
+  {
+    "id": 202,
+    "english": "We should consider all options.",
+    "spanish": "Deberíamos considerar todas las opciones.",
+    "verb_id": 76,
+    "tense": "condicional_simple",
+    "blank_sentence": "_____ considerar todas las opciones.",
+    "correct_answer": "Deberíamos",
+    "distractors": ["Debemos", "Debíamos", "Deberemos"]
+  },
+  {
+    "id": 203,
+    "english": "They offered me a promotion.",
+    "spanish": "Me ofrecieron un ascenso.",
+    "verb_id": 77,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Me _____ un ascenso.",
+    "correct_answer": "ofrecieron",
+    "distractors": ["ofrecen", "ofrecían", "ofrecerán"]
+  },
+  {
+    "id": 204,
+    "english": "I offer you my help.",
+    "spanish": "Te ofrezco mi ayuda.",
+    "verb_id": 77,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Te _____ mi ayuda.",
+    "correct_answer": "ofrezco",
+    "distractors": ["ofrecía", "ofrecí", "ofreceré"]
+  },
+  {
+    "id": 205,
+    "english": "Scientists discovered a new species.",
+    "spanish": "Los científicos descubrieron una nueva especie.",
+    "verb_id": 78,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Los científicos _____ una nueva especie.",
+    "correct_answer": "descubrieron",
+    "distractors": ["descubren", "descubrían", "descubrirán"]
+  },
+  {
+    "id": 206,
+    "english": "I have discovered the truth.",
+    "spanish": "He descubierto la verdad.",
+    "verb_id": 78,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "_____ la verdad.",
+    "correct_answer": "He descubierto",
+    "distractors": ["Descubro", "Descubrí", "Descubría"]
+  },
+  {
+    "id": 207,
+    "english": "Let me present my idea.",
+    "spanish": "Déjame presentar mi idea.",
+    "verb_id": 79,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Déjame _____ mi idea.",
+    "correct_answer": "presentar",
+    "distractors": ["presento", "presenté", "presentaré"]
+  },
+  {
+    "id": 208,
+    "english": "She presented the project yesterday.",
+    "spanish": "Ella presentó el proyecto ayer.",
+    "verb_id": 79,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Ella _____ el proyecto ayer.",
+    "correct_answer": "presentó",
+    "distractors": ["presenta", "presentaba", "presentará"]
+  },
+  {
+    "id": 209,
+    "english": "I have decided to change careers.",
+    "spanish": "He decidido cambiar de carrera.",
+    "verb_id": 80,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "_____ cambiar de carrera.",
+    "correct_answer": "He decidido",
+    "distractors": ["Decido", "Decidí", "Decidía"]
+  },
+  {
+    "id": 210,
+    "english": "Decide now or lose the opportunity.",
+    "spanish": "Decide ahora o pierde la oportunidad.",
+    "verb_id": 80,
+    "tense": "imperativo",
+    "blank_sentence": "_____ ahora o pierde la oportunidad.",
+    "correct_answer": "Decide",
+    "distractors": ["Decidir", "Decido", "Decidí"]
+  },
+  {
+    "id": 211,
+    "english": "They established new rules.",
+    "spanish": "Establecieron nuevas reglas.",
+    "verb_id": 81,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ nuevas reglas.",
+    "correct_answer": "Establecieron",
+    "distractors": ["Establecen", "Establecían", "Establecerán"]
+  },
+  {
+    "id": 212,
+    "english": "We will establish a new record.",
+    "spanish": "Estableceremos un nuevo récord.",
+    "verb_id": 81,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ un nuevo récord.",
+    "correct_answer": "Estableceremos",
+    "distractors": ["Establecemos", "Establecíamos", "Establezcamos"]
+  },
+  {
+    "id": 213,
+    "english": "I completed the task successfully.",
+    "spanish": "Realicé la tarea exitosamente.",
+    "verb_id": 82,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ la tarea exitosamente.",
+    "correct_answer": "Realicé",
+    "distractors": ["Realizo", "Realizaba", "Realizaré"]
+  },
+  {
+    "id": 214,
+    "english": "We will carry out the plan tomorrow.",
+    "spanish": "Realizaremos el plan mañana.",
+    "verb_id": 82,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ el plan mañana.",
+    "correct_answer": "Realizaremos",
+    "distractors": ["Realizamos", "Realizábamos", "Realicemos"]
+  },
+  {
+    "id": 215,
+    "english": "Please continue with your story.",
+    "spanish": "Por favor continúa con tu historia.",
+    "verb_id": 83,
+    "tense": "imperativo",
+    "blank_sentence": "Por favor _____ con tu historia.",
+    "correct_answer": "continúa",
+    "distractors": ["continuar", "continúo", "continué"]
+  },
+  {
+    "id": 216,
+    "english": "We will continue fighting.",
+    "spanish": "Continuaremos luchando.",
+    "verb_id": 83,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ luchando.",
+    "correct_answer": "Continuaremos",
+    "distractors": ["Continuamos", "Continuábamos", "Continuemos"]
+  },
+  {
+    "id": 217,
+    "english": "Everything turned out well.",
+    "spanish": "Todo resultó bien.",
+    "verb_id": 84,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Todo _____ bien.",
+    "correct_answer": "resultó",
+    "distractors": ["resulta", "resultaba", "resultará"]
+  },
+  {
+    "id": 218,
+    "english": "It turns out that he was right.",
+    "spanish": "Resulta que él tenía razón.",
+    "verb_id": 84,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que él tenía razón.",
+    "correct_answer": "Resulta",
+    "distractors": ["Resultaba", "Resultó", "Resultará"]
+  },
+  {
+    "id": 219,
+    "english": "She didn't respond to my message.",
+    "spanish": "Ella no respondió a mi mensaje.",
+    "verb_id": 85,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Ella no _____ a mi mensaje.",
+    "correct_answer": "respondió",
+    "distractors": ["responde", "respondía", "responderá"]
+  },
+  {
+    "id": 220,
+    "english": "Answer the question, please.",
+    "spanish": "Responde la pregunta, por favor.",
+    "verb_id": 85,
+    "tense": "imperativo",
+    "blank_sentence": "_____ la pregunta, por favor.",
+    "correct_answer": "Responde",
+    "distractors": ["Responder", "Respondo", "Respondí"]
+  },
+  {
+    "id": 221,
+    "english": "I need more time.",
+    "spanish": "Necesito más tiempo.",
+    "verb_id": 86,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ más tiempo.",
+    "correct_answer": "Necesito",
+    "distractors": ["Necesitaba", "Necesité", "Necesitaré"]
+  },
+  {
+    "id": 222,
+    "english": "We would need more resources.",
+    "spanish": "Necesitaríamos más recursos.",
+    "verb_id": 86,
+    "tense": "condicional_simple",
+    "blank_sentence": "_____ más recursos.",
+    "correct_answer": "Necesitaríamos",
+    "distractors": ["Necesitamos", "Necesitábamos", "Necesitemos"]
+  },
+  {
+    "id": 223,
+    "english": "I tried to call you yesterday.",
+    "spanish": "Intenté llamarte ayer.",
+    "verb_id": 87,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ llamarte ayer.",
+    "correct_answer": "Intenté",
+    "distractors": ["Intento", "Intentaba", "Intentaré"]
+  },
+  {
+    "id": 224,
+    "english": "Try again!",
+    "spanish": "¡Intenta de nuevo!",
+    "verb_id": 87,
+    "tense": "imperativo",
+    "blank_sentence": "¡_____ de nuevo!",
+    "correct_answer": "Intenta",
+    "distractors": ["Intentar", "Intento", "Intenté"]
+  },
+  {
+    "id": 225,
+    "english": "Show me what you did.",
+    "spanish": "Muéstrame lo que hiciste.",
+    "verb_id": 88,
+    "tense": "imperativo",
+    "blank_sentence": "_____ lo que hiciste.",
+    "correct_answer": "Muéstrame",
+    "distractors": ["Mostrar", "Muestro", "Mostré"]
+  },
+  {
+    "id": 226,
+    "english": "The data shows a positive trend.",
+    "spanish": "Los datos muestran una tendencia positiva.",
+    "verb_id": 88,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Los datos _____ una tendencia positiva.",
+    "correct_answer": "muestran",
+    "distractors": ["mostraban", "mostraron", "mostrarán"]
+  },
+  {
+    "id": 227,
+    "english": "We formed a study group.",
+    "spanish": "Formamos un grupo de estudio.",
+    "verb_id": 89,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ un grupo de estudio.",
+    "correct_answer": "Formamos",
+    "distractors": ["Formábamos", "Formaremos", "Formemos"]
+  },
+  {
+    "id": 228,
+    "english": "Water forms ice when it freezes.",
+    "spanish": "El agua forma hielo cuando se congela.",
+    "verb_id": 89,
+    "tense": "presente_indicativo",
+    "blank_sentence": "El agua _____ hielo cuando se congela.",
+    "correct_answer": "forma",
+    "distractors": ["formaba", "formó", "formará"]
+  },
+  {
+    "id": 229,
+    "english": "I'm learning to play guitar.",
+    "spanish": "Estoy aprendiendo a tocar guitarra.",
+    "verb_id": 90,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Estoy _____ a tocar guitarra.",
+    "correct_answer": "aprendiendo",
+    "distractors": ["aprender", "aprendido", "aprenda"]
+  },
+  {
+    "id": 230,
+    "english": "We learned a lot in that class.",
+    "spanish": "Aprendimos mucho en esa clase.",
+    "verb_id": 90,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ mucho en esa clase.",
+    "correct_answer": "Aprendimos",
+    "distractors": ["Aprendemos", "Aprendíamos", "Aprenderemos"]
+  },
+  {
+    "id": 231,
+    "english": "I bought a new car.",
+    "spanish": "Compré un carro nuevo.",
+    "verb_id": 91,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ un carro nuevo.",
+    "correct_answer": "Compré",
+    "distractors": ["Compro", "Compraba", "Compraré"]
+  },
+  {
+    "id": 232,
+    "english": "We will buy the tickets online.",
+    "spanish": "Compraremos los boletos en línea.",
+    "verb_id": 91,
+    "tense": "futuro_simple",
+    "blank_sentence": "_____ los boletos en línea.",
+    "correct_answer": "Compraremos",
+    "distractors": ["Compramos", "Comprábamos", "Compremos"]
+  },
+  {
+    "id": 233,
+    "english": "They sell fresh vegetables here.",
+    "spanish": "Aquí venden verduras frescas.",
+    "verb_id": 92,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Aquí _____ verduras frescas.",
+    "correct_answer": "venden",
+    "distractors": ["vendían", "vendieron", "venderán"]
+  },
+  {
+    "id": 234,
+    "english": "I sold my old laptop.",
+    "spanish": "Vendí mi laptop vieja.",
+    "verb_id": 92,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ mi laptop vieja.",
+    "correct_answer": "Vendí",
+    "distractors": ["Vendo", "Vendía", "Venderé"]
+  },
+  {
+    "id": 235,
+    "english": "I'm preparing dinner.",
+    "spanish": "Estoy preparando la cena.",
+    "verb_id": 93,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Estoy _____ la cena.",
+    "correct_answer": "preparando",
+    "distractors": ["preparar", "preparado", "prepare"]
+  },
+  {
+    "id": 236,
+    "english": "Prepare yourself for the exam.",
+    "spanish": "Prepárate para el examen.",
+    "verb_id": 93,
+    "tense": "imperativo",
+    "blank_sentence": "_____ para el examen.",
+    "correct_answer": "Prepárate",
+    "distractors": ["Preparar", "Preparo", "Preparé"]
+  },
+  {
+    "id": 237,
+    "english": "Our team won the championship.",
+    "spanish": "Nuestro equipo ganó el campeonato.",
+    "verb_id": 94,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Nuestro equipo _____ el campeonato.",
+    "correct_answer": "ganó",
+    "distractors": ["gana", "ganaba", "ganará"]
+  },
+  {
+    "id": 238,
+    "english": "I earn a good salary.",
+    "spanish": "Gano un buen salario.",
+    "verb_id": 94,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ un buen salario.",
+    "correct_answer": "Gano",
+    "distractors": ["Ganaba", "Gané", "Ganaré"]
+  },
+  {
+    "id": 239,
+    "english": "The children play in the park.",
+    "spanish": "Los niños juegan en el parque.",
+    "verb_id": 95,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Los niños _____ en el parque.",
+    "correct_answer": "juegan",
+    "distractors": ["jugaban", "jugaron", "jugarán"]
+  },
+  {
+    "id": 240,
+    "english": "We used to play soccer every weekend.",
+    "spanish": "Jugábamos fútbol todos los fines de semana.",
+    "verb_id": 95,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ fútbol todos los fines de semana.",
+    "correct_answer": "Jugábamos",
+    "distractors": ["Jugamos", "Jugaremos", "Juguemos"]
+  },
+  {
+    "id": 241,
+    "english": "I walk to work every day.",
+    "spanish": "Camino al trabajo todos los días.",
+    "verb_id": 96,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ al trabajo todos los días.",
+    "correct_answer": "Camino",
+    "distractors": ["Caminaba", "Caminé", "Caminaré"]
+  },
+  {
+    "id": 242,
+    "english": "We walked along the beach.",
+    "spanish": "Caminamos por la playa.",
+    "verb_id": 96,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ por la playa.",
+    "correct_answer": "Caminamos",
+    "distractors": ["Caminábamos", "Caminaremos", "Caminemos"]
+  },
+  {
+    "id": 243,
+    "english": "Listen to me carefully.",
+    "spanish": "Escúchame con atención.",
+    "verb_id": 97,
+    "tense": "imperativo",
+    "blank_sentence": "_____ con atención.",
+    "correct_answer": "Escúchame",
+    "distractors": ["Escuchar", "Escucho", "Escuché"]
+  },
+  {
+    "id": 244,
+    "english": "I was listening to music when you called.",
+    "spanish": "Estaba escuchando música cuando llamaste.",
+    "verb_id": 97,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Estaba _____ música cuando llamaste.",
+    "correct_answer": "escuchando",
+    "distractors": ["escuchar", "escuchado", "escuche"]
+  },
+  {
+    "id": 245,
+    "english": "Can I ask you a question?",
+    "spanish": "¿Puedo preguntarte algo?",
+    "verb_id": 98,
+    "tense": "presente_indicativo",
+    "blank_sentence": "¿Puedo _____ algo?",
+    "correct_answer": "preguntarte",
+    "distractors": ["pregunto", "pregunté", "preguntaré"]
+  },
+  {
+    "id": 246,
+    "english": "She asked me about my trip.",
+    "spanish": "Ella me preguntó sobre mi viaje.",
+    "verb_id": 98,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Ella me _____ sobre mi viaje.",
+    "correct_answer": "preguntó",
+    "distractors": ["pregunta", "preguntaba", "preguntará"]
+  },
+  {
+    "id": 247,
+    "english": "Help me with this, please.",
+    "spanish": "Ayúdame con esto, por favor.",
+    "verb_id": 99,
+    "tense": "imperativo",
+    "blank_sentence": "_____ con esto, por favor.",
+    "correct_answer": "Ayúdame",
+    "distractors": ["Ayudar", "Ayudo", "Ayudé"]
+  },
+  {
+    "id": 248,
+    "english": "I will help you tomorrow.",
+    "spanish": "Te ayudaré mañana.",
+    "verb_id": 99,
+    "tense": "futuro_simple",
+    "blank_sentence": "Te _____ mañana.",
+    "correct_answer": "ayudaré",
+    "distractors": ["ayudo", "ayudé", "ayudaba"]
+  },
+  {
+    "id": 249,
+    "english": "We eat together every Sunday.",
+    "spanish": "Comemos juntos todos los domingos.",
+    "verb_id": 100,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ juntos todos los domingos.",
+    "correct_answer": "Comemos",
+    "distractors": ["Comíamos", "Comimos", "Comeremos"]
+  },
+  {
+    "id": 250,
+    "english": "Have you eaten yet?",
+    "spanish": "¿Ya has comido?",
+    "verb_id": 100,
+    "tense": "preterito_perfecto_compuesto",
+    "blank_sentence": "¿Ya _____ ?",
+    "correct_answer": "has comido",
+    "distractors": ["comes", "comiste", "comerás"]
+  }
+]
