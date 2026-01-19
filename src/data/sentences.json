@@ -2498,5 +2498,505 @@
     "blank_sentence": "¿Ya _____ ?",
     "correct_answer": "has comido",
     "distractors": ["comes", "comiste", "comerás"]
+  },
+  {
+    "id": 251,
+    "english": "I wanted to go but I couldn't.",
+    "spanish": "Quería ir pero no podía.",
+    "verb_id": 11,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ ir pero no podía.",
+    "correct_answer": "Quería",
+    "distractors": ["Quiero", "Quise", "Querré"]
+  },
+  {
+    "id": 252,
+    "english": "She said she would come tomorrow.",
+    "spanish": "Dijo que vendría mañana.",
+    "verb_id": 6,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ que vendría mañana.",
+    "correct_answer": "Dijo",
+    "distractors": ["Dice", "Decía", "Dirá"]
+  },
+  {
+    "id": 253,
+    "english": "If I had known, I would have told you.",
+    "spanish": "Si hubiera sabido, te habría dicho.",
+    "verb_id": 10,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "Si _____, te habría dicho.",
+    "correct_answer": "hubiera sabido",
+    "distractors": ["sé", "supe", "sabría"]
+  },
+  {
+    "id": 254,
+    "english": "We have to leave before it starts raining.",
+    "spanish": "Tenemos que salir antes de que empiece a llover.",
+    "verb_id": 3,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que salir antes de que empiece a llover.",
+    "correct_answer": "Tenemos",
+    "distractors": ["Teníamos", "Tuvimos", "Tendremos"]
+  },
+  {
+    "id": 255,
+    "english": "He was sleeping when I arrived.",
+    "spanish": "Estaba durmiendo cuando llegué.",
+    "verb_id": 52,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Estaba _____ cuando llegué.",
+    "correct_answer": "durmiendo",
+    "distractors": ["dormir", "dormido", "duerme"]
+  },
+  {
+    "id": 256,
+    "english": "I think he will come if we invite him.",
+    "spanish": "Creo que vendrá si lo invitamos.",
+    "verb_id": 18,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que vendrá si lo invitamos.",
+    "correct_answer": "Creo",
+    "distractors": ["Creía", "Creí", "Creeré"]
+  },
+  {
+    "id": 257,
+    "english": "She asked me to help her move.",
+    "spanish": "Me pidió que la ayudara a mudarse.",
+    "verb_id": 47,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Me _____ que la ayudara a mudarse.",
+    "correct_answer": "pidió",
+    "distractors": ["pide", "pedía", "pedirá"]
+  },
+  {
+    "id": 258,
+    "english": "We used to play while they worked.",
+    "spanish": "Jugábamos mientras ellos trabajaban.",
+    "verb_id": 95,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ mientras ellos trabajaban.",
+    "correct_answer": "Jugábamos",
+    "distractors": ["Jugamos", "Jugaremos", "Juguemos"]
+  },
+  {
+    "id": 259,
+    "english": "I hope you can come and see us.",
+    "spanish": "Espero que puedas venir a vernos.",
+    "verb_id": 37,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que puedas venir a vernos.",
+    "correct_answer": "Espero",
+    "distractors": ["Esperaba", "Esperé", "Esperaré"]
+  },
+  {
+    "id": 260,
+    "english": "They told me they had already eaten.",
+    "spanish": "Me dijeron que ya habían comido.",
+    "verb_id": 6,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Me _____ que ya habían comido.",
+    "correct_answer": "dijeron",
+    "distractors": ["dicen", "decían", "dirán"]
+  },
+  {
+    "id": 261,
+    "english": "I was reading when the phone rang.",
+    "spanish": "Estaba leyendo cuando sonó el teléfono.",
+    "verb_id": 54,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Estaba _____ cuando sonó el teléfono.",
+    "correct_answer": "leyendo",
+    "distractors": ["leer", "leído", "leo"]
+  },
+  {
+    "id": 262,
+    "english": "If you studied more, you would pass the exam.",
+    "spanish": "Si estudiaras más, aprobarías el examen.",
+    "verb_id": 90,
+    "tense": "imperfecto_subjuntivo",
+    "blank_sentence": "Si _____ más, aprobarías el examen.",
+    "correct_answer": "estudiaras",
+    "distractors": ["estudias", "estudiaste", "estudiarás"]
+  },
+  {
+    "id": 263,
+    "english": "He promised he would call when he arrived.",
+    "spanish": "Prometió que llamaría cuando llegara.",
+    "verb_id": 24,
+    "tense": "condicional_simple",
+    "blank_sentence": "Prometió que _____ cuando llegara.",
+    "correct_answer": "llamaría",
+    "distractors": ["llama", "llamó", "llamaba"]
+  },
+  {
+    "id": 264,
+    "english": "I need to know if you can help me.",
+    "spanish": "Necesito saber si puedes ayudarme.",
+    "verb_id": 86,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ saber si puedes ayudarme.",
+    "correct_answer": "Necesito",
+    "distractors": ["Necesitaba", "Necesité", "Necesitaré"]
+  },
+  {
+    "id": 265,
+    "english": "We decided to go even though it was raining.",
+    "spanish": "Decidimos ir aunque estaba lloviendo.",
+    "verb_id": 80,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ ir aunque estaba lloviendo.",
+    "correct_answer": "Decidimos",
+    "distractors": ["Decidíamos", "Decidiremos", "Decidamos"]
+  },
+  {
+    "id": 266,
+    "english": "She was trying to sleep when they arrived.",
+    "spanish": "Estaba intentando dormir cuando llegaron.",
+    "verb_id": 87,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Estaba _____ dormir cuando llegaron.",
+    "correct_answer": "intentando",
+    "distractors": ["intentar", "intentado", "intento"]
+  },
+  {
+    "id": 267,
+    "english": "I knew he would forget to bring it.",
+    "spanish": "Sabía que olvidaría traerlo.",
+    "verb_id": 10,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ que olvidaría traerlo.",
+    "correct_answer": "Sabía",
+    "distractors": ["Sé", "Supe", "Sabré"]
+  },
+  {
+    "id": 268,
+    "english": "They were talking while we were eating.",
+    "spanish": "Ellos hablaban mientras nosotros comíamos.",
+    "verb_id": 19,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Ellos _____ mientras nosotros comíamos.",
+    "correct_answer": "hablaban",
+    "distractors": ["hablan", "hablaron", "hablarán"]
+  },
+  {
+    "id": 269,
+    "english": "I want you to tell me the truth.",
+    "spanish": "Quiero que me digas la verdad.",
+    "verb_id": 11,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ que me digas la verdad.",
+    "correct_answer": "Quiero",
+    "distractors": ["Quería", "Quise", "Querré"]
+  },
+  {
+    "id": 270,
+    "english": "He said he had already finished working.",
+    "spanish": "Dijo que ya había terminado de trabajar.",
+    "verb_id": 50,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "Dijo que ya _____ de trabajar.",
+    "correct_answer": "había terminado",
+    "distractors": ["termina", "terminó", "terminará"]
+  },
+  {
+    "id": 271,
+    "english": "We were walking when we saw the accident.",
+    "spanish": "Caminábamos cuando vimos el accidente.",
+    "verb_id": 96,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ cuando vimos el accidente.",
+    "correct_answer": "Caminábamos",
+    "distractors": ["Caminamos", "Caminaremos", "Caminemos"]
+  },
+  {
+    "id": 272,
+    "english": "I thought you knew how to swim.",
+    "spanish": "Pensaba que sabías nadar.",
+    "verb_id": 26,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ que sabías nadar.",
+    "correct_answer": "Pensaba",
+    "distractors": ["Pienso", "Pensé", "Pensaré"]
+  },
+  {
+    "id": 273,
+    "english": "If we had left earlier, we would have arrived on time.",
+    "spanish": "Si hubiéramos salido antes, habríamos llegado a tiempo.",
+    "verb_id": 27,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "Si hubiéramos _____ antes, habríamos llegado a tiempo.",
+    "correct_answer": "salido",
+    "distractors": ["salir", "saliendo", "salimos"]
+  },
+  {
+    "id": 274,
+    "english": "She keeps saying she will change.",
+    "spanish": "Sigue diciendo que cambiará.",
+    "verb_id": 22,
+    "tense": "presente_indicativo",
+    "blank_sentence": "_____ diciendo que cambiará.",
+    "correct_answer": "Sigue",
+    "distractors": ["Seguía", "Siguió", "Seguirá"]
+  },
+  {
+    "id": 275,
+    "english": "I was hoping you could help me understand.",
+    "spanish": "Esperaba que pudieras ayudarme a entender.",
+    "verb_id": 37,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ que pudieras ayudarme a entender.",
+    "correct_answer": "Esperaba",
+    "distractors": ["Espero", "Esperé", "Esperaré"]
+  },
+  {
+    "id": 276,
+    "english": "They had to run to catch the bus.",
+    "spanish": "Tuvieron que correr para alcanzar el autobús.",
+    "verb_id": 3,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ que correr para alcanzar el autobús.",
+    "correct_answer": "Tuvieron",
+    "distractors": ["Tienen", "Tenían", "Tendrán"]
+  },
+  {
+    "id": 277,
+    "english": "I doubt he can finish before we leave.",
+    "spanish": "Dudo que pueda terminar antes de que salgamos.",
+    "verb_id": 5,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Dudo que _____ terminar antes de que salgamos.",
+    "correct_answer": "pueda",
+    "distractors": ["puede", "pudo", "podrá"]
+  },
+  {
+    "id": 278,
+    "english": "He was writing while she was cooking.",
+    "spanish": "Él escribía mientras ella cocinaba.",
+    "verb_id": 42,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Él _____ mientras ella cocinaba.",
+    "correct_answer": "escribía",
+    "distractors": ["escribe", "escribió", "escribirá"]
+  },
+  {
+    "id": 279,
+    "english": "I want to learn to play the guitar.",
+    "spanish": "Quiero aprender a tocar la guitarra.",
+    "verb_id": 90,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Quiero _____ a tocar la guitarra.",
+    "correct_answer": "aprender",
+    "distractors": ["aprendo", "aprendí", "aprenderé"]
+  },
+  {
+    "id": 280,
+    "english": "She promised she would come back soon.",
+    "spanish": "Prometió que volvería pronto.",
+    "verb_id": 28,
+    "tense": "condicional_simple",
+    "blank_sentence": "Prometió que _____ pronto.",
+    "correct_answer": "volvería",
+    "distractors": ["vuelve", "volvió", "volvía"]
+  },
+  {
+    "id": 281,
+    "english": "We need to buy food before the store closes.",
+    "spanish": "Necesitamos comprar comida antes de que cierre la tienda.",
+    "verb_id": 91,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Necesitamos _____ comida antes de que cierre la tienda.",
+    "correct_answer": "comprar",
+    "distractors": ["compro", "compré", "compraré"]
+  },
+  {
+    "id": 282,
+    "english": "I didn't know you had already seen that movie.",
+    "spanish": "No sabía que ya habías visto esa película.",
+    "verb_id": 8,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "No sabía que ya _____ esa película.",
+    "correct_answer": "habías visto",
+    "distractors": ["ves", "viste", "verás"]
+  },
+  {
+    "id": 283,
+    "english": "They kept working even though they were tired.",
+    "spanish": "Siguieron trabajando aunque estaban cansados.",
+    "verb_id": 22,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "_____ trabajando aunque estaban cansados.",
+    "correct_answer": "Siguieron",
+    "distractors": ["Siguen", "Seguían", "Seguirán"]
+  },
+  {
+    "id": 284,
+    "english": "I was trying to call you all day.",
+    "spanish": "Estuve intentando llamarte todo el día.",
+    "verb_id": 87,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Estuve _____ llamarte todo el día.",
+    "correct_answer": "intentando",
+    "distractors": ["intentar", "intentado", "intento"]
+  },
+  {
+    "id": 285,
+    "english": "He asked me if I could lend him some money.",
+    "spanish": "Me preguntó si podía prestarle algo de dinero.",
+    "verb_id": 98,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Me _____ si podía prestarle algo de dinero.",
+    "correct_answer": "preguntó",
+    "distractors": ["pregunta", "preguntaba", "preguntará"]
+  },
+  {
+    "id": 286,
+    "english": "We had been waiting for hours when they finally arrived.",
+    "spanish": "Habíamos estado esperando por horas cuando finalmente llegaron.",
+    "verb_id": 37,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "_____ esperando por horas cuando finalmente llegaron.",
+    "correct_answer": "Habíamos estado",
+    "distractors": ["Estamos", "Estuvimos", "Estaremos"]
+  },
+  {
+    "id": 287,
+    "english": "I prefer to stay home rather than go out.",
+    "spanish": "Prefiero quedarme en casa en vez de salir.",
+    "verb_id": 17,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Prefiero _____ en casa en vez de salir.",
+    "correct_answer": "quedarme",
+    "distractors": ["quedo", "quedé", "quedaré"]
+  },
+  {
+    "id": 288,
+    "english": "She told me she had lost her keys.",
+    "spanish": "Me dijo que había perdido sus llaves.",
+    "verb_id": 43,
+    "tense": "preterito_pluscuamperfecto",
+    "blank_sentence": "Me dijo que _____ sus llaves.",
+    "correct_answer": "había perdido",
+    "distractors": ["pierde", "perdió", "perderá"]
+  },
+  {
+    "id": 289,
+    "english": "I was listening to music while doing homework.",
+    "spanish": "Escuchaba música mientras hacía la tarea.",
+    "verb_id": 97,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ música mientras hacía la tarea.",
+    "correct_answer": "Escuchaba",
+    "distractors": ["Escucho", "Escuché", "Escucharé"]
+  },
+  {
+    "id": 290,
+    "english": "They decided to sell the house and move abroad.",
+    "spanish": "Decidieron vender la casa y mudarse al extranjero.",
+    "verb_id": 92,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Decidieron _____ la casa y mudarse al extranjero.",
+    "correct_answer": "vender",
+    "distractors": ["vendo", "vendí", "venderé"]
+  },
+  {
+    "id": 291,
+    "english": "I hope they can find what they are looking for.",
+    "spanish": "Espero que puedan encontrar lo que buscan.",
+    "verb_id": 23,
+    "tense": "presente_subjuntivo",
+    "blank_sentence": "Espero que puedan _____ lo que buscan.",
+    "correct_answer": "encontrar",
+    "distractors": ["encuentro", "encontré", "encontraré"]
+  },
+  {
+    "id": 292,
+    "english": "He said he would help if we needed him.",
+    "spanish": "Dijo que ayudaría si lo necesitábamos.",
+    "verb_id": 99,
+    "tense": "condicional_simple",
+    "blank_sentence": "Dijo que _____ si lo necesitábamos.",
+    "correct_answer": "ayudaría",
+    "distractors": ["ayuda", "ayudó", "ayudaba"]
+  },
+  {
+    "id": 293,
+    "english": "We used to go to the beach and swim every summer.",
+    "spanish": "Íbamos a la playa y nadábamos todos los veranos.",
+    "verb_id": 7,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ a la playa y nadábamos todos los veranos.",
+    "correct_answer": "Íbamos",
+    "distractors": ["Vamos", "Fuimos", "Iremos"]
+  },
+  {
+    "id": 294,
+    "english": "I didn't realize you were waiting for me.",
+    "spanish": "No me di cuenta de que me estabas esperando.",
+    "verb_id": 37,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "No me di cuenta de que me estabas _____.",
+    "correct_answer": "esperando",
+    "distractors": ["esperar", "esperado", "espero"]
+  },
+  {
+    "id": 295,
+    "english": "She kept asking questions until she understood.",
+    "spanish": "Siguió preguntando hasta que entendió.",
+    "verb_id": 98,
+    "tense": "preterito_perfecto_simple",
+    "blank_sentence": "Siguió _____ hasta que entendió.",
+    "correct_answer": "preguntando",
+    "distractors": ["preguntar", "preguntado", "pregunto"]
+  },
+  {
+    "id": 296,
+    "english": "I was about to leave when you called.",
+    "spanish": "Estaba a punto de salir cuando llamaste.",
+    "verb_id": 27,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Estaba a punto de _____ cuando llamaste.",
+    "correct_answer": "salir",
+    "distractors": ["salgo", "salí", "saldré"]
+  },
+  {
+    "id": 297,
+    "english": "They wanted to travel but couldn't afford it.",
+    "spanish": "Querían viajar pero no podían pagarlo.",
+    "verb_id": 11,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "_____ viajar pero no podían pagarlo.",
+    "correct_answer": "Querían",
+    "distractors": ["Quieren", "Quisieron", "Querrán"]
+  },
+  {
+    "id": 298,
+    "english": "I think he forgot to close the door.",
+    "spanish": "Creo que olvidó cerrar la puerta.",
+    "verb_id": 56,
+    "tense": "presente_indicativo",
+    "blank_sentence": "Creo que olvidó _____ la puerta.",
+    "correct_answer": "cerrar",
+    "distractors": ["cierro", "cerré", "cerraré"]
+  },
+  {
+    "id": 299,
+    "english": "We had just finished eating when they arrived.",
+    "spanish": "Acabábamos de terminar de comer cuando llegaron.",
+    "verb_id": 100,
+    "tense": "preterito_imperfecto",
+    "blank_sentence": "Acabábamos de terminar de _____ cuando llegaron.",
+    "correct_answer": "comer",
+    "distractors": ["como", "comí", "comeré"]
+  },
+  {
+    "id": 300,
+    "english": "She asked me to open the window because it was hot.",
+    "spanish": "Me pidió que abriera la ventana porque hacía calor.",
+    "verb_id": 55,
+    "tense": "imperfecto_subjuntivo",
+    "blank_sentence": "Me pidió que _____ la ventana porque hacía calor.",
+    "correct_answer": "abriera",
+    "distractors": ["abro", "abrí", "abriré"]
   }
 ]

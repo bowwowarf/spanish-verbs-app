@@ -3,7 +3,6 @@ import { useApp } from '../context/AppContext';
 import ProgressBar from '../components/ProgressBar';
 import Button from '../components/Button';
 import sentences from '../data/sentences.json';
-import { TENSES, TENSE_ORDER } from '../data/tenseConfig';
 
 function shuffleArray(array) {
   const shuffled = [...array];
@@ -14,24 +13,22 @@ function shuffleArray(array) {
   return shuffled;
 }
 
+const QUIZ_SIZE = 200;
+
 export default function Section3_FillBlank() {
   const { state, dispatch } = useApp();
-  const { attempts, correct, currentIndex, answered } = state.section3;
+  const { attempts, correct, currentIndex } = state.section3;
 
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showFeedback, setShowFeedback] = useState(false);
-  const [selectedTense, setSelectedTense] = useState('all');
   const [shuffledSentences, setShuffledSentences] = useState([]);
 
-  // Filter and shuffle sentences
+  // Shuffle and pick random sentences on mount
   useEffect(() => {
-    let filtered = sentences;
-    if (selectedTense !== 'all') {
-      filtered = sentences.filter(s => s.tense === selectedTense);
-    }
-    setShuffledSentences(shuffleArray(filtered));
+    const shuffled = shuffleArray(sentences).slice(0, QUIZ_SIZE);
+    setShuffledSentences(shuffled);
     dispatch({ type: 'SECTION3_RESET' });
-  }, [selectedTense, dispatch]);
+  }, [dispatch]);
 
   // Get current sentence
   const currentSentence = shuffledSentences[currentIndex];
@@ -65,18 +62,9 @@ export default function Section3_FillBlank() {
   const handleRestart = () => {
     setSelectedAnswer(null);
     setShowFeedback(false);
-    setShuffledSentences(shuffleArray(
-      selectedTense === 'all'
-        ? sentences
-        : sentences.filter(s => s.tense === selectedTense)
-    ));
+    const shuffled = shuffleArray(sentences).slice(0, QUIZ_SIZE);
+    setShuffledSentences(shuffled);
     dispatch({ type: 'SECTION3_RESET' });
-  };
-
-  const handleTenseChange = (tense) => {
-    setSelectedTense(tense);
-    setSelectedAnswer(null);
-    setShowFeedback(false);
   };
 
   // Calculate stats
@@ -113,12 +101,7 @@ export default function Section3_FillBlank() {
   if (!currentSentence) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] p-8">
-        <p className="text-slate-600 dark:text-slate-400">
-          No sentences available for the selected tense.
-        </p>
-        <Button onClick={() => setSelectedTense('all')} className="mt-4">
-          Show All Tenses
-        </Button>
+        <p className="text-slate-600 dark:text-slate-400">Loading sentences...</p>
       </div>
     );
   }
@@ -133,38 +116,6 @@ export default function Section3_FillBlank() {
         <p className="text-slate-600 dark:text-slate-400">
           Choose the correct verb form to complete the sentence
         </p>
-      </div>
-
-      {/* Tense Filter */}
-      <div className="mb-6">
-        <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
-          Filter by Tense
-        </label>
-        <div className="flex flex-wrap gap-2">
-          <button
-            onClick={() => handleTenseChange('all')}
-            className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-              selectedTense === 'all'
-                ? 'bg-blue-600 text-white'
-                : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
-            }`}
-          >
-            All Tenses
-          </button>
-          {TENSE_ORDER.map((tenseId) => (
-            <button
-              key={tenseId}
-              onClick={() => handleTenseChange(tenseId)}
-              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-                selectedTense === tenseId
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
-              }`}
-            >
-              {TENSES[tenseId].shortName}
-            </button>
-          ))}
-        </div>
       </div>
 
       {/* Progress and Score */}
@@ -186,13 +137,6 @@ export default function Section3_FillBlank() {
 
       {/* Question Card */}
       <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-8 border border-slate-200 dark:border-slate-700 mb-6">
-        {/* Tense indicator */}
-        <div className="mb-4">
-          <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 rounded-full text-sm font-medium">
-            {TENSES[currentSentence.tense]?.name || currentSentence.tense}
-          </span>
-        </div>
-
         {/* English sentence */}
         <p className="text-slate-500 dark:text-slate-400 mb-4 text-lg">
           {currentSentence.english}
