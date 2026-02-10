@@ -17,7 +17,7 @@ const QUIZ_SIZE = 200;
 
 export default function Section3_FillBlank() {
   const { state, dispatch } = useApp();
-  const { attempts, correct, currentIndex } = state.section3;
+  const { attempts, correct, currentIndex, review } = state.section3;
 
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showFeedback, setShowFeedback] = useState(false);
@@ -67,6 +67,14 @@ export default function Section3_FillBlank() {
     dispatch({ type: 'SECTION3_RESET' });
   };
 
+  const handleMarkReview = () => {
+    if (currentSentence) {
+      dispatch({ type: 'SECTION3_MARK_REVIEW', payload: currentSentence.id });
+    }
+  };
+
+  const isMarkedForReview = review?.includes(currentSentence?.id);
+
   // Calculate stats
   const total = shuffledSentences.length;
   const accuracy = attempts > 0 ? Math.round((correct / attempts) * 100) : 0;
@@ -76,18 +84,18 @@ export default function Section3_FillBlank() {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] p-8">
         <div className="text-center max-w-md">
-          <div className="w-20 h-20 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-6">
-            <svg className="w-10 h-10 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="w-20 h-20 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg className="w-10 h-10 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-2">
+          <h2 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-2">
             Quiz Complete!
           </h2>
-          <p className="text-slate-600 dark:text-slate-400 mb-4">
+          <p className="text-neutral-600 dark:text-neutral-400 mb-4">
             You answered {correct} out of {attempts} questions correctly.
           </p>
-          <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-6">
+          <div className="text-4xl font-bold text-red-600 dark:text-red-400 mb-6">
             {accuracy}%
           </div>
           <Button onClick={handleRestart} size="lg">
@@ -101,7 +109,7 @@ export default function Section3_FillBlank() {
   if (!currentSentence) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] p-8">
-        <p className="text-slate-600 dark:text-slate-400">Loading sentences...</p>
+        <p className="text-neutral-600 dark:text-neutral-400">Loading sentences...</p>
       </div>
     );
   }
@@ -110,10 +118,10 @@ export default function Section3_FillBlank() {
     <div className="max-w-3xl mx-auto p-6">
       {/* Header */}
       <div className="mb-6">
-        <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-2">
+        <h1 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-2">
           Fill in the Blank
         </h1>
-        <p className="text-slate-600 dark:text-slate-400">
+        <p className="text-neutral-600 dark:text-neutral-400">
           Choose the correct verb form to complete the sentence
         </p>
       </div>
@@ -129,21 +137,26 @@ export default function Section3_FillBlank() {
           <span className="px-3 py-1 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 rounded-full">
             {correct} correct
           </span>
-          <span className="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded-full">
+          <span className="px-3 py-1 bg-neutral-100 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300 rounded-full">
             {accuracy}% accuracy
           </span>
+          {review.length > 0 && (
+            <span className="px-3 py-1 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded-full">
+              {review.length} to review
+            </span>
+          )}
         </div>
       </div>
 
       {/* Question Card */}
-      <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-8 border border-slate-200 dark:border-slate-700 mb-6">
+      <div className="bg-white dark:bg-neutral-800 rounded-2xl shadow-xl p-8 border border-neutral-200 dark:border-neutral-700 mb-6">
         {/* English sentence */}
-        <p className="text-slate-500 dark:text-slate-400 mb-4 text-lg">
+        <p className="text-neutral-500 dark:text-neutral-400 mb-4 text-lg">
           {currentSentence.english}
         </p>
 
         {/* Spanish sentence with blank */}
-        <p className="text-2xl font-semibold text-slate-800 dark:text-slate-200 mb-8">
+        <p className="text-2xl font-semibold text-neutral-800 dark:text-neutral-200 mb-8">
           {currentSentence.blank_sentence.split('_____').map((part, index, arr) => (
             <span key={index}>
               {part}
@@ -153,7 +166,7 @@ export default function Section3_FillBlank() {
                     ? selectedAnswer === currentSentence.correct_answer
                       ? 'bg-emerald-100 dark:bg-emerald-900/30 border-emerald-500 text-emerald-700 dark:text-emerald-400'
                       : 'bg-red-100 dark:bg-red-900/30 border-red-500 text-red-700 dark:text-red-400'
-                    : 'border-slate-300 dark:border-slate-600'
+                    : 'border-neutral-300 dark:border-neutral-600'
                 }`}>
                   {showFeedback ? currentSentence.correct_answer : '?'}
                 </span>
@@ -165,7 +178,7 @@ export default function Section3_FillBlank() {
         {/* Answer Options */}
         <div className="grid grid-cols-2 gap-4">
           {options.map((option, index) => {
-            let buttonClass = 'bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600';
+            let buttonClass = 'bg-neutral-100 dark:bg-neutral-700 text-neutral-800 dark:text-neutral-200 hover:bg-neutral-200 dark:hover:bg-neutral-600';
 
             if (showFeedback) {
               if (option === currentSentence.correct_answer) {
@@ -173,7 +186,7 @@ export default function Section3_FillBlank() {
               } else if (option === selectedAnswer) {
                 buttonClass = 'bg-red-500 text-white';
               } else {
-                buttonClass = 'bg-slate-100 dark:bg-slate-700 text-slate-400 dark:text-slate-500';
+                buttonClass = 'bg-neutral-100 dark:bg-neutral-700 text-neutral-400 dark:text-neutral-500';
               }
             }
 
@@ -214,13 +227,27 @@ export default function Section3_FillBlank() {
       </div>
 
       {/* Navigation */}
-      <div className="flex justify-center gap-4">
-        {showFeedback && (
+      {showFeedback && (
+        <div className="flex justify-center gap-4">
+          <button
+            onClick={handleMarkReview}
+            disabled={isMarkedForReview}
+            className={`flex items-center gap-2 px-5 py-3 rounded-xl font-medium transition-colors ${
+              isMarkedForReview
+                ? 'bg-amber-200 dark:bg-amber-900/50 text-amber-700 dark:text-amber-400 cursor-not-allowed'
+                : 'bg-amber-500 hover:bg-amber-600 text-white shadow-lg shadow-amber-500/25'
+            }`}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" />
+            </svg>
+            {isMarkedForReview ? 'Marked' : 'Review'}
+          </button>
           <Button onClick={handleNext} size="lg">
             {currentIndex < total - 1 ? 'Next Question' : 'See Results'}
           </Button>
-        )}
-      </div>
+        </div>
+      )}
 
       {/* Restart button */}
       <div className="mt-8 flex justify-center">

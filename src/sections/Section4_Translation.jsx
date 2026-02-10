@@ -80,10 +80,10 @@ export default function Section4_Translation() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-2">
+          <h2 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-2">
             Congratulations!
           </h2>
-          <p className="text-slate-600 dark:text-slate-400 mb-6">
+          <p className="text-neutral-600 dark:text-neutral-400 mb-6">
             You've completed all {total} translation cards!
             {reviewCount > 0 && (
               <span className="block mt-2">
@@ -103,10 +103,10 @@ export default function Section4_Translation() {
     <div className="max-w-2xl mx-auto p-6">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-2">
+        <h1 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-2">
           English to Spanish
         </h1>
-        <p className="text-slate-600 dark:text-slate-400">
+        <p className="text-neutral-600 dark:text-neutral-400">
           Translate the English sentence to Spanish
         </p>
       </div>
@@ -122,11 +122,11 @@ export default function Section4_Translation() {
           <span className="px-3 py-1 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 rounded-full">
             {completed} known
           </span>
-          <span className="px-3 py-1 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded-full">
+          <span className="px-3 py-1 bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 rounded-full">
             {remaining} remaining
           </span>
           {reviewCount > 0 && (
-            <span className="px-3 py-1 bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400 rounded-full">
+            <span className="px-3 py-1 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded-full">
               {reviewCount} to review
             </span>
           )}
@@ -138,17 +138,17 @@ export default function Section4_Translation() {
         <FlashCard
           front={
             <div className="text-center">
-              <p className="text-xs uppercase tracking-wide text-slate-400 dark:text-slate-500 mb-4">
+              <p className="text-xs uppercase tracking-wide text-neutral-400 dark:text-neutral-500 mb-4">
                 Translate to Spanish
               </p>
-              <p className="text-2xl font-semibold text-slate-800 dark:text-slate-200">
+              <p className="text-2xl font-semibold text-neutral-800 dark:text-neutral-200">
                 {currentSentence.english}
               </p>
             </div>
           }
           back={
             <div className="text-center">
-              <p className="text-xs uppercase tracking-wide text-blue-200 mb-4">
+              <p className="text-xs uppercase tracking-wide text-red-200 mb-4">
                 Spanish Translation
               </p>
               <p className="text-2xl font-semibold">

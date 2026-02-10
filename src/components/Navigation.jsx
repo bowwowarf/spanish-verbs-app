@@ -7,7 +7,8 @@ const navItems = [
   { to: '/section2', label: 'Conjugations', icon: TableIcon },
   { to: '/section3', label: 'Fill in Blank', icon: QuizIcon },
   { to: '/section4', label: 'Translations', icon: TranslateIcon },
-  { to: '/section5', label: 'Custom Cards', icon: PlusIcon }
+  { to: '/section5', label: 'Custom Cards', icon: PlusIcon },
+  { to: '/review', label: 'Review', icon: ReviewIcon }
 ];
 
 function HomeIcon({ className }) {
@@ -58,6 +59,14 @@ function PlusIcon({ className }) {
   );
 }
 
+function ReviewIcon({ className }) {
+  return (
+    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+    </svg>
+  );
+}
+
 function SunIcon({ className }) {
   return (
     <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -79,14 +88,14 @@ export default function Navigation() {
 
   return (
     <>
-      {/* Desktop Sidebar */}
-      <aside className="hidden lg:flex flex-col w-64 bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 min-h-screen fixed left-0 top-0">
+      {/* Desktop Sidebar - dark Incredibles suit look */}
+      <aside className="hidden lg:flex flex-col w-64 bg-neutral-900 dark:bg-neutral-950 border-r border-neutral-800 min-h-screen fixed left-0 top-0">
         {/* Logo */}
-        <div className="p-6 border-b border-slate-200 dark:border-slate-700">
-          <h1 className="text-xl font-bold text-blue-600 dark:text-blue-400">
+        <div className="p-6 border-b border-neutral-800">
+          <h1 className="text-xl font-bold text-red-500">
             Spanish Verbs
           </h1>
-          <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
+          <p className="text-sm text-neutral-400 mt-1">
             50 Essential Verbs
           </p>
         </div>
@@ -100,8 +109,8 @@ export default function Navigation() {
               className={({ isActive }) =>
                 `flex items-center gap-3 px-4 py-3 rounded-xl transition-colors ${
                   isActive
-                    ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 font-medium'
-                    : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700'
+                    ? 'bg-red-900/30 text-red-400 font-medium'
+                    : 'text-neutral-400 hover:bg-neutral-800'
                 }`
               }
             >
@@ -112,10 +121,10 @@ export default function Navigation() {
         </nav>
 
         {/* Dark Mode Toggle */}
-        <div className="p-4 border-t border-slate-200 dark:border-slate-700">
+        <div className="p-4 border-t border-neutral-800">
           <button
             onClick={() => dispatch({ type: 'TOGGLE_DARK_MODE' })}
-            className="flex items-center gap-3 w-full px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
+            className="flex items-center gap-3 w-full px-4 py-3 rounded-xl text-neutral-400 hover:bg-neutral-800 transition-colors"
           >
             {state.darkMode ? (
               <>
@@ -133,14 +142,14 @@ export default function Navigation() {
       </aside>
 
       {/* Mobile Header */}
-      <header className="lg:hidden fixed top-0 left-0 right-0 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 z-50">
+      <header className="lg:hidden fixed top-0 left-0 right-0 bg-neutral-900 dark:bg-neutral-950 border-b border-neutral-800 z-50">
         <div className="flex items-center justify-between px-4 py-3">
-          <h1 className="text-lg font-bold text-blue-600 dark:text-blue-400">
+          <h1 className="text-lg font-bold text-red-500">
             Spanish Verbs
           </h1>
           <button
             onClick={() => dispatch({ type: 'TOGGLE_DARK_MODE' })}
-            className="p-2 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700"
+            className="p-2 rounded-lg text-neutral-400 hover:bg-neutral-800"
           >
             {state.darkMode ? (
               <SunIcon className="w-5 h-5" />
@@ -152,17 +161,17 @@ export default function Navigation() {
       </header>
 
       {/* Mobile Bottom Nav */}
-      <nav className="lg:hidden fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 z-50">
+      <nav className="lg:hidden fixed bottom-0 left-0 right-0 bg-neutral-900 dark:bg-neutral-950 border-t border-neutral-800 z-50">
         <div className="flex justify-around py-2">
-          {navItems.slice(0, 5).map((item) => (
+          {[navItems[0], navItems[1], navItems[2], navItems[3], navItems[4], navItems[6]].map((item) => (
             <NavLink
               key={item.to}
               to={item.to}
               className={({ isActive }) =>
                 `flex flex-col items-center gap-1 px-3 py-2 rounded-lg transition-colors ${
                   isActive
-                    ? 'text-blue-600 dark:text-blue-400'
-                    : 'text-slate-500 dark:text-slate-400'
+                    ? 'text-red-400'
+                    : 'text-neutral-500'
                 }`
               }
             >
@@ -170,19 +179,6 @@ export default function Navigation() {
               <span className="text-xs">{item.label.split(' ')[0]}</span>
             </NavLink>
           ))}
-          <NavLink
-            to="/section5"
-            className={({ isActive }) =>
-              `flex flex-col items-center gap-1 px-3 py-2 rounded-lg transition-colors ${
-                isActive
-                  ? 'text-blue-600 dark:text-blue-400'
-                  : 'text-slate-500 dark:text-slate-400'
-              }`
-            }
-          >
-            <PlusIcon className="w-5 h-5" />
-            <span className="text-xs">Custom</span>
-          </NavLink>
         </div>
       </nav>
     </>

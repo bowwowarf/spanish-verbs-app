@@ -57,7 +57,6 @@ export default function Section2_Conjugations() {
 
   const handleTenseChange = (tense) => {
     dispatch({ type: 'SECTION2_SET_TENSE', payload: tense });
-    setLocalIndex(0);
     setIsFlipped(false);
   };
 
@@ -80,17 +79,17 @@ export default function Section2_Conjugations() {
     <div className="max-w-4xl mx-auto p-6">
       {/* Header */}
       <div className="mb-6">
-        <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-2">
+        <h1 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-2">
           Verb Conjugations
         </h1>
-        <p className="text-slate-600 dark:text-slate-400">
+        <p className="text-neutral-600 dark:text-neutral-400">
           Learn conjugations for each tense
         </p>
       </div>
 
       {/* Tense Selector */}
       <div className="mb-6">
-        <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+        <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">
           Select Tense
         </label>
         <div className="flex flex-wrap gap-2">
@@ -100,8 +99,8 @@ export default function Section2_Conjugations() {
               onClick={() => handleTenseChange(tenseId)}
               className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                 selectedTense === tenseId
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                  ? 'bg-red-600 text-white'
+                  : 'bg-neutral-100 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-600'
               }`}
             >
               {TENSES[tenseId].shortName}
@@ -122,7 +121,7 @@ export default function Section2_Conjugations() {
             {knownCount} known
           </span>
           {reviewCount > 0 && (
-            <span className="px-3 py-1 bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400 rounded-full">
+            <span className="px-3 py-1 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded-full">
               {reviewCount} to review
             </span>
           )}
@@ -138,15 +137,15 @@ export default function Section2_Conjugations() {
           >
             <div className="flip-card-inner">
               {/* Front */}
-              <div className="flip-card-front bg-white dark:bg-slate-800 shadow-xl flex flex-col items-center justify-center p-8 border border-slate-200 dark:border-slate-700">
-                <p className="text-4xl font-bold text-slate-800 dark:text-slate-200 mb-3">
+              <div className="flip-card-front bg-white dark:bg-neutral-800 shadow-xl flex flex-col items-center justify-center p-8 border border-neutral-200 dark:border-neutral-700">
+                <p className="text-4xl font-bold text-neutral-800 dark:text-neutral-200 mb-3">
                   {currentVerb.infinitive}
                 </p>
-                <p className="text-lg text-slate-500 dark:text-slate-400 mb-4">
+                <p className="text-lg text-neutral-500 dark:text-neutral-400 mb-4">
                   {currentVerb.english}
                 </p>
-                <div className="px-4 py-2 bg-blue-100 dark:bg-blue-900/30 rounded-lg">
-                  <p className="text-blue-700 dark:text-blue-400 font-medium">
+                <div className="px-4 py-2 bg-red-100 dark:bg-red-900/30 rounded-lg">
+                  <p className="text-red-700 dark:text-red-400 font-medium">
                     {currentTense.name}
                   </p>
                 </div>
@@ -154,29 +153,29 @@ export default function Section2_Conjugations() {
                   <div className={`mt-4 px-3 py-1 rounded-full text-sm ${
                     isKnown
                       ? 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400'
-                      : 'bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400'
+                      : 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400'
                   }`}>
                     {isKnown ? 'Marked as known' : 'Marked for review'}
                   </div>
                 )}
-                <p className="absolute bottom-4 text-sm text-slate-400 dark:text-slate-500">
+                <p className="absolute bottom-4 text-sm text-neutral-400 dark:text-neutral-500">
                   Click to see conjugation
                 </p>
               </div>
 
               {/* Back */}
-              <div className="flip-card-back bg-gradient-to-br from-blue-600 to-blue-800 dark:from-blue-700 dark:to-blue-900 shadow-xl flex flex-col items-center justify-center p-8 text-white">
+              <div className="flip-card-back bg-gradient-to-br from-red-600 to-red-900 dark:from-red-700 dark:to-red-950 shadow-xl flex flex-col items-center justify-center p-8 text-white">
                 {selectedTense === 'participio' ? (
                   <div className="text-center">
-                    <p className="text-lg text-blue-200 mb-2">Participio</p>
+                    <p className="text-lg text-red-200 mb-2">Participio</p>
                     <p className="text-4xl font-bold">{conjugation}</p>
                   </div>
                 ) : (
                   <table className="w-full max-w-xs">
                     <tbody>
                       {PRONOUNS.map((pronoun, index) => (
-                        <tr key={pronoun} className="border-b border-blue-500/30 last:border-0">
-                          <td className="py-2 text-blue-200 text-right pr-4">
+                        <tr key={pronoun} className="border-b border-red-500/30 last:border-0">
+                          <td className="py-2 text-red-200 text-right pr-4">
                             {pronoun}
                           </td>
                           <td className="py-2 font-bold text-xl">
@@ -195,7 +194,7 @@ export default function Section2_Conjugations() {
           <div className="flex gap-4">
             <button
               onClick={(e) => { e.stopPropagation(); handleReview(); }}
-              className="flex items-center gap-2 px-6 py-3 bg-red-500 hover:bg-red-600 text-white rounded-xl font-medium transition-colors shadow-lg shadow-red-500/25"
+              className="flex items-center gap-2 px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-xl font-medium transition-colors shadow-lg shadow-amber-500/25"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -222,7 +221,7 @@ export default function Section2_Conjugations() {
             >
               Previous
             </Button>
-            <span className="text-slate-500 dark:text-slate-400">
+            <span className="text-neutral-500 dark:text-neutral-400">
               {localIndex + 1} of {verbs.length}
             </span>
             <Button

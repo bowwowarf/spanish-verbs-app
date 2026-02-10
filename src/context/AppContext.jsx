@@ -21,7 +21,8 @@ const initialState = {
     attempts: 0,
     correct: 0,
     currentIndex: 0,
-    answered: []
+    answered: [],
+    review: []
   },
   section4: {
     known: [],
@@ -106,6 +107,16 @@ function appReducer(state, action) {
       };
       break;
 
+    case 'SECTION1_REMOVE_REVIEW':
+      newState = {
+        ...state,
+        section1: {
+          ...state.section1,
+          review: state.section1.review.filter(id => id !== action.payload)
+        }
+      };
+      break;
+
     case 'SECTION1_RESET':
       newState = {
         ...state,
@@ -124,8 +135,7 @@ function appReducer(state, action) {
         ...state,
         section2: {
           ...state.section2,
-          selectedTense: action.payload,
-          currentIndex: 0
+          selectedTense: action.payload
         }
       };
       break;
@@ -148,6 +158,17 @@ function appReducer(state, action) {
         section2: {
           ...state.section2,
           review: { ...state.section2.review, [reviewKey]: true }
+        }
+      };
+      break;
+
+    case 'SECTION2_REMOVE_REVIEW':
+      const { [action.payload]: _removedReview, ...remainingSection2Reviews } = state.section2.review;
+      newState = {
+        ...state,
+        section2: {
+          ...state.section2,
+          review: remainingSection2Reviews
         }
       };
       break;
@@ -199,6 +220,28 @@ function appReducer(state, action) {
       };
       break;
 
+    case 'SECTION3_MARK_REVIEW':
+      newState = {
+        ...state,
+        section3: {
+          ...state.section3,
+          review: state.section3.review.includes(action.payload)
+            ? state.section3.review
+            : [...state.section3.review, action.payload]
+        }
+      };
+      break;
+
+    case 'SECTION3_REMOVE_REVIEW':
+      newState = {
+        ...state,
+        section3: {
+          ...state.section3,
+          review: state.section3.review.filter(id => id !== action.payload)
+        }
+      };
+      break;
+
     case 'SECTION3_RESET':
       newState = {
         ...state,
@@ -206,7 +249,8 @@ function appReducer(state, action) {
           attempts: 0,
           correct: 0,
           currentIndex: 0,
-          answered: []
+          answered: [],
+          review: state.section3.review
         }
       };
       break;
@@ -230,6 +274,16 @@ function appReducer(state, action) {
           review: state.section4.review.includes(action.payload)
             ? state.section4.review
             : [...state.section4.review, action.payload]
+        }
+      };
+      break;
+
+    case 'SECTION4_REMOVE_REVIEW':
+      newState = {
+        ...state,
+        section4: {
+          ...state.section4,
+          review: state.section4.review.filter(id => id !== action.payload)
         }
       };
       break;

@@ -7,12 +7,13 @@ import Section2_Conjugations from './sections/Section2_Conjugations';
 import Section3_FillBlank from './sections/Section3_FillBlank';
 import Section4_Translation from './sections/Section4_Translation';
 import Section5_CustomCards from './sections/Section5_CustomCards';
+import ReviewPage from './sections/ReviewPage';
 
 function App() {
   return (
     <AppProvider>
       <BrowserRouter>
-        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors">
+        <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 transition-colors">
           <Navigation />
 
           {/* Main content area */}
@@ -24,6 +25,7 @@ function App() {
               <Route path="/section3" element={<Section3_FillBlank />} />
               <Route path="/section4" element={<Section4_Translation />} />
               <Route path="/section5" element={<Section5_CustomCards />} />
+              <Route path="/review" element={<ReviewPage />} />
             </Routes>
           </main>
         </div>

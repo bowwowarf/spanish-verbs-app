@@ -4,17 +4,19 @@
 
 @theme {
   --font-family-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --color-primary: #1e40af;
-  --color-primary-dark: #1e3a8a;
-  --color-accent: #f59e0b;
-  --color-accent-dark: #d97706;
+  --color-primary: #CC0000;
+  --color-primary-dark: #991B1B;
+  --color-accent: #FF6B00;
+  --color-accent-dark: #EA580C;
   --color-success: #10b981;
-  --color-error: #ef4444;
+  --color-error: #F59E0B;
+  --color-highlight: #FFD700;
+  --color-cool-accent: #0066FF;
 }
 
 /* Base styles */
 body {
-  @apply bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100;
+  @apply bg-neutral-50 text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100;
   font-family: var(--font-family-sans);
 }
 
@@ -58,13 +60,13 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-slate-200 dark:bg-slate-700;
+  @apply bg-neutral-200 dark:bg-neutral-700;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-slate-400 dark:bg-slate-500 rounded-full;
+  @apply bg-neutral-400 dark:bg-neutral-500 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-slate-500 dark:bg-slate-400;
+  @apply bg-neutral-500 dark:bg-neutral-400;
 }

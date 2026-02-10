@@ -47,10 +47,10 @@ export default function Section1_VerbMeaning() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-2">
+          <h2 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-2">
             Congratulations!
           </h2>
-          <p className="text-slate-600 dark:text-slate-400 mb-6">
+          <p className="text-neutral-600 dark:text-neutral-400 mb-6">
             You've completed all {total} verb meanings!
             {reviewCount > 0 && (
               <span className="block mt-2">
@@ -70,10 +70,10 @@ export default function Section1_VerbMeaning() {
     <div className="max-w-2xl mx-auto p-6">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-2">
+        <h1 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-2">
           Verb Meanings
         </h1>
-        <p className="text-slate-600 dark:text-slate-400">
+        <p className="text-neutral-600 dark:text-neutral-400">
           Learn the English meaning of each Spanish verb
         </p>
       </div>
@@ -89,11 +89,11 @@ export default function Section1_VerbMeaning() {
           <span className="px-3 py-1 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 rounded-full">
             {completed} known
           </span>
-          <span className="px-3 py-1 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded-full">
+          <span className="px-3 py-1 bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 rounded-full">
             {remaining} remaining
           </span>
           {reviewCount > 0 && (
-            <span className="px-3 py-1 bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400 rounded-full">
+            <span className="px-3 py-1 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded-full">
               {reviewCount} to review
             </span>
           )}
@@ -105,10 +105,10 @@ export default function Section1_VerbMeaning() {
         <FlashCard
           front={
             <div>
-              <p className="text-4xl font-bold text-slate-800 dark:text-slate-200 mb-2">
+              <p className="text-4xl font-bold text-neutral-800 dark:text-neutral-200 mb-2">
                 {currentVerb.infinitive}
               </p>
-              <p className="text-sm text-slate-500 dark:text-slate-400">
+              <p className="text-sm text-neutral-500 dark:text-neutral-400">
                 (verb)
               </p>
             </div>

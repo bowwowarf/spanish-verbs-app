@@ -113,27 +113,27 @@ export default function Section5_CustomCards() {
   // Render form for add/edit
   const renderForm = () => (
     <div className="max-w-md mx-auto">
-      <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-8 border border-slate-200 dark:border-slate-700">
-        <h2 className="text-xl font-bold text-slate-800 dark:text-slate-200 mb-6">
+      <div className="bg-white dark:bg-neutral-800 rounded-2xl shadow-xl p-8 border border-neutral-200 dark:border-neutral-700">
+        <h2 className="text-xl font-bold text-neutral-800 dark:text-neutral-200 mb-6">
           {mode === 'add' ? 'Add New Card' : 'Edit Card'}
         </h2>
 
         <div className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+            <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">
               Spanish Word/Phrase
             </label>
             <input
               type="text"
               value={formData.spanish}
               onChange={(e) => setFormData({ ...formData, spanish: e.target.value })}
-              placeholder="e.g., además"
-              className="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              placeholder="e.g., ademas"
+              className="w-full px-4 py-3 rounded-xl border border-neutral-300 dark:border-neutral-600 bg-white dark:bg-neutral-700 text-neutral-800 dark:text-neutral-200 focus:ring-2 focus:ring-red-500 focus:border-transparent"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+            <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">
               English Translation
             </label>
             <input
@@ -141,7 +141,7 @@ export default function Section5_CustomCards() {
               value={formData.english}
               onChange={(e) => setFormData({ ...formData, english: e.target.value })}
               placeholder="e.g., besides, furthermore"
-              className="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-3 rounded-xl border border-neutral-300 dark:border-neutral-600 bg-white dark:bg-neutral-700 text-neutral-800 dark:text-neutral-200 focus:ring-2 focus:ring-red-500 focus:border-transparent"
             />
           </div>
         </div>
@@ -173,7 +173,7 @@ export default function Section5_CustomCards() {
     if (studyDeck.length === 0) {
       return (
         <div className="text-center py-12">
-          <p className="text-slate-600 dark:text-slate-400 mb-4">
+          <p className="text-neutral-600 dark:text-neutral-400 mb-4">
             No cards to study. Add some cards first!
           </p>
           <Button onClick={() => setMode('add')}>Add Your First Card</Button>
@@ -186,7 +186,7 @@ export default function Section5_CustomCards() {
     return (
       <div className="max-w-md mx-auto">
         <div className="mb-6 text-center">
-          <span className="text-slate-500 dark:text-slate-400">
+          <span className="text-neutral-500 dark:text-neutral-400">
             Card {studyIndex + 1} of {studyDeck.length}
           </span>
         </div>
@@ -197,21 +197,21 @@ export default function Section5_CustomCards() {
         >
           <div className="flip-card-inner">
             {/* Front */}
-            <div className="flip-card-front bg-white dark:bg-slate-800 shadow-xl flex flex-col items-center justify-center p-8 border border-slate-200 dark:border-slate-700">
-              <p className="text-xs uppercase tracking-wide text-slate-400 dark:text-slate-500 mb-4">
+            <div className="flip-card-front bg-white dark:bg-neutral-800 shadow-xl flex flex-col items-center justify-center p-8 border border-neutral-200 dark:border-neutral-700">
+              <p className="text-xs uppercase tracking-wide text-neutral-400 dark:text-neutral-500 mb-4">
                 Spanish
               </p>
-              <p className="text-3xl font-bold text-slate-800 dark:text-slate-200">
+              <p className="text-3xl font-bold text-neutral-800 dark:text-neutral-200">
                 {currentCard.spanish}
               </p>
-              <p className="absolute bottom-4 text-sm text-slate-400 dark:text-slate-500">
+              <p className="absolute bottom-4 text-sm text-neutral-400 dark:text-neutral-500">
                 Click to flip
               </p>
             </div>
 
             {/* Back */}
-            <div className="flip-card-back bg-gradient-to-br from-blue-600 to-blue-800 dark:from-blue-700 dark:to-blue-900 shadow-xl flex flex-col items-center justify-center p-8 text-white">
-              <p className="text-xs uppercase tracking-wide text-blue-200 mb-4">
+            <div className="flip-card-back bg-gradient-to-br from-red-600 to-red-900 dark:from-red-700 dark:to-red-950 shadow-xl flex flex-col items-center justify-center p-8 text-white">
+              <p className="text-xs uppercase tracking-wide text-red-200 mb-4">
                 English
               </p>
               <p className="text-3xl font-bold">
@@ -279,40 +279,40 @@ export default function Section5_CustomCards() {
 
       {/* Cards List */}
       {customCards.length === 0 ? (
-        <div className="text-center py-12 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700">
-          <svg className="w-16 h-16 text-slate-400 dark:text-slate-600 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div className="text-center py-12 bg-neutral-50 dark:bg-neutral-800/50 rounded-2xl border-2 border-dashed border-neutral-300 dark:border-neutral-700">
+          <svg className="w-16 h-16 text-neutral-400 dark:text-neutral-600 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
           </svg>
-          <h3 className="text-lg font-medium text-slate-600 dark:text-slate-400 mb-2">
+          <h3 className="text-lg font-medium text-neutral-600 dark:text-neutral-400 mb-2">
             No custom cards yet
           </h3>
-          <p className="text-slate-500 dark:text-slate-500 mb-6">
+          <p className="text-neutral-500 dark:text-neutral-500 mb-6">
             Add vocabulary words you want to learn
           </p>
           <Button onClick={() => setMode('add')}>Add Your First Card</Button>
         </div>
       ) : (
         <div className="space-y-3">
-          <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">
+          <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-4">
             {customCards.length} card{customCards.length !== 1 ? 's' : ''} in your collection
           </p>
           {customCards.map((card) => (
             <div
               key={card.id}
-              className="flex items-center justify-between p-4 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm"
+              className="flex items-center justify-between p-4 bg-white dark:bg-neutral-800 rounded-xl border border-neutral-200 dark:border-neutral-700 shadow-sm"
             >
               <div className="flex-1">
-                <p className="font-medium text-slate-800 dark:text-slate-200">
+                <p className="font-medium text-neutral-800 dark:text-neutral-200">
                   {card.spanish}
                 </p>
-                <p className="text-sm text-slate-500 dark:text-slate-400">
+                <p className="text-sm text-neutral-500 dark:text-neutral-400">
                   {card.english}
                 </p>
               </div>
               <div className="flex gap-2">
                 <button
                   onClick={() => handleEditClick(card)}
-                  className="p-2 text-slate-500 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-400 transition-colors"
+                  className="p-2 text-neutral-500 hover:text-red-600 dark:text-neutral-400 dark:hover:text-red-400 transition-colors"
                   title="Edit"
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -321,7 +321,7 @@ export default function Section5_CustomCards() {
                 </button>
                 <button
                   onClick={() => handleDeleteCard(card.id)}
-                  className="p-2 text-slate-500 hover:text-red-600 dark:text-slate-400 dark:hover:text-red-400 transition-colors"
+                  className="p-2 text-neutral-500 hover:text-red-600 dark:text-neutral-400 dark:hover:text-red-400 transition-colors"
                   title="Delete"
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -340,10 +340,10 @@ export default function Section5_CustomCards() {
     <div className="max-w-2xl mx-auto p-6">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-2">
+        <h1 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-2">
           Custom Vocabulary
         </h1>
-        <p className="text-slate-600 dark:text-slate-400">
+        <p className="text-neutral-600 dark:text-neutral-400">
           Create and study your own flashcards
         </p>
       </div>
