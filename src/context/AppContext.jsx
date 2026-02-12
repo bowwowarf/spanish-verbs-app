@@ -37,7 +37,14 @@ function loadStateFromStorage() {
     const saved = localStorage.getItem('spanishVerbsApp');
     if (saved) {
       const parsed = JSON.parse(saved);
-      return { ...initialState, ...parsed };
+      return {
+        ...initialState,
+        ...parsed,
+        section1: { ...initialState.section1, ...parsed.section1 },
+        section2: { ...initialState.section2, ...parsed.section2 },
+        section3: { ...initialState.section3, ...parsed.section3 },
+        section4: { ...initialState.section4, ...parsed.section4 }
+      };
     }
   } catch (error) {
     console.warn('Error loading state from localStorage:', error);
