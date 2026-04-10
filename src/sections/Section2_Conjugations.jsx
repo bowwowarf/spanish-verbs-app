@@ -7,28 +7,47 @@ import { TENSES, TENSE_ORDER, PRONOUNS } from '../data/tenseConfig';
 
 export default function Section2_Conjugations() {
   const { state, dispatch } = useApp();
-  const { selectedTense, known, review, currentIndex } = state.section2;
+  const { known, review } = state.section2;
   const [isFlipped, setIsFlipped] = useState(false);
-  const [localIndex, setLocalIndex] = useState(0);
+  const [verbIndex, setVerbIndex] = useState(0);
+  const [tenseIndex, setTenseIndex] = useState(0);
 
-  // Get current verb
-  const currentVerb = verbs[localIndex];
-  const currentTense = TENSES[selectedTense];
+  const currentVerb = verbs[verbIndex];
+  const currentTenseId = TENSE_ORDER[tenseIndex];
+  const currentTense = TENSES[currentTenseId];
 
-  // Get conjugation data
   const conjugation = useMemo(() => {
     if (!currentVerb) return null;
-    return currentVerb.conjugations[selectedTense];
-  }, [currentVerb, selectedTense]);
+    return currentVerb.conjugations[currentTenseId];
+  }, [currentVerb, currentTenseId]);
 
-  const handleFlip = () => {
-    setIsFlipped(!isFlipped);
+  const isAtStart = verbIndex === 0 && tenseIndex === 0;
+  const isAtEnd = verbIndex === verbs.length - 1 && tenseIndex === TENSE_ORDER.length - 1;
+
+  const goToNext = () => {
+    setIsFlipped(false);
+    if (tenseIndex < TENSE_ORDER.length - 1) {
+      setTenseIndex(tenseIndex + 1);
+    } else if (verbIndex < verbs.length - 1) {
+      setVerbIndex(verbIndex + 1);
+      setTenseIndex(0);
+    }
+  };
+
+  const goToPrev = () => {
+    setIsFlipped(false);
+    if (tenseIndex > 0) {
+      setTenseIndex(tenseIndex - 1);
+    } else if (verbIndex > 0) {
+      setVerbIndex(verbIndex - 1);
+      setTenseIndex(TENSE_ORDER.length - 1);
+    }
   };
 
   const handleKnow = () => {
     dispatch({
       type: 'SECTION2_MARK_KNOWN',
-      payload: { verbId: currentVerb.id, tense: selectedTense }
+      payload: { verbId: currentVerb.id, tense: currentTenseId }
     });
     goToNext();
   };
@@ -36,42 +55,24 @@ export default function Section2_Conjugations() {
   const handleReview = () => {
     dispatch({
       type: 'SECTION2_MARK_REVIEW',
-      payload: { verbId: currentVerb.id, tense: selectedTense }
+      payload: { verbId: currentVerb.id, tense: currentTenseId }
     });
     goToNext();
   };
 
-  const goToNext = () => {
-    setIsFlipped(false);
-    if (localIndex < verbs.length - 1) {
-      setLocalIndex(localIndex + 1);
-    }
-  };
-
-  const goToPrev = () => {
-    setIsFlipped(false);
-    if (localIndex > 0) {
-      setLocalIndex(localIndex - 1);
-    }
-  };
-
-  const handleTenseChange = (tense) => {
-    dispatch({ type: 'SECTION2_SET_TENSE', payload: tense });
-    setIsFlipped(false);
-  };
-
   const handleReset = () => {
     dispatch({ type: 'SECTION2_RESET' });
-    setLocalIndex(0);
+    setVerbIndex(0);
+    setTenseIndex(0);
     setIsFlipped(false);
   };
 
-  // Count progress for current tense
-  const knownCount = Object.keys(known).filter(k => k.endsWith(`_${selectedTense}`)).length;
-  const reviewCount = Object.keys(review).filter(k => k.endsWith(`_${selectedTense}`)).length;
+  const totalItems = verbs.length * TENSE_ORDER.length;
+  const currentItem = verbIndex * TENSE_ORDER.length + tenseIndex + 1;
+  const knownCount = Object.keys(known).length;
+  const reviewCount = Object.keys(review).length;
 
-  // Check if current verb/tense is marked
-  const currentKey = `${currentVerb?.id}_${selectedTense}`;
+  const currentKey = `${currentVerb?.id}_${currentTenseId}`;
   const isKnown = known[currentKey];
   const isReview = review[currentKey];
 
@@ -83,39 +84,22 @@ export default function Section2_Conjugations() {
           Verb Conjugations
         </h1>
         <p className="text-neutral-600 dark:text-neutral-400">
-          Learn conjugations for each tense
+          Learn all conjugations for each verb before moving on
         </p>
       </div>
 
-      {/* Tense Selector */}
-      <div className="mb-6">
-        <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">
-          Select Tense
-        </label>
-        <div className="flex flex-wrap gap-2">
-          {TENSE_ORDER.map((tenseId) => (
-            <button
-              key={tenseId}
-              onClick={() => handleTenseChange(tenseId)}
-              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-                selectedTense === tenseId
-                  ? 'bg-red-600 text-white'
-                  : 'bg-neutral-100 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-600'
-              }`}
-            >
-              {TENSES[tenseId].shortName}
-            </button>
-          ))}
-        </div>
-      </div>
-
       {/* Progress */}
-      <div className="mb-6 space-y-2">
+      <div className="mb-4 space-y-2">
         <ProgressBar
-          current={localIndex + 1}
-          total={verbs.length}
-          label={currentTense.name}
+          current={currentItem}
+          total={totalItems}
+          label={`${currentVerb?.infinitive} — ${currentTense.name}`}
         />
+        <div className="flex items-center gap-2 text-sm text-neutral-500 dark:text-neutral-400">
+          <span>Verb {verbIndex + 1} of {verbs.length}</span>
+          <span>·</span>
+          <span>Tense {tenseIndex + 1} of {TENSE_ORDER.length}</span>
+        </div>
         <div className="flex gap-4 text-sm">
           <span className="px-3 py-1 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 rounded-full">
             {knownCount} known
@@ -126,6 +110,30 @@ export default function Section2_Conjugations() {
             </span>
           )}
         </div>
+      </div>
+
+      {/* Tense nav for current verb */}
+      <div className="mb-6 flex flex-wrap gap-1">
+        {TENSE_ORDER.map((tenseId, i) => {
+          const key = `${currentVerb?.id}_${tenseId}`;
+          const isDone = known[key] || review[key];
+          const isCurrent = i === tenseIndex;
+          return (
+            <button
+              key={tenseId}
+              onClick={() => { setTenseIndex(i); setIsFlipped(false); }}
+              className={`px-2 py-1 rounded text-xs font-medium transition-colors ${
+                isCurrent
+                  ? 'bg-red-600 text-white'
+                  : isDone
+                    ? 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400'
+                    : 'bg-neutral-100 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-600'
+              }`}
+            >
+              {TENSES[tenseId].shortName}
+            </button>
+          );
+        })}
       </div>
 
       {/* Flashcard */}
@@ -165,7 +173,7 @@ export default function Section2_Conjugations() {
 
               {/* Back */}
               <div className="flip-card-back bg-gradient-to-br from-red-600 to-red-900 dark:from-red-700 dark:to-red-950 shadow-xl flex flex-col items-center justify-center p-8 text-white">
-                {selectedTense === 'participio' ? (
+                {currentTenseId === 'participio' ? (
                   <div className="text-center">
                     <p className="text-lg text-red-200 mb-2">Participio</p>
                     <p className="text-4xl font-bold">{conjugation}</p>
@@ -217,17 +225,17 @@ export default function Section2_Conjugations() {
             <Button
               variant="secondary"
               onClick={goToPrev}
-              disabled={localIndex === 0}
+              disabled={isAtStart}
             >
               Previous
             </Button>
             <span className="text-neutral-500 dark:text-neutral-400">
-              {localIndex + 1} of {verbs.length}
+              {currentItem} of {totalItems}
             </span>
             <Button
               variant="secondary"
               onClick={goToNext}
-              disabled={localIndex === verbs.length - 1}
+              disabled={isAtEnd}
             >
               Next
             </Button>
@@ -238,7 +246,7 @@ export default function Section2_Conjugations() {
       {/* Reset button */}
       <div className="mt-8 flex justify-center">
         <Button variant="ghost" onClick={handleReset}>
-          Reset Progress for This Tense
+          Reset All Progress
         </Button>
       </div>
     </div>
